@@ -1,0 +1,24 @@
+div.AppGroup {
+    margin: 0 1rem;
+}
+
+div.AppImage {
+    background: url('../../res/smiley_icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+}
+
+div.AppTitle {
+    text-align: center;
+}
+
+div.AppTitle h3 {
+    margin: 1rem 0;
+}

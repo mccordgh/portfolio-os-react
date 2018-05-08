@@ -1,0 +1,12 @@
+div.desktop__container {
+    background-color: salmon;
+    height: 80vh;
+}
+
+div.appgroup__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
