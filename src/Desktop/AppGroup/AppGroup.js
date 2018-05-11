@@ -8,7 +8,7 @@ export default class AppGroup extends Component {
         <div className="AppImage">
         </div>
         <div className="AppTitle">
-          <h3>Games</h3>
+          <h3>{ this.props.name }</h3>
         </div>
       </div>
     );
