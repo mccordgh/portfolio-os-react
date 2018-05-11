@@ -1,7 +1,15 @@
+@font-face {
+  font-family: smallestPixel;
+  src: url('./fonts/smallest_pixel-7.ttf');
+}
+
 div.App {
+  color: whitesmoke;
+  font-family: smallestPixel;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   padding: 0;
+  position: relative;
   width: 100vw;
 }

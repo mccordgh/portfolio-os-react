@@ -1,12 +1,26 @@
 div.desktop__container {
-    background-color: salmon;
-    height: 80vh;
+    background: linear-gradient(#2c73ba, #5A7B9B); 
+    height: 100vh;
+    padding-top: 1rem;
 }
 
 div.appgroup__container {
     align-items: center;
+    background-size: auto;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
+    margin-top: 3rem;
+}
+
+div.os__image {
+    margin: 0 auto;
+    width: 50%;
+}
+
+div.os__image img {
+    display: block;
+    margin: 0 auto;
 }

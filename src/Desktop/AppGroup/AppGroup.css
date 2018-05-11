@@ -1,18 +1,19 @@
 div.AppGroup {
+    box-sizing: border-box;
     margin: 0 1rem;
 }
 
 div.AppImage {
-    background: url('../../res/smiley_icon.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    background-color: slateblue;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-radius: 1rem;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    box-sizing: border-box;
     display: inline-block;
-    height: 4rem;
-    width: 4rem;
+    height: 17vh;
+    width: 30vw;
 }
 
 div.AppTitle {
@@ -20,5 +21,5 @@ div.AppTitle {
 }
 
 div.AppTitle h3 {
-    margin: 1rem 0;
+    margin: 0.4rem 0 1.6rem;
 }
