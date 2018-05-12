@@ -3,7 +3,7 @@ div.AppGroup {
     margin: 0 1rem;
 }
 
-div.AppImage {
+div.AppGroupBackground {
     background-color: slateblue;
     border-bottom: 2px solid grey;
     border-left: 2px solid grey;
@@ -16,10 +16,10 @@ div.AppImage {
     width: 30vw;
 }
 
-div.AppTitle {
+div.AppGroupTitle {
     text-align: center;
 }
 
-div.AppTitle h3 {
+div.AppGroupTitle h3 {
     margin: 0.4rem 0 1.6rem;
 }
