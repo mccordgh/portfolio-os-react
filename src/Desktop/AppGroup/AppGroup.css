@@ -4,7 +4,6 @@ div.AppGroup {
 }
 
 div.AppGroupBackground {
-    background-color: slateblue;
     border-bottom: 2px solid grey;
     border-left: 2px solid grey;
     border-radius: 1rem;
