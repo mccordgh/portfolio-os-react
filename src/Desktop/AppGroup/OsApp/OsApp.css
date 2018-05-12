@@ -1,22 +1,39 @@
 div.osAppGroup {
     box-sizing: border-box;
-    display: inline-block;
     height: 25%;
+    margin: 3.125% 3.125%;
     width: 25%;
 }
 
+/* set right margin on the last item of each row */
+div.osAppGroup:nth-child(3n) {
+    margin-right: 6.25%;
+}
+
+/* set left margin on the first item of each row */
+div.osAppGroup:nth-child(3n - 2) {
+    margin-left: 6.25%;
+}
+
+/* set top margin on the first row of items */
+div.osAppGroup:nth-child(-n + 3) {
+    margin-top: 6.25%;
+}
+
+/* set bottom margin on the last row of items */
+div.osAppGroup:nth-child(n+7):nth-child(-n+9) {
+    margin-bottom: 6.25%;
+}
+
 div.osAppGroupBackground {
-    border-bottom: 2px solid grey;
-    border-left: 2px solid grey;
     border-radius: 0.4rem;
-    border-right: 2px solid white;
-    border-top: 2px solid white;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
 }
 
 div.osAppGroupContainer {
+    align-content: flex-start;
     align-items: center;
     background-size: auto;
     box-sizing: border-box;
