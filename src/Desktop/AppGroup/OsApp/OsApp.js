@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import './OsApp.css';
+import OsAppSmall from './OsAppSmall/OsAppSmall';
+import OsAppBig from './OsAppBig/OsAppBig';
 
 const IMAGE_PATH = '/res';
 
@@ -10,36 +10,26 @@ export default class OsApp extends Component {
 
         this.state = {
             bgImage: null,
+            state: 'small',
         }
     }
+
     render() {
-        return (
-          <div className="osAppGroup">
-            <div
-                className="osAppGroupBackground"
-                style={this.osAppStyleObject()}
-            >
-              <div className="osAppGroupContainer">
-              </div>
-            </div>
-          </div>
+        return this.state.state === 'small' ? (
+            <OsAppSmall
+                bgImage={this.props.bgImage}
+                bgColor={this.props.bgColor}
+            />
+        ) : (
+            <OsAppBig />
         );
-      }
+    }
 
-      componentDidMount() {
-          if (this.props.bgImage) {
-            const img = `${IMAGE_PATH}/${this.props.bgImage}`;
+    componentDidMount() {
+        if (this.props.bgImage) {
+        const img = `${IMAGE_PATH}/${this.props.bgImage}`;
 
-            this.setState({bgImage: img});
-          }
-      }
-
-    osAppStyleObject() {
-        return {
-            backgroundImage: `url(${this.state.bgImage}), linear-gradient(to bottom right, ${this.props.bgColor} 30%, white 150%)`,
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-        };
+        this.setState({bgImage: img});
+        }
     }
 }

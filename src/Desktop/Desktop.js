@@ -46,9 +46,9 @@ export default class Desktop extends Component {
 
   setAppsBgColors(data) {
     return data.map(appGroup => {
-      appGroup.list = appGroup.list.map(
-        item => Object.assign({}, item, {bgColor: this.getRandomColor()})
-      );
+      appGroup.list = appGroup.list.map((item) => {
+        return item.bgColor ? item.bgColor : Object.assign({}, item, {bgColor: this.getRandomColor()})
+      });
 
       return appGroup;
     });
