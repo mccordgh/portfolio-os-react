@@ -25,7 +25,7 @@ export default class Desktop extends Component {
         <div className="appgroup__container">
           {
             this.state.apps.map((appGroup, key) => {
-              return <AppGroup name={appGroup.name} list={appGroup.list} />;
+              return <AppGroup key={key} name={appGroup.name} list={appGroup.list} />;
             })
           }
         </div>
@@ -38,26 +38,24 @@ export default class Desktop extends Component {
 
   componentDidMount() {
     this.setState({apps: this.getAppsInfo()});
-    console.log(this.state);
   }
 
   getAppsInfo() {
-    const aa = this.setAppsBgColors(appsList.data);
-    console.log({aa})
-    return aa;
+    return this.setAppsBgColors(appsList.data);
   }
 
   setAppsBgColors(data) {
-    const dataMap = data.map(appGroup => {
-      appGroup.list = appGroup.list.map(item => Object.assign({}, item, {bgColor: this.getRandomColor()}));
+    return data.map(appGroup => {
+      appGroup.list = appGroup.list.map(
+        item => Object.assign({}, item, {bgColor: this.getRandomColor()})
+      );
+
       return appGroup;
     });
-    console.log({dataMap})
-    return dataMap;
   }
 
   getRandomColor() {
-    const colors = ['red', 'green', 'orange', 'blue', 'purple', 'gold']
+    const colors = ['red', 'green', 'orange', 'blue', 'purple', 'gold'];
     const rndColor = Math.floor(Math.random() * 6);
 
     return colors[rndColor];
