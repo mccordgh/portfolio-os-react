@@ -9,15 +9,15 @@ export default class OsApp extends Component {
         super(props);
 
         this.state = {
-            bgImage: null,
             state: 'small',
         }
     }
 
     render() {
+        const image = `${IMAGE_PATH}/${this.props.bgImage}`
         return this.state.state === 'small' ? (
             <OsAppSmall
-                bgImage={this.props.bgImage}
+                bgImage={image}
                 bgColor={this.props.bgColor}
             />
         ) : (
@@ -27,7 +27,7 @@ export default class OsApp extends Component {
 
     componentDidMount() {
         if (this.props.bgImage) {
-        const img = `${IMAGE_PATH}/${this.props.bgImage}`;
+        const img = `${this.props.bgImage}`;
 
         this.setState({bgImage: img});
         }
