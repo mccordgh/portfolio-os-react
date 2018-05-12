@@ -3,72 +3,92 @@
         {
             "name": "Games",
             "list": [{
-                    "name": "Defend The Castle"
+                    "name": "Defend The Castle",
+                    "bgImage": "temp1.png" 
                 },
                 {
-                    "name": "Golden Beak Golf"
+                    "name": "Golden Beak Golf",
+                    "bgImage": "temp2.png"
                 },
                 {
-                    "name": "Me, Myself, and i"
+                    "name": "Me, Myself, and i",
+                    "bgImage": "temp3.png"
                 },
                 {
-                    "name": "Waves '87: Business Cruizin'"
+                    "name": "Waves '87: Business Cruizin'",
+                    "bgImage": "temp4.png"
                 },
                 {
-                    "name": "Golden Beak Golf"
+                    "name": "Golden Beak Golf",
+                    "bgImage": "temp1.png"
                 },
                 {
-                    "name": "Golden Beak Golf"
+                    "name": "Golden Beak Golf",
+                    "bgImage": "temp2.png"
                 }
             ]
         },
         {
             "name": "Web Apps",
             "list": [{
-                    "name": "Some App"
+                    "name": "Some App",
+                    "bgImage": "temp3.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Also Some App",
+                    "bgImage": "temp4.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Also Other App",
+                    "bgImage": "temp1.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Also Cool App",
+                    "bgImage": "temp2.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Really Some App",
+                    "bgImage": "temp3.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Yo Dude It's App",
+                    "bgImage": "temp4.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Also App",
+                    "bgImage": "temp1.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Also Bro App",
+                    "bgImage": "temp2.png"
                 },
                 {
-                    "name": "Also Some APp"
+                    "name": "Hey Hey App",
+                    "bgImage": "temp3.png"
                 }
             ]
         },
         {
             "name": "Music",
             "list": [{
-                    "name": "Scatter the Ashes"
+                    "name": "Scatter the Ashes",
+                    "bgImage": "temp4.png"
                 },
                 {
-                    "name": "Mother/Father"
+                    "name": "Mother/Father",
+                    "bgImage": "temp1.png"
                 },
                 {
-                    "name": "Future Unlimited"
+                    "name": "Future Unlimited",
+                    "bgImage": "temp2.png"
                 },
                 {
-                    "name": "Future Unlimited"
+                    "name": "Future Unlimited",
+                    "bgImage": "temp3.png"
                 },
                 {
-                    "name": "Future Unlimited"
+                    "name": "Sound Cloud",
+                    "bgImage": "temp4.png"
                 }
             ]
         }

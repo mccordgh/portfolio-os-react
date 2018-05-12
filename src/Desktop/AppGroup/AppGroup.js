@@ -10,11 +10,16 @@ export default class AppGroup extends Component {
           <div className="appGroupContainer">
             {
               this.props.list.map((item, key) => {
-                return <OsApp key={key} name={item.name} bgColor={item.bgColor} />;
+                return <OsApp
+                  key={key}
+                  name={item.name}
+                  bgColor={item.bgColor}
+                  bgImage={item.bgImage}
+                />;
               })
             }
           </div>
-          
+
           <div className="appGroupTitle">
             <h3>{ this.props.name }</h3>
           </div>

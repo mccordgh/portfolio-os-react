@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
+
 import './OsApp.css';
 
+const IMAGE_PATH = '/res';
+
 export default class OsApp extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            bgImage: null,
+        }
+    }
     render() {
         return (
           <div className="osAppGroup">
@@ -10,23 +20,26 @@ export default class OsApp extends Component {
                 style={this.osAppStyleObject()}
             >
               <div className="osAppGroupContainer">
-                {/* {
-                  this.props.list.map((item, key) => {
-                    return <OsApp key={key} name={item.name} bgColor={item.bgColor} />;
-                  })
-                } */}
               </div>
             </div>
-            {/* <div className="osAppGroupTitle">
-              <h3>{ this.props.name }</h3>
-            </div> */}
           </div>
         );
       }
 
+      componentDidMount() {
+          if (this.props.bgImage) {
+            const img = `${IMAGE_PATH}/${this.props.bgImage}`;
+
+            this.setState({bgImage: img});
+          }
+      }
+
     osAppStyleObject() {
         return {
-            backgroundImage: `linear-gradient(to bottom right, ${this.props.bgColor} 30%, white 150%)`,
+            backgroundImage: `url(${this.state.bgImage}), linear-gradient(to bottom right, ${this.props.bgColor} 30%, white 150%)`,
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
         };
     }
 }
