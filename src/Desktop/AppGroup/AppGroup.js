@@ -1,30 +1,33 @@
 import React, { Component } from 'react';
-import OsApp from './OsApp/OsApp';
-import './AppGroup.css';
+import AppGroupSmall from './AppGroupSmall/AppGroupSmall';
+import AppGroupBig from './AppGroupBig/AppGroupBig';
 
 export default class AppGroup extends Component {
-  render() {
-    return (
-      <div className="appGroup">
-        <div className="appGroupBackground">
-          <div className="appGroupContainer">
-            {
-              this.props.list.map((item, key) => {
-                return <OsApp
-                  key={key}
-                  name={item.name}
-                  bgColor={item.bgColor}
-                  bgImage={item.bgImage}
-                />;
-              })
-            }
-          </div>
+  constructor(props) {
+    super(props);
 
-          <div className="appGroupTitle">
-            <h3>{ this.props.name }</h3>
-          </div>
-        </div>
-      </div>
+    this.state = {
+      state: 'small',
+    };
+
+    this.makeGroupBig = this.makeGroupBig.bind(this);
+  }
+  render() {
+    return this.state.state === 'small' ? (
+      <AppGroupSmall
+        list={this.props.list}
+        name={this.props.name}
+        clickCallback={this.makeGroupBig}
+      />
+    ) : (
+      <AppGroupBig
+        list={this.props.list}
+        name={this.props.name}
+      />
     );
+  }
+
+  makeGroupBig() {
+    this.setState({state: 'big'});
   }
 }
