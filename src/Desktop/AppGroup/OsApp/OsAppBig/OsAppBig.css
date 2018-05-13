@@ -1,35 +1,16 @@
 div.OsAppGroupBig {
     box-sizing: border-box;
-    height: 25%;
-    margin: 3.125% 3.125%;
-    width: 25%;
-}
-
-/* set right margin on the last item of each row */
-div.OsAppGroupBig:nth-child(3n) {
-    margin-right: 6.25%;
-}
-
-/* set left margin on the first item of each row */
-div.OsAppGroupBig:nth-child(3n - 2) {
-    margin-left: 6.25%;
-}
-
-/* set top margin on the first row of items */
-div.OsAppGroupBig:nth-child(-n + 3) {
-    margin-top: 6.25%;
-}
-
-/* set bottom margin on the last row of items */
-div.OsAppGroupBig:nth-child(n+7):nth-child(-n+9) {
-    margin-bottom: 6.25%;
+    height: 15%;
+    margin: 6.875% 0;
+    width: 33%;
 }
 
 div.OsAppGroupBigBackground {
     border-radius: 0.4rem;
     box-sizing: border-box;
     height: 100%;
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
 }
 
 div.OsAppGroupBigContainer {
@@ -47,5 +28,8 @@ div.OsAppGroupBigTitle {
 }
 
 div.OsAppGroupBigTitle h3 {
-    margin: 0.4rem 0 1.6rem;
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin: 0.2rem 0 0;
+    padding: 0 0.2rem;
 }

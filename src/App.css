@@ -6,6 +6,7 @@
 div.App {
   color: whitesmoke;
   font-family: smallestPixel;
+  font-weight: 100;
   height: 100vh;
   margin: 0;
   overflow: hidden;

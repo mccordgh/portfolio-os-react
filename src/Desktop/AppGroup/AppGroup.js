@@ -18,11 +18,13 @@ export default class AppGroup extends Component {
         list={this.props.list}
         name={this.props.name}
         clickCallback={this.makeGroupBig}
+        state={this.state.state}
       />
     ) : (
       <AppGroupBig
         list={this.props.list}
         name={this.props.name}
+        state={this.state.state}
       />
     );
   }

@@ -5,31 +5,19 @@ import OsAppBig from './OsAppBig/OsAppBig';
 const IMAGE_PATH = '/res';
 
 export default class OsApp extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            state: 'small',
-        }
-    }
-
     render() {
         const image = `${IMAGE_PATH}/${this.props.bgImage}`
-        return this.state.state === 'small' ? (
+        return this.props.state === 'small' ? (
             <OsAppSmall
                 bgImage={image}
                 bgColor={this.props.bgColor}
             />
         ) : (
-            <OsAppBig />
+            <OsAppBig 
+                name={this.props.name}
+                bgImage={image}
+                bgColor={this.props.bgColor}
+            />
         );
-    }
-
-    componentDidMount() {
-        if (this.props.bgImage) {
-        const img = `${this.props.bgImage}`;
-
-        this.setState({bgImage: img});
-        }
     }
 }
