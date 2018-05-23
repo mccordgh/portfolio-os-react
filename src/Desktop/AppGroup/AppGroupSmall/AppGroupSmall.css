@@ -10,6 +10,7 @@ div.appGroupSmall:nth-child(n+3) {
 }
 
 div.appGroupSmallBackground {
+    background-color: black;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
     border-radius: 1rem;

@@ -16,6 +16,7 @@ export default class Desktop extends Component {
 
     this.state = {
       apps: [],
+      selectedApp: {},
     };
   }
 
@@ -25,13 +26,24 @@ export default class Desktop extends Component {
         <div className="appgroup__container">
           {
             this.state.apps.map((appGroup, key) => {
-              return <AppGroup key={key} name={appGroup.name} list={appGroup.list} />;
+              return <AppGroup
+                key={key}
+                name={appGroup.name}
+                list={appGroup.list}
+                openAppCallback={this.openApp.bind(this)}
+              />;
             })
           }
         </div>
         <div className="os__image">
           <img src={headIcon} alt="Mccordinator's Pixel Head"/>
         </div>
+
+        {this.state.selectedApp.name &&
+          <div className="openApp">
+            <h1>{this.state.selectedApp.name}</h1>
+          </div>
+        }
       </div>
     );
   }
@@ -59,5 +71,16 @@ export default class Desktop extends Component {
     const rndColor = Math.floor(Math.random() * 6);
 
     return colors[rndColor];
+  }
+
+  openApp(id, group, event) {
+    this.setState({selectedApp: this.findAppByIdAndGroup(id, group)});
+  }
+
+  findAppByIdAndGroup(id, groupName) {
+    const group = this.state.apps.find(group => group.name === groupName);
+    const appToOpen = group.list[id];
+
+    return appToOpen;
   }
 }

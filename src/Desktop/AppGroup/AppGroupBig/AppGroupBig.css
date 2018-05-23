@@ -14,6 +14,7 @@ div.appGroupBig {
 }
 
 div.appGroupBigBackground {
+    background-color:black;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
     border-radius: 1rem;
@@ -48,8 +49,8 @@ div.appGroupBigTitle h1 {
 
 
 div.backGroundBlur {
-    opacity: 0.5;
-    filter: blur(24px);
+    opacity: 0.8;
+    filter: blur(5rem);
     background-color: black;
     height: 100vh;
     left: 0;

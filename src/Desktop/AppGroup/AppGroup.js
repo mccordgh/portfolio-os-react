@@ -25,6 +25,7 @@ export default class AppGroup extends Component {
         list={this.props.list}
         name={this.props.name}
         state={this.state.state}
+        openAppCallback={this.props.openAppCallback}
       />
     );
   }

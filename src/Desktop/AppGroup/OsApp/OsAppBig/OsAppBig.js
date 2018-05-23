@@ -5,10 +5,11 @@ import './OsAppBig.css';
 export default class OsAppBig extends Component {
     render() {
         return (
-            <div className="OsAppGroupBig" onClick={this.props.callback}>
+            <div className="OsAppGroupBig">
                 <div
                     className="OsAppGroupBigBackground"
                     style={this.osAppBigStyleObject()}
+                    onClick={() => {this.props.openAppCallback(this.props.id, this.props.group)}}
                 >
                     <div className="OsAppGroupBigContainer">
                     </div>

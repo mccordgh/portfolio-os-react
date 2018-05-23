@@ -14,9 +14,12 @@ export default class OsApp extends Component {
             />
         ) : (
             <OsAppBig 
+                id={this.props.id}
                 name={this.props.name}
+                group={this.props.group}
                 bgImage={image}
                 bgColor={this.props.bgColor}
+                openAppCallback={this.props.openAppCallback}
             />
         );
     }
