@@ -22,14 +22,3 @@ div.os__image img {
     display: block;
     margin: 0 auto;
 }
-
-div.openApp {
-    background-color: yellow;
-    color: blue;
-    left: 0;
-    height: calc(100% - 1rem);
-    position: fixed;
-    top: 1rem;
-    width: 100%;
-    z-index: 10;
-}

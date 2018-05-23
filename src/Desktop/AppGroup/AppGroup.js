@@ -25,12 +25,22 @@ export default class AppGroup extends Component {
         list={this.props.list}
         name={this.props.name}
         state={this.state.state}
-        openAppCallback={this.props.openAppCallback}
+        openAppCallback={this.openApp.bind(this)}
       />
     );
   }
 
   makeGroupBig() {
     this.setState({state: 'big'});
+  }
+
+  makeGroupSmall() {
+    this.setState({state: 'small'});
+  }
+
+  openApp(id, group) {
+    this.makeGroupSmall();
+
+    this.props.openAppCallback(id, group);
   }
 }

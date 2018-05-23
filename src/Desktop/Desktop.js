@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AppGroup from './AppGroup/AppGroup';
+import OpenAppWindow from './OpenAppWindow/OpenAppWindow';
 
 // import apiKey from '../key.json';
 import appsList from '../json/apps';
@@ -40,9 +41,10 @@ export default class Desktop extends Component {
         </div>
 
         {this.state.selectedApp.name &&
-          <div className="openApp">
-            <h1>{this.state.selectedApp.name}</h1>
-          </div>
+          <OpenAppWindow
+            app={this.state.selectedApp}
+            closeAppCallback={this.closeApp.bind(this)}
+          />
         }
       </div>
     );
@@ -73,7 +75,7 @@ export default class Desktop extends Component {
     return colors[rndColor];
   }
 
-  openApp(id, group, event) {
+  openApp(id, group) {
     this.setState({selectedApp: this.findAppByIdAndGroup(id, group)});
   }
 
@@ -82,5 +84,9 @@ export default class Desktop extends Component {
     const appToOpen = group.list[id];
 
     return appToOpen;
+  }
+
+  closeApp() {
+    this.setState({selectedApp: {}});
   }
 }
