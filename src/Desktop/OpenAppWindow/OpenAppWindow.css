@@ -1,0 +1,57 @@
+hr {
+    width: calc(100% - 2rem);
+    color: lightgrey;
+}
+
+div.openApp {
+    background-color: white;
+    color: black;
+    left: 0;
+    height: calc(100% - 1rem);
+    position: fixed;
+    top: 1rem;
+    width: 100%;
+    z-index: 10;
+}
+
+div.appImageTitleWrapper {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+div.appImageWrapper {
+    text-align:center;
+}
+
+div.appImageTitle {
+    width: 50%;
+}
+
+div.appDescriptionWrapper {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+div.appLinksWrapper {
+    text-align: center;
+}
+
+div.appLinksWrapper a {
+    display: block;
+    padding: 1rem;
+}
+
+div.closeAppWrapper {
+    height: 2rem;
+    font-size: 2rem;
+    left: calc(100% - 2rem);
+    position: fixed;
+    top: 2rem;
+    width: 2rem;
+}
+
+div.closeAppWrapper p {
+    background-color: yellow;
+}
