@@ -30,8 +30,13 @@ export default class OpenAppWindow extends Component {
                 </div>
 
                 <div className="appDescriptionWrapper appLinksWrapper">
-                    <a href="#">Play Me!</a>
-                    <a href="#">Github Source Code!</a>
+                {
+                    this.props.app.links.map((link, key) => {
+                        return (
+                            <a key={key} href={link.url}>{link.text}</a>
+                        )
+                    })
+                }
                 </div>
             </div>
         );
