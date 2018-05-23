@@ -4,26 +4,32 @@
             "name": "Games",
             "list": [{
                     "name": "Defend The Castle",
-                    "bgImage": "temp1.png" 
-                },
-                {
-                    "name": "Golden Beak Golf",
-                    "bgImage": "temp2.png"
-                },
-                {
-                    "name": "Me, Myself, and i",
-                    "bgImage": "temp3.png"
-                },
-                {
-                    "name": "Waves '87: Business Cruizin'",
-                    "bgImage": "temp4.png"
-                },
-                {
-                    "name": "Golden Beak Golf",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp1.png"
                 },
                 {
                     "name": "Golden Beak Golf",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+                    "bgImage": "temp2.png"
+                },
+                {
+                    "name": "Me, Myself, and i",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+                    "bgImage": "temp3.png"
+                },
+                {
+                    "name": "Waves '87: Business Cruizin'",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+                    "bgImage": "temp4.png"
+                },
+                {
+                    "name": "Golden Beak Golf",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+                    "bgImage": "temp1.png"
+                },
+                {
+                    "name": "Golden Beak Golf",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp2.png"
                 }
             ]
@@ -32,38 +38,27 @@
             "name": "Web Apps",
             "list": [{
                     "name": "Some App",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp3.png"
                 },
                 {
                     "name": "Also Some App",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp4.png"
                 },
                 {
                     "name": "Also Other App",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp1.png"
                 },
                 {
                     "name": "Also Cool App",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp2.png"
                 },
                 {
                     "name": "Really Some App",
-                    "bgImage": "temp3.png"
-                },
-                {
-                    "name": "Yo Dude It's App",
-                    "bgImage": "temp4.png"
-                },
-                {
-                    "name": "Also App",
-                    "bgImage": "temp1.png"
-                },
-                {
-                    "name": "Also Bro App",
-                    "bgImage": "temp2.png"
-                },
-                {
-                    "name": "Hey Hey App",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp3.png"
                 }
             ]
@@ -72,22 +67,27 @@
             "name": "Music",
             "list": [{
                     "name": "Scatter the Ashes",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp4.png"
                 },
                 {
                     "name": "Mother/Father",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp1.png"
                 },
                 {
                     "name": "Future Unlimited",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp2.png"
                 },
                 {
                     "name": "Future Unlimited",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp3.png"
                 },
                 {
                     "name": "Sound Cloud",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
                     "bgImage": "temp4.png"
                 }
             ]
