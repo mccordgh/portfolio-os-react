@@ -9,15 +9,15 @@ export default class AppGroupSmall extends Component {
             <div className="appGroupSmallBackground">
                 <div className="appGroupSmallContainer">
                     {
-                    this.props.list.map((item, key) => {
-                        return <OsApp
-                            key={key}
-                            name={item.name}
-                            bgColor={item.bgColor}
-                            bgImage={item.bgImage}
-                            state={this.props.state}
-                        />;
-                    })
+                        this.props.list.map((item, key) => {
+                            return <OsApp
+                                key={key}
+                                name={item.name}
+                                bgColor={item.bgColor}
+                                bgImage={item.bgImage}
+                                state={this.props.state}
+                            />;
+                        })
                     }
                 </div>
 

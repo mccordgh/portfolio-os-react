@@ -9,6 +9,8 @@ import headIcon from '../res/mccordinator2_head.png';
 
 import './Desktop.css';
 
+const IPAD_PRO_WIDTH = 1024;
+
 // TODO: IN ABOUT SECTION DO A FAQ
 
 export default class Desktop extends Component {
@@ -18,13 +20,16 @@ export default class Desktop extends Component {
     this.state = {
       apps: [],
       selectedApp: {},
+      mode: '',
     };
+
+    this.setModeByClientWidth = this.setModeByClientWidth.bind(this);
   }
 
   render() {
-    return (
-      <div className="desktop__container">
-        <div className="appgroup__container">
+    const mobileMode = (
+      <div className="desktopContainer">
+        <div className="appgroupContainer">
           {
             this.state.apps.map((appGroup, key) => {
               return <AppGroup
@@ -36,7 +41,7 @@ export default class Desktop extends Component {
             })
           }
         </div>
-        <div className="os__image">
+        <div className="osImage">
           <img src={headIcon} alt="Mccordinator's Pixel Head"/>
         </div>
 
@@ -48,10 +53,29 @@ export default class Desktop extends Component {
         }
       </div>
     );
+
+    const desktopMode = (
+      <h1>Desktop Mode!</h1>
+    );
+
+    return this.state.mode === 'desktop' ? desktopMode : mobileMode;
   }
 
   componentDidMount() {
     this.setState({apps: this.getAppsInfo()});
+
+    this.setModeByClientWidth();
+    window.addEventListener('resize', this.setModeByClientWidth);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.setModeByClientWidth);
+  }
+
+  setModeByClientWidth() {
+    const mode = window.innerWidth > IPAD_PRO_WIDTH ? 'desktop' : 'mobile';
+
+    this.setState({mode});
   }
 
   getAppsInfo() {
