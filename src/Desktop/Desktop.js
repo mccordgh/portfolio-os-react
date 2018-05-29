@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AppGroup from './AppGroup/AppGroup';
-import OpenAppWindow from './OpenAppWindow/OpenAppWindow';
+import MobileView from './MobileView/MobileView';
+import DesktopView from './DesktopView/DesktopView';
 
 // import apiKey from '../key.json';
 import appsList from '../json/apps';
@@ -28,34 +28,22 @@ export default class Desktop extends Component {
 
   render() {
     const mobileMode = (
-      <div className="desktopContainer">
-        <div className="appgroupContainer">
-          {
-            this.state.apps.map((appGroup, key) => {
-              return <AppGroup
-                key={key}
-                name={appGroup.name}
-                list={appGroup.list}
-                openAppCallback={this.openApp.bind(this)}
-              />;
-            })
-          }
-        </div>
-        <div className="osImage">
-          <img src={headIcon} alt="Mccordinator's Pixel Head"/>
-        </div>
-
-        {this.state.selectedApp.name &&
-          <OpenAppWindow
-            app={this.state.selectedApp}
-            closeAppCallback={this.closeApp.bind(this)}
-          />
-        }
-      </div>
+      <MobileView
+        apps={this.state.apps}
+        headIcon={headIcon}
+        selectedApp={this.state.selectedApp}
+        openAppCallback={this.openApp.bind(this)}
+        closeAppCallback={this.closeApp.bind(this)}
+        />
     );
 
     const desktopMode = (
-      <h1>Desktop Mode!</h1>
+      <DesktopView
+        apps={this.state.apps}
+        name={this.props.name}
+        state={this.props.state}
+        openAppCallback={this.props.openAppCallback} 
+      />
     );
 
     return this.state.mode === 'desktop' ? desktopMode : mobileMode;
