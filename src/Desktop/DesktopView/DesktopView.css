@@ -1,0 +1,14 @@
+div.desktopContainer {
+    background-color: azure;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 2rem;
+    width: 100%;
+}
+
+div.folderGroupContainer {
+    background-color: pink;
+    height: 100%;
+    padding: 2rem;
+    width: 100%;
+}
