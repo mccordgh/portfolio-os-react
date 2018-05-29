@@ -1,0 +1,35 @@
+div.OsAppGroupBig {
+    box-sizing: border-box;
+    height: 15%;
+    margin: 6.875% 0;
+    width: 33%;
+}
+
+div.OsAppGroupBigBackground {
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+div.OsAppGroupBigContainer {
+    align-content: flex-start;
+    align-items: center;
+    background-size: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.OsAppGroupBigTitle {
+    text-align: center;
+}
+
+div.OsAppGroupBigTitle h3 {
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin: 0.2rem 0 0;
+    padding: 0 0.2rem;
+}

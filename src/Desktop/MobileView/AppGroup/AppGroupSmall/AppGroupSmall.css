@@ -1,0 +1,45 @@
+div.appGroupSmall {
+    box-sizing: border-box;
+    height: 40%;
+    margin: 1rem 5% 0;
+    width: 40%;
+}
+
+div.appGroupSmall:nth-child(n+3) {
+    margin-top: 3rem;
+}
+
+div.appGroupSmallBackground {
+    background-color: black;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 1rem;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+div.appGroupSmallContainer {
+    align-content: flex-start;
+    align-items: center;
+    background-size: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+div.appGroupSmallTitle {
+    display: block;
+    text-align: center;
+}
+
+div.appGroupSmallTitle h3 {
+    font-weight: 100;
+    margin: 0.4rem 0 1.6rem;
+}

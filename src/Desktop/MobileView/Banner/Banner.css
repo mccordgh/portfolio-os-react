@@ -1,0 +1,24 @@
+div.banner__container {
+    box-sizing: border-box;
+    height: 1rem;
+    left: 0;
+    padding: 0.4rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100vw;
+}
+
+div.banner__left {
+    float:left;
+}
+
+/* div.banner__center { */
+    /* display: inline; */
+    /* text-align:center; */
+    /* width: 100vw; */
+/* } */
+
+div.banner__right {
+    float: right;
+}
