@@ -1,13 +1,8 @@
 div.desktopContainer {
-    background-color: azure;
+    background: linear-gradient(#2c73ba, #5A7B9B); 
     box-sizing: border-box;
-    height: 100%;
-    padding: 2rem;
-    width: 100%;
-}
-
-div.folderGroupContainer {
-    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
     padding: 2rem;
     width: 100%;
