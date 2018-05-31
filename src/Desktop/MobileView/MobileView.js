@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Banner/Banner';
-import AppGroup from '../AppGroup/AppGroup';
+import AppGroup from './AppGroup/AppGroup';
 import OpenAppWindow from '../OpenAppWindow/OpenAppWindow';
 
 export default class MobileView extends Component {
