@@ -4,7 +4,7 @@ hr {
 }
 
 div.openDesktopApp {
-    background: linear-gradient(#2c73ba, #5A7B9B);
+    background-color: #579EBD;
     border-top: 3px solid grey;
     border-right: 3px solid lightgrey;
     border-bottom: 3px solid lightgrey;
@@ -37,11 +37,11 @@ div.desktopAppImageTitleWrapper {
 div.desktopTitleWrapper {
     font-size: 2rem;
     padding-right: 1rem;
-    text-align: right;
+    width: 70%;
 }
 
-div.desktopAppImageTitle {
-    width: 50%;
+div.desktopImageWrapper {
+    width: 30%;
 }
 
 div.desktopAppDescriptionWrapper {

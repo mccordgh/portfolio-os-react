@@ -18,10 +18,10 @@ export default class OpenDesktopAppWindow extends Component {
                 </div>
 
                 <div className="desktopAppImageTitleWrapper">
-                    <div className="desktopAppImageTitle">
+                    <div className="desktopImageWrapper">
                         <img src={image} alt="App Logo"/>
                     </div>
-                    <div className="desktopAppImageTitle desktopTitleWrapper">
+                    <div className="desktopTitleWrapper">
                         <h1>{this.props.app.name}</h1>
                     </div>
                 </div>
