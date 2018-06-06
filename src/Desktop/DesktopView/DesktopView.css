@@ -1,9 +1,9 @@
 div.desktopContainer {
-    background: linear-gradient(#2c73ba, #5A7B9B); 
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    position: relative;
     padding: 0 2rem 2rem;
     width: 100%;
 }

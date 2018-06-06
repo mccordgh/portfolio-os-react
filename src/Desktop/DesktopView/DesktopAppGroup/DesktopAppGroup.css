@@ -1,28 +1,39 @@
-h1.DesktopGroupTitle {
-    color: white;
-    display: block;
-    font-size: 4rem;
-    left: -2rem;
-    margin: 0;
-    padding-left: 2rem;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
+div.desktopGroupTitleWrapper {
+    background: linear-gradient(to right, transparent, #111, transparent);
+}
+
+div.desktopGroupTitle {
+    left: 1rem;
     position: relative;
     top: 12rem;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     -webkit-transform-origin: left;
     -ms-transform-origin: left;
     transform-origin: left;
     width: fit-content;
+
 }
 
-div.desktopAppWrapper {
+h1.desktopGroupTitle {
+    display: block;
+    font-size: 4rem;
+    margin: 0;
+    padding-left: 2rem;
+    background: -webkit-linear-gradient(0.45turn, transparent, white 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.desktopAppGroupWrapper {
     width: 100%;
 }
 
 div.DesktopAppWrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 1rem 8rem;
+    margin: 0 0 1rem 6rem;
     width: 100%;
 }

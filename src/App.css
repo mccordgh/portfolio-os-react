@@ -4,6 +4,7 @@
 }
 
 div.App {
+  background: linear-gradient(#2c73ba, #5A7B9B);
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;

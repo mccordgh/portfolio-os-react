@@ -9,11 +9,15 @@ div.DesktopApp {
 
 div.DesktopAppBackground {
     border-radius: 1rem;
-   height: 6rem;
-   width: 6rem; 
+    box-shadow: 0 9px 6px -6px black;
+    height: 6rem;
+    margin-bottom: 0.5rem;
+    width: 6rem;
 }
 
 div.DesktopAppTitle {
-    width: 100%;
+    background: linear-gradient(to right, transparent, #111, transparent);
+    margin-top: 0.4rem;
     text-align: center;
+    width: 100%;
 }

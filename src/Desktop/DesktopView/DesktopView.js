@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import DesktopAppGroup from './DesktopAppGroup/DesktopAppGroup';
+import OpenDesktopAppWindow from './OpenDesktopAppWindow/OpenDesktopAppWindow';
+import Mccordinator from '../Mccordinator/Mccordinator';
 
 import './DesktopView.css';
 
@@ -20,15 +22,10 @@ export default class DesktopView extends Component {
 
         const selectedApp = this.props.selectedApp.name
             ? (
-                <div className="desktopSelectedAppWrapper">
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                    <h1>{ this.props.selectedApp.name } </h1>
-                </div>
+                <OpenDesktopAppWindow
+                    app={this.props.selectedApp}
+                    closeAppCallback={this.props.closeAppCallback}
+                />
             )
             : (
                 <div></div>
@@ -38,6 +35,7 @@ export default class DesktopView extends Component {
             <div className="desktopContainer">
                 { appGroups }
                 { selectedApp }
+                <Mccordinator />
             </div>
         );
     }

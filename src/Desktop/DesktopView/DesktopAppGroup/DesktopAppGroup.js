@@ -8,8 +8,10 @@ const IMAGE_PATH = '/res';
 export default class DesktopAppGroup extends Component {
     render() {
         return (
-            <div className="desktopAppWrapper">
-                <h1 className="DesktopGroupTitle"> { this.props.name } </h1>
+            <div className="desktopAppGroupWrapper">
+                <div className="desktopGroupTitleWrapper desktopGroupTitle">
+                    <h1 className="desktopGroupTitle"> { this.props.name } </h1>
+                </div>
 
                 <div className="DesktopAppWrapper">
                     {
