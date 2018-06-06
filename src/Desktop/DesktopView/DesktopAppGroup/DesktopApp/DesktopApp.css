@@ -1,4 +1,4 @@
-div.folderApp {
+div.DesktopApp {
     display: flex;
     flex-wrap: wrap;
     height: 8rem;
@@ -7,13 +7,13 @@ div.folderApp {
     width: 8rem;
 }
 
-div.folderAppBackground {
+div.DesktopAppBackground {
     border-radius: 1rem;
    height: 6rem;
    width: 6rem; 
 }
 
-div.folderAppTitle {
+div.DesktopAppTitle {
     width: 100%;
     text-align: center;
 }

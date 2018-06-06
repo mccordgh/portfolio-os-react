@@ -1,4 +1,4 @@
-h1.folderGroupTitle {
+h1.DesktopGroupTitle {
     color: white;
     display: block;
     font-size: 4rem;
@@ -20,7 +20,7 @@ div.desktopAppWrapper {
     width: 100%;
 }
 
-div.folderAppWrapper {
+div.DesktopAppWrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 1rem 8rem;

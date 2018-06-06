@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FolderAppGroup from './FolderAppGroup/FolderAppGroup';
+import DesktopAppGroup from './DesktopAppGroup/DesktopAppGroup';
 
 import './DesktopView.css';
 
@@ -8,7 +8,7 @@ export default class DesktopView extends Component {
         const appGroups = (
             this.props.apps.map((appGroup, key) => {
                 return (
-                    <FolderAppGroup
+                    <DesktopAppGroup
                         key={key}
                         name={appGroup.name}
                         list={appGroup.list}
@@ -18,11 +18,21 @@ export default class DesktopView extends Component {
             })
         );
 
-        const selectedApp = (
-            <div className="desktopSelectedAppWrapper">
-
-            </div>
-        );
+        const selectedApp = this.props.selectedApp.name
+            ? (
+                <div className="desktopSelectedAppWrapper">
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                    <h1>{ this.props.selectedApp.name } </h1>
+                </div>
+            )
+            : (
+                <div></div>
+            );
 
         return (
             <div className="desktopContainer">
