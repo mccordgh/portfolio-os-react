@@ -1,9 +1,19 @@
 h1.folderGroupTitle {
     color: white;
     display: block;
-    font-size: 5rem;
+    font-size: 4rem;
+    left: -2rem;
     margin: 0;
     padding-left: 2rem;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    position: relative;
+    top: 12rem;
+    transform: rotate(-45deg);
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    width: fit-content;
 }
 
 div.desktopAppWrapper {
@@ -13,6 +23,6 @@ div.desktopAppWrapper {
 div.folderAppWrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 8rem;
     width: 100%;
 }
