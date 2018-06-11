@@ -22,3 +22,6 @@ yarn-error.log*
 
 # api
 key.json
+
+# local backups
+apps_backup.json
