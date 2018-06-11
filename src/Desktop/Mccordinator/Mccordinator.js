@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './Mccordinator.css';
 
-const IMAGE_PATH = '/res';
+// const IMAGE_PATH = '/res';
 
 export default class Mccordinator extends Component {
     constructor() {

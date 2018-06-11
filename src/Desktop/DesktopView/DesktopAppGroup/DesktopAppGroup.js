@@ -19,16 +19,16 @@ export default class DesktopAppGroup extends Component {
                             return <DesktopApp
                                 key={key}
                                 bgColor="orange"
-                                bgImage={`${IMAGE_PATH}/${item.bgImage}`}
+                                iconImage={`${IMAGE_PATH}/${item.iconImage}`}
                                 group={this.props.name}
                                 id={key}
                                 name={item.name}
                                 openAppCallback={this.props.openAppCallback}
                             />;
                         })
-                    } 
+                    }
                 </div>
-                    
+
                 <hr />
             </div>
         );

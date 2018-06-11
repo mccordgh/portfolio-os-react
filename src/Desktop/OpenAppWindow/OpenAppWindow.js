@@ -6,7 +6,7 @@ const IMAGE_PATH = '/res';
 
 export default class OpenAppWindow extends Component {
     render() {
-        const image = `${IMAGE_PATH}/${this.props.app.bgImage}`
+        const image = `${IMAGE_PATH}/${this.props.app.iconImage}`;
 
         return (
             <div className="openApp">
@@ -26,7 +26,7 @@ export default class OpenAppWindow extends Component {
                 <hr />
 
                 <div className="appDescriptionWrapper">
-                    <p> { this.props.app.description } </p>
+                    <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p>
                 </div>
 
                 <div className="appDescriptionWrapper appLinksWrapper">
@@ -40,5 +40,5 @@ export default class OpenAppWindow extends Component {
                 </div>
             </div>
         );
-   } 
+   }
 }

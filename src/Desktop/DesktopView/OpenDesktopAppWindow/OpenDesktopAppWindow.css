@@ -40,6 +40,14 @@ div.desktopTitleWrapper {
     width: 70%;
 }
 
+div.desktopTitleWrapper p {
+    font-size: 1rem;
+}
+
+div.desktopTitleWrapper h1 {
+    margin: 1rem 0;
+}
+
 div.desktopImageWrapper {
     width: 30%;
 }
@@ -50,8 +58,12 @@ div.desktopAppDescriptionWrapper {
     width: calc(100% - 6rem);
 }
 
+div.desktopAppDescriptionWrapper a {
+    padding: 0 0 1rem;
+}
+
 div.appLinksWrapper {
-    text-align: center;
+    text-align: left;
 }
 
 div.desktopAppLinksWrapper a {

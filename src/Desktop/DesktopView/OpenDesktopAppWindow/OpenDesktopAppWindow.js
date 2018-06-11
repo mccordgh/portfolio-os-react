@@ -6,7 +6,7 @@ const IMAGE_PATH = '/res';
 
 export default class OpenDesktopAppWindow extends Component {
     render() {
-        const image = `${IMAGE_PATH}/${this.props.app.bgImage}`
+        const image = this.getCoverImageForApp(this.props.app.coverImage);
 
         return (
             <div className="openDesktopApp">
@@ -23,13 +23,14 @@ export default class OpenDesktopAppWindow extends Component {
                     </div>
                     <div className="desktopTitleWrapper">
                         <h1>{this.props.app.name}</h1>
+                        <p>{ this.props.app.shortText }</p>
                     </div>
                 </div>
 
                 <hr />
 
                 <div className="desktopAppDescriptionWrapper">
-                    <p> { this.props.app.description } </p>
+                    <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p>
                 </div>
 
                 <div className="desktopAppDescriptionWrapper appLinksWrapper">
@@ -43,5 +44,11 @@ export default class OpenDesktopAppWindow extends Component {
                 </div>
             </div>
         );
+   }
+
+   getCoverImageForApp(coverImageUrl) {
+        return coverImageUrl.indexOf('://') >= 0
+            ? coverImageUrl
+            : `${IMAGE_PATH}/${coverImageUrl}`
    }
 }

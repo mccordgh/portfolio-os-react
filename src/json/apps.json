@@ -15,7 +15,8 @@
                             "text": "View Github Source!"
                         }
                     ],
-                    "iconImage": "temp3.png"
+                    "iconImage": "temp3.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Also Some App",
@@ -30,7 +31,8 @@
                             "text": "View Github Source!"
                         }
                     ],
-                    "iconImage": "temp4.png"
+                    "iconImage": "temp4.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Also Other App",
@@ -45,7 +47,8 @@
                             "text": "View Github Source!"
                         }
                     ],
-                    "iconImage": "temp1.png"
+                    "iconImage": "temp1.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Also Cool App",
@@ -60,7 +63,8 @@
                             "text": "View Github Source!"
                         }
                     ],
-                    "iconImage": "temp2.png"
+                    "iconImage": "temp2.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Really Some App",
@@ -75,7 +79,8 @@
                             "text": "View Github Source!"
                         }
                     ],
-                    "iconImage": "temp3.png"
+                    "iconImage": "temp3.png",
+                    "coverImage": "temp4.png"
                 }
             ]
         },
@@ -90,7 +95,8 @@
                             "text": "Band Stuff!"
                         }
                     ],
-                    "iconImage": "temp4.png"
+                    "iconImage": "temp4.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Mother/Father",
@@ -101,7 +107,8 @@
                             "text": "Band Stuff!"
                         }
                     ],
-                    "iconImage": "temp1.png"
+                    "iconImage": "temp1.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Future Unlimited",
@@ -112,18 +119,8 @@
                             "text": "Band Stuff!"
                         }
                     ],
-                    "iconImage": "temp2.png"
-                },
-                {
-                    "name": "Future Unlimited",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
-                    "links": [
-                        {
-                            "url": "https://LINK/TO/BANDSTUFF",
-                            "text": "Band Stuff!"
-                        }
-                    ],
-                    "iconImage": "temp3.png"
+                    "iconImage": "temp3.png",
+                    "coverImage": "temp4.png"
                 },
                 {
                     "name": "Sound Cloud",
@@ -134,7 +131,8 @@
                             "text": "Band Stuff!"
                         }
                     ],
-                    "iconImage": "temp4.png"
+                    "iconImage": "temp4.png",
+                    "coverImage": "temp4.png"
                 }
             ]
         }

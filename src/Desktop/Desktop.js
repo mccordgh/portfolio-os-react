@@ -71,11 +71,8 @@ export default class Desktop extends Component {
 
   fetchGames() {
     this.makeGamesRequest()
+      .then(response => response.json())
       .then((response) => {
-        return response.json();
-      })
-      .then((response) => {
-        console.log({response})
         this.parseGamesResponse(response);
       })
   }
@@ -95,7 +92,7 @@ export default class Desktop extends Component {
     const gamesList = response.games.map((game) => {
       return Object.assign({}, {
         name: game.title,
-        iconImg: this.getIconByGameName(game.title),
+        iconImage: this.getIconByGameName(game.title),
         description: this.getDetailsByGameName(game.title),
         shortText: game.short_text,
         coverImage: game.cover_url,

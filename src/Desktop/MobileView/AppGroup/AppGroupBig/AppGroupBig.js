@@ -22,7 +22,7 @@ export default class AppGroupBig extends Component {
                                 name={item.name}
                                 group={this.props.name}
                                 bgColor={item.bgColor}
-                                bgImage={item.bgImage}
+                                iconImage={item.iconImage}
                                 state={this.props.state}
                                 openAppCallback={this.props.openAppCallback}
                             />;
