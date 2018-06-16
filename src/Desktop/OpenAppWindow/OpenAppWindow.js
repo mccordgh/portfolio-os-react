@@ -26,7 +26,14 @@ export default class OpenAppWindow extends Component {
                 <hr />
 
                 <div className="appDescriptionWrapper">
-                    <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p>
+                    {
+                        this.props.app.description.map((paragraph, key) => {
+                            return (
+                                <p>{ paragraph }</p>
+                            )
+                        })
+                    }
+                    {/* <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p> */}
                 </div>
 
                 <div className="appDescriptionWrapper appLinksWrapper">

@@ -1,0 +1,31 @@
+{
+	"Defend The Castle": {
+		"description": [
+			"Written in JavaScript",
+			"Defend the Castle is a fast-paced arcade-style video game, with a twist on the classic tower defense genre. The engine and game were written from scratch for a Nashville Software School front end capstone project, and it runs right in your browser (tested on Firefox and Google Chrome).",
+			"I wanted to create this game from scratch, to better understand how game engines work under the hood. The biggest challenge surfaced when I discovered that the tutorial I was following didn't actually bring the game to a basic completion. The series had left me with a solid foundation, no doubt, consisting of a tile map loader, a game camera, keyboard input and a hero to control, some basic collision detection, and some entity handling. The rest was up to me. Did I really want to stick this through, knowing it would be extremely challenging? In the end, I had to fully immerse myself in to this code base, and really learn how it worked in order to achieve the results that I desired. It was a wonderful learning experience."
+		]
+	},
+	"Golden Beak Golf": {
+		"description": [
+            "Written in Pico-8 fantasy console",
+            "Golden Beak Golf v1.0 was written during Ludum Dare 41 game jam. The theme was \"Combine two incompatible genres\". This game combines golfing and flappy bird!",
+            "Golden Beak Golf v1.1 was an updated to smooth out a couple of things such as the menus, graphics, and physics.",
+            "During Ludum Dare 41, about a dozen of us from the Nashville Game Developers crew were gathered at a house jamming on our games. This theme was definitely strange, and it took some of us most of friday evening to even figure out what kind of idea we would try to work with in the first place. I ended up liking the idea of combining sports and another genre, because I had never attempted making a sports game. I took a long drive during a lunch break on Saturday to get away and think about what I could possible combine to create a game. I don't remember exactly how, but I came up with the idea to combine golfing and flappy bird during this drive."
+		]
+	},
+	"Me, Myself, and i": {
+		"description": [
+			"Written in JavaScript",
+			"Me, Myself, and i was written for the yearly code-golfing competition js13kgames.com, running from August 13 2017 to September 13 2017. The goal of this competition is to submit a full game made within a month, with all assets, libraries, etc coming in at under 13Kb compressed and able to run off-line. The theme of this competition was \"Lost\". In this game, you awake in a strange maze. You struggle with your inner thoughts and other voices that make themselves known. You wonder why you are here, how you will ever escape, and who is doing this?",
+			"I learned the term \"code-golfing\" during this competition. I really wanted to explore what it means to develop narrative within a game. I coded this game by refactoring the engine I wrote for \"Defend The Castle\" to ES6 using classes and webpack to compress it for the final submission. I worked on the narrative with my friend, Keith Davis, who wrote most of the dialogue within the game. All in all it was a very fun competition, and I really appreciate all the hard work that went in to it by the staff!"
+		]
+	},
+	"Waves '87: Business Cruizin'": {
+		"description": [
+			"Written in Python with the RenPy scripting engine.",
+			"Made in 48 hours with a five man team during Global Game Jam 2017, Waves '87: Business Cruizin' is a graphic novella chronicling the adventures of a Kawa, a businessman loathed by his peers and about to be fired from his job. A chance encounter with pirates may just turn his life around...",
+			"I was very excited to hear about Global Game Jam 2017. I have wanted to participate in a game jam for years, and this one was local. My team consisted of myself, three of my Nashville Software School classmates, and two new friends who caught our attention with their unique art style. Having only 48 hours to attempt the planning and completion of a game quite the struggle. We spent that Friday evening planning everything out as far as we could imagine, and the following Saturday and Sunday morning coding, recording the sound and music, and bringing it all together. It was not only a wonderful experience working on a project outside of school with my classmates, but it was great to get to know them a bit better as well. My contributions to this project include some scripting on scenes 3, 4, and 6; the music for the title screen, cruise theme, and tough cruise theme; making sure the artwork coming in was formatted correctly for our project; scripting for the battle scenes; building distributions for Windows, Linux, and Mac; and recording sounds including barking like a dog, growling, seagull noises, and ocean waves"
+		]
+	}
+}

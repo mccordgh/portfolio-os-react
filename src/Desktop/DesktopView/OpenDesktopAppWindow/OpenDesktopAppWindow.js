@@ -29,8 +29,15 @@ export default class OpenDesktopAppWindow extends Component {
 
                 <hr />
 
-                <div className="desktopAppDescriptionWrapper">
-                    <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p>
+               <div className="appDescriptionWrapper">
+                    {
+                        this.props.app.description.map((paragraph, key) => {
+                            return (
+                                <p key={key}>{ paragraph }</p>
+                            )
+                        })
+                    }
+                    {/* <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p> */}
                 </div>
 
                 <div className="desktopAppDescriptionWrapper appLinksWrapper">
