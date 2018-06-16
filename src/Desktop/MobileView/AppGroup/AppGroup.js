@@ -11,6 +11,7 @@ export default class AppGroup extends Component {
     };
 
     this.makeGroupBig = this.makeGroupBig.bind(this);
+    this.makeGroupSmall = this.makeGroupSmall.bind(this);
   }
   render() {
     return this.state.state === 'small' ? (
@@ -26,6 +27,7 @@ export default class AppGroup extends Component {
         name={this.props.name}
         state={this.state.state}
         openAppCallback={this.openApp.bind(this)}
+        makeGroupSmall={this.makeGroupSmall}
       />
     );
   }

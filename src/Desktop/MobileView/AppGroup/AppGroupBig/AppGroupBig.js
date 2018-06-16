@@ -7,6 +7,11 @@ export default class AppGroupBig extends Component {
   render() {
     return (
       <div className="appGroupSmallPlaceholder">
+            <div
+                className="osAppGroupDimBehind"
+                onClick={() => { this.props.makeGroupSmall() }}
+            ></div>
+
         <div className="appGroupBig">
              <div className="appGroupBigTitle">
                 <h1>{ this.props.name }</h1>

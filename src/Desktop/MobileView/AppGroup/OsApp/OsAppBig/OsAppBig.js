@@ -7,10 +7,6 @@ export default class OsAppBig extends Component {
         return (
             <div className="OsAppGroupBig">
                 <div
-                    className="osAppGroupDimBehind"
-                ></div>
-
-                <div
                     className="OsAppGroupBigBackground"
                     style={this.osAppBigStyleObject()}
                     onClick={() => { this.clickHandler() }}
