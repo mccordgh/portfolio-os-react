@@ -28,4 +28,14 @@ export default class DesktopApp extends Component {
             backgroundPosition: 'center',
         };
     }
+
+    clickHandler() {
+        if (this.props.activeLink) {
+            window.open(this.props.activeLink, '_blank');
+
+            return;
+        }
+
+        this.props.openAppCallback(this.props.id, this.props.group);
+    }
 }

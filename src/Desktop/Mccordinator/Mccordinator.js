@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 
 import './Mccordinator.css';
 
-// const IMAGE_PATH = '/res';
-
 export default class Mccordinator extends Component {
     constructor() {
         super();
-    
+
         this.state = {
             bubbleText: '',
-            showBubble: false, 
+            showBubble: false,
         };
 
         this.clickyTheFace = this.clickyTheFace.bind(this);
@@ -19,7 +17,7 @@ export default class Mccordinator extends Component {
     render() {
         return (
             <div onClick={this.clickyTheFace} className="mccordinatorHead">
-                { this.state.showBubble && 
+                { this.state.showBubble &&
                     <div className="mccordinatorSpeechBubble">
                         <p>
                             { this.state.bubbleText }

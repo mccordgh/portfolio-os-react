@@ -34,6 +34,12 @@ export default class DesktopView extends Component {
         return (
             <div className="desktopContainer">
                 { appGroups }
+
+                {/* <div className="desktopAppGroupWrapper">
+                    <img
+                        src={this.props.socialIcons.twitter} />
+                </div> */}
+
                 { selectedApp }
                 <Mccordinator />
             </div>

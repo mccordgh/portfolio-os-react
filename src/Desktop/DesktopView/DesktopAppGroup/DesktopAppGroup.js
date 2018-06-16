@@ -13,11 +13,12 @@ export default class DesktopAppGroup extends Component {
                     <h1 className="desktopGroupTitle"> { this.props.name } </h1>
                 </div>
 
-                <div className="DesktopAppWrapper">
+                <div className="desktopAppWrapper">
                     {
                         this.props.list.map((item, key) => {
                             return <DesktopApp
                                 key={key}
+                                activeLink={item.activeLink}
                                 bgColor="orange"
                                 iconImage={`${IMAGE_PATH}/${item.iconImage}`}
                                 group={this.props.name}
@@ -28,8 +29,6 @@ export default class DesktopAppGroup extends Component {
                         })
                     }
                 </div>
-
-                <hr />
             </div>
         );
     }
