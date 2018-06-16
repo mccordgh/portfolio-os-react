@@ -9,10 +9,10 @@ export default class OpenDesktopAppWindow extends Component {
         const image = this.getCoverImageForApp(this.props.app.coverImage);
 
         return (
-            <div className="openDesktopApp">
+            <div className="opendesktopApp">
                 <div className="topWindowBanner">
                     <span className="windowTitle">{ this.props.app.name }</span>
-                    <div className="closeDesktopAppWrapper">
+                    <div className="closedesktopAppWrapper">
                         <span onClick={() => {this.props.closeAppCallback()}}>X</span>
                     </div>
                 </div>

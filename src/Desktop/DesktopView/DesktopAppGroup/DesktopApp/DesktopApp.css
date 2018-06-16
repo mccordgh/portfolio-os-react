@@ -1,4 +1,4 @@
-div.DesktopApp {
+div.desktopApp {
     display: flex;
     flex-wrap: wrap;
     height: 8rem;
@@ -7,7 +7,7 @@ div.DesktopApp {
     width: 8rem;
 }
 
-div.DesktopAppBackground {
+div.desktopAppBackground {
     border-radius: 1rem;
     box-shadow: 0 9px 6px -6px black;
     height: 6rem;
@@ -15,8 +15,8 @@ div.DesktopAppBackground {
     width: 6rem;
 }
 
-div.DesktopAppTitle {
-    background: linear-gradient(to right, transparent, #111, transparent);
+div.desktopAppTitle {
+    /* background: linear-gradient(to right, transparent, #111, transparent); */
     margin-top: 0.4rem;
     text-align: center;
     width: 100%;

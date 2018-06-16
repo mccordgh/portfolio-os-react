@@ -35,7 +35,7 @@ export default class Mccordinator extends Component {
         this.setState({bubbleText: 'It looks like you are trying to browse this portfolio. Would you like me tell you just how awesome Matthew McCord is?'});
         this.setState({showBubble: true});
     }
-   
+
     clickyTheFace() {
         this.nextDialogueShow();
     }

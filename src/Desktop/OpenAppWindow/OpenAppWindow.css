@@ -1,7 +1,7 @@
-hr {
+/* hr {
     width: calc(100% - 2rem);
     color: lightgrey;
-}
+} */
 
 div.openApp {
     background-color: white;
@@ -29,8 +29,8 @@ div.appImageTitle {
 }
 
 div.appDescriptionWrapper {
-    width: calc(100% - 2rem);
-    padding: 1rem;
+    width: calc(100% - 6rem);
+    padding: 1rem 3rem;
     font-size: 1rem;
 }
 

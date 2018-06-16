@@ -5,22 +5,22 @@ import './DesktopApp.css';
 export default class DesktopApp extends Component {
     render() {
         return (
-            <div className="DesktopApp">
+            <div className="desktopApp">
                 <div
-                    className="DesktopAppBackground"
-                    style={this.DesktopAppStyleObject()}
-                    onClick={() => {this.props.openAppCallback(this.props.id, this.props.group)}}
+                    className="desktopAppBackground"
+                    style={this.desktopAppStyleObject()}
+                    onClick={() => { this.clickHandler() }}
                 >
                 </div>
 
-                <div className="DesktopAppTitle">
+                <div className="desktopAppTitle">
                     <h3>{ this.props.name }</h3>
                 </div>
             </div>
         )
     }
 
-    DesktopAppStyleObject() {
+    desktopAppStyleObject() {
         return {
             backgroundImage: `url(${this.props.iconImage}), linear-gradient(to bottom right, ${this.props.bgColor} 30%, white 150%)`,
             backgroundSize: 'contain',

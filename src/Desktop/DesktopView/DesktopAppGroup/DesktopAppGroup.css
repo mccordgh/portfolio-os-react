@@ -27,16 +27,21 @@ h1.desktopGroupTitle {
 }
 
 div.desktopAppGroupWrapper {
-    margin-top: 4rem;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 1.2rem;
     max-height: 15rem;
     width: 100%;
 }
 
-div.desktopAppGroupWrapper + div.desktopAppGroupWrapper {
-    margin-top: -6rem;
+div.desktopAppGroupWrapper:nth-child(n+4) {
+    border: none;
 }
 
-div.DesktopAppWrapper {
+div.desktopAppGroupWrapper + div.desktopAppGroupWrapper {
+    margin-top: 1.2rem;
+}
+
+div.desktopAppWrapper {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;

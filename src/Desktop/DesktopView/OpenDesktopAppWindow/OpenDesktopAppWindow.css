@@ -1,9 +1,9 @@
-hr {
+/* hr {
     width: calc(100% - 2rem);
     color: lightgrey;
-}
+} */
 
-div.openDesktopApp {
+div.opendesktopApp {
     background-color: #579EBD;
     border-top: 3px solid grey;
     border-right: 3px solid lightgrey;
@@ -16,13 +16,14 @@ div.openDesktopApp {
     color: black;
     left: 10%;
     height: 70%;
+    overflow-y: scroll;
     position: fixed;
     top: 15%;
     width: 80%;
     z-index: 10;
 }
 
-div.openDesktopApp hr {
+div.opendesktopApp hr {
     width: calc(100% - 6rem);
 }
 
@@ -71,7 +72,7 @@ div.desktopAppLinksWrapper a {
     padding: 1rem;
 }
 
-div.closeDesktopAppWrapper {
+div.closedesktopAppWrapper {
     background-color: grey;
     border-top: 3px solid #333;
     border-right: 3px solid lightgrey;
