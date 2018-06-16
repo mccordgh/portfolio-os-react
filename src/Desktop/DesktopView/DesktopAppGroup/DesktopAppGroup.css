@@ -1,39 +1,44 @@
-div.desktopGroupTitleWrapper {
+/* div.desktopGroupTitleWrapper {
     background: linear-gradient(to right, transparent, #111, transparent);
-}
+} */
 
 div.desktopGroupTitle {
-    left: 1rem;
-    position: relative;
-    top: 12rem;
-    transform: rotate(-45deg);
+    /* left: 1rem; */
+    /* position: relative; */
+    /* top: 12rem; */
+    /* transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -webkit-transform-origin: left;
-    -ms-transform-origin: left;
-    transform-origin: left;
+    -ms-transform: rotate(-45deg); */
+    /* -webkit-transform-origin: left; */
+    /* -ms-transform-origin: left; */
+    /* transform-origin: left; */
     width: fit-content;
-
 }
 
 h1.desktopGroupTitle {
     display: block;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0;
-    padding-left: 2rem;
-    background: -webkit-linear-gradient(0.45turn, transparent, white 60%);
-    background-clip: text;
+    padding-left: 1rem;
+    /* background: -webkit-linear-gradient(0.45turn, transparent, white 60%); */
+    /* background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 div.desktopAppGroupWrapper {
+    margin-top: 4rem;
+    max-height: 15rem;
     width: 100%;
+}
+
+div.desktopAppGroupWrapper + div.desktopAppGroupWrapper {
+    margin-top: -6rem;
 }
 
 div.DesktopAppWrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 1rem 6rem;
+    margin-bottom: 1rem;
     width: 100%;
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import MobileView from './MobileView/MobileView';
 import DesktopView from './DesktopView/DesktopView';
+import RequestManager from '../Requests/RequestManager';
 
-import API_KEY from '../json/key';
 import appsList from '../json/apps';
 
 import headIcon from '../res/mccordinator2_head.png';
@@ -10,9 +10,8 @@ import headIcon from '../res/mccordinator2_head.png';
 import './Desktop.css';
 
 const IPAD_PRO_WIDTH = 1024;
-const API_URL = 'https://itch.io/api/1/key';
 
-// TODO: IN ABOUT SECTION DO A FAQ
+// TODO: IN ABOUT SECTION DO A FAQ??
 
 export default class Desktop extends Component {
   constructor() {
@@ -51,10 +50,18 @@ export default class Desktop extends Component {
     return this.state.mode === 'desktop' ? desktopMode : mobileMode;
   }
 
-  componentDidMount() {
-    this.setState({apps: this.getAppsInfo()});
-    this.fetchGames();
+  init() {
+    this.getAppsInfo()
+      .then((response) => {
+        RequestManager.fetchGames(response)
+          .then((response) => {
+            this.setState({apps: response});
+          });
+      });
+  }
 
+  componentDidMount() {
+    this.init();
     this.setModeByClientWidth();
     window.addEventListener('resize', this.setModeByClientWidth);
   }
@@ -69,57 +76,10 @@ export default class Desktop extends Component {
     this.setState({mode});
   }
 
-  fetchGames() {
-    this.makeGamesRequest()
-      .then(response => response.json())
-      .then((response) => {
-        this.parseGamesResponse(response);
-      })
-  }
-
-  makeGamesRequest() {
-    return fetch(`${API_URL}/my-games`, {
-      method: 'get',
-      headers: new Headers({
-        'Authorization': `Bearer ${API_KEY.key}`,
-      }),
-    });
-  }
-
-  parseGamesResponse(response) {
-    const appList = this.state.apps;
-
-    const gamesList = response.games.map((game) => {
-      return Object.assign({}, {
-        name: game.title,
-        iconImage: this.getIconByGameName(game.title),
-        description: this.getDetailsByGameName(game.title),
-        shortText: game.short_text,
-        coverImage: game.cover_url,
-        releaseDate: game.published_at,
-        type: game.type,
-        links: [{ url: game.url, text: `Get more info and play ${game.title} on itch.io!` }],
-      });
-    });
-
-    appList.unshift({
-      name: 'Games',
-      list: gamesList,
-    });
-
-    this.setState({apps: appList});
-  }
-
-  getIconByGameName(gameName) {
-    return 'temp3.png';
-  }
-
-  getDetailsByGameName(gameName) {
-    return 'It is game. you like';
-  }
-
   getAppsInfo() {
-    return this.setAppsBgColors(appsList.data);
+    return new Promise((resolve, reject) => {
+      resolve(this.setAppsBgColors(appsList.data))
+    });
   }
 
   setAppsBgColors(data) {
