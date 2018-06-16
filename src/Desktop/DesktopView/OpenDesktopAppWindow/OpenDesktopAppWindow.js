@@ -16,19 +16,44 @@ export default class OpenDesktopAppWindow extends Component {
                     </div>
                 </div>
 
-                <div className="desktopAppImageTitleWrapper">
+                {/* <div className="desktopAppImageTitleWrapper">
                     <div className="desktopImageWrapper">
                         <img src={image} alt="App Logo"/>
                     </div>
                     <div className="desktopTitleWrapper">
                         <h1>{this.props.app.name}</h1>
                         <p>{ this.props.app.shortText }</p>
+                        <hr />
                     </div>
-                </div>
+                </div> */}
 
-                <hr />
+        <div className="desktopAppImageTitleWrapper">
+            <div className="imageFrame">
+                <img src={image} alt="App Logo"/>
+            </div>
 
-               <div className="appDescriptionWrapper">
+            <h1>{this.props.app.name}</h1>
+            <h3>{this.props.app.shortText}</h3>
+
+            <hr />
+
+            <div className="appDescriptionWrapper">
+                {
+                    this.props.app.description.map((paragraph, key) => {
+                        console.log(key);
+                        return key === 0
+                        ? (
+                            <p key={key} className="white--text">{ paragraph }</p>
+                        )
+                        : (
+                            <p key={key}>{ paragraph }</p>
+                        );
+                    })
+                }
+            </div>
+		</div>
+
+               {/* <div className="appDescriptionWrapper">
                     {
                         this.props.app.description.map((paragraph, key) => {
                             return (
@@ -36,9 +61,9 @@ export default class OpenDesktopAppWindow extends Component {
                             )
                         })
                     }
-                </div>
+                </div> */}
 
-                <div className="desktopAppDescriptionWrapper appLinksWrapper">
+                {/* <div className="desktopAppDescriptionWrapper appLinksWrapper">
                 {
                     this.props.app.links.map((link, key) => {
                         return (
@@ -46,7 +71,7 @@ export default class OpenDesktopAppWindow extends Component {
                         )
                     })
                 }
-                </div>
+                </div> */}
             </div>
         );
    }

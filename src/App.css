@@ -19,3 +19,7 @@ div.App {
 h1 {
   display: inline-block;
 }
+
+.white--text {
+  color: white;
+}
