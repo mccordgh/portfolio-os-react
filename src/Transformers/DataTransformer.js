@@ -5,6 +5,7 @@ export default class DataTransformer {
         const gamesList = response.games.map((game) => {
             return Object.assign({}, {
             name: game.title,
+            bgColor: 'green',
             iconImage: this.iconByGameName(game.title),
             description: this.descriptionByGameName(game.title),
             shortText: game.short_text,
@@ -24,9 +25,9 @@ export default class DataTransformer {
     }
 
     static iconByGameName(gameName) {
-        return (extraGameData[gameName] && extraGameData[gameName].icon)
-        ? extraGameData[gameName].icon
-        : 'temp3.png';
+        return (extraGameData[gameName] && extraGameData[gameName].iconImage)
+        ? extraGameData[gameName].iconImage
+        : 'temp2.png';
       }
 
     static descriptionByGameName(gameName) {

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import ImageProcessor from '../../../Processors/ImageProcessor';
 
 import './OpenDesktopAppWindow.css';
 
-const IMAGE_PATH = '/res';
-
 export default class OpenDesktopAppWindow extends Component {
     render() {
-        const image = this.getCoverImageForApp(this.props.app.coverImage);
+        const image = ImageProcessor.getCoverImageForApp(this.props.app.coverImage);
 
         return (
             <div className="opendesktopApp">
@@ -37,7 +36,6 @@ export default class OpenDesktopAppWindow extends Component {
                             )
                         })
                     }
-                    {/* <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p> */}
                 </div>
 
                 <div className="desktopAppDescriptionWrapper appLinksWrapper">
@@ -51,11 +49,5 @@ export default class OpenDesktopAppWindow extends Component {
                 </div>
             </div>
         );
-   }
-
-   getCoverImageForApp(coverImageUrl) {
-        return coverImageUrl.indexOf('://') >= 0
-            ? coverImageUrl
-            : `${IMAGE_PATH}/${coverImageUrl}`
    }
 }

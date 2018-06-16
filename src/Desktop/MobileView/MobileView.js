@@ -35,4 +35,4 @@ export default class MobileView extends Component {
             </div>
       );
     }
-} 
+}

@@ -6,7 +6,7 @@ const IMAGE_PATH = '/res';
 
 export default class OsApp extends Component {
     render() {
-        const image = `${IMAGE_PATH}/${this.props.iconImage}`
+        const image = `${IMAGE_PATH}/${this.props.iconImage}`;
         return this.props.state === 'small' ? (
             <OsAppSmall
                 iconImage={image}
