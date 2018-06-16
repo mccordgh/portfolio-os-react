@@ -33,3 +33,14 @@ div.OsAppGroupBigTitle h3 {
     margin: 0.2rem 0 0;
     padding: 0 0.2rem;
 }
+
+div.osAppGroupDimBehind {
+    background-color: #222222;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: fixed;
+    top: 1.5rem;
+    width: 100%;
+    z-index: -1;
+}

@@ -7,9 +7,13 @@ export default class OsAppBig extends Component {
         return (
             <div className="OsAppGroupBig">
                 <div
+                    className="osAppGroupDimBehind"
+                ></div>
+
+                <div
                     className="OsAppGroupBigBackground"
                     style={this.osAppBigStyleObject()}
-                    onClick={() => {this.props.openAppCallback(this.props.id, this.props.group)}}
+                    onClick={() => { this.clickHandler() }}
                 >
                     <div className="OsAppGroupBigContainer">
                     </div>
@@ -29,5 +33,15 @@ export default class OsAppBig extends Component {
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
         };
+    }
+
+    clickHandler() {
+        if (this.props.activeLink) {
+            window.open(this.props.activeLink, '_blank');
+
+            return;
+        }
+
+        this.props.openAppCallback(this.props.id, this.props.group)
     }
 }

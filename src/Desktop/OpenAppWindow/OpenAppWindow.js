@@ -18,6 +18,7 @@ export default class OpenAppWindow extends Component {
                     <div className="appImageTitle appImageWrapper">
                         <img src={image} alt="App Logo"/>
                     </div>
+
                     <div className="appImageTitle">
                         <h1>{this.props.app.name}</h1>
                     </div>
@@ -29,11 +30,10 @@ export default class OpenAppWindow extends Component {
                     {
                         this.props.app.description.map((paragraph, key) => {
                             return (
-                                <p>{ paragraph }</p>
+                                <p key={key}>{ paragraph }</p>
                             )
                         })
                     }
-                    {/* <p dangerouslySetInnerHTML={{__html: this.props.app.description }}></p> */}
                 </div>
 
                 <div className="appDescriptionWrapper appLinksWrapper">

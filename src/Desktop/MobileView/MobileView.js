@@ -7,9 +7,8 @@ export default class MobileView extends Component {
     render() {
         return (
             <div className="mobileContainer">
-            
                 <Banner />
-                
+
                 <div className="appgroupContainer">
                 {
                     this.props.apps.map((appGroup, key) => {
