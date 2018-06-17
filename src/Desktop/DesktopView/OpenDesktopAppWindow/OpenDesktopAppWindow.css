@@ -14,12 +14,12 @@ div.opendesktopApp {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    left: 10%;
+    left: 17%;
     height: 70%;
     overflow-y: scroll;
     position: fixed;
     top: 15%;
-    width: 80%;
+    width: 66%;
     z-index: 10;
 }
 
@@ -44,6 +44,7 @@ div.desktopAppImageTitleWrapper h1 {
 
 div.desktopAppImageTitleWrapper h3 {
     font-size: 1.4rem;
+    margin-top: 0;
 }
 
 div.desktopAppImageTitleWrapper p {
@@ -52,17 +53,24 @@ div.desktopAppImageTitleWrapper p {
 }
 
 div.desktopAppImageTitleWrapper hr {
+    margin-right: 3rem;
     width: auto;
 }
 
 div.imageFrame {
     width: 22rem;
     height: 15rem;
-    border-radius: 50%;
     float: left;
-    /* shape-outside: ellipse(); */
     padding-left: 3rem;
-    background-clip: content-box;
+}
+
+div.additionalImageFrame {
+    padding: 0;
+    float: right;
+}
+
+div.additionalImageFrame img {
+    float: right;
 }
 
 /* div.desktopTitleWrapper {

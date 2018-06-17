@@ -1,9 +1,13 @@
 const IMAGE_PATH = '/res';
 
 export default class ImageProcessor {
-    static getCoverImageForApp(coverImageUrl) {
-        return coverImageUrl.indexOf('://') >= 0
-            ? coverImageUrl
-            : `${IMAGE_PATH}/${coverImageUrl}`
+    static formatImageUrl(imageUrl) {
+        if (!imageUrl) {
+            return '';
+        }
+
+        return imageUrl.indexOf('://') >= 0
+            ? imageUrl
+            : `${IMAGE_PATH}/${imageUrl}`
    }
 }

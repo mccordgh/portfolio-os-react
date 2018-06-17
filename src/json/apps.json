@@ -92,51 +92,62 @@
 			"name": "Music",
 			"list": [{
 					"name": "Scatter the Ashes",
+					"shortText": "March 2000 - October 2005",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"",
+						"Toured the country, and some of Canada, and wrote and recorded music with this four piece post-hardcore band. Signed a development deal with Island records, releasing a full length LP on Epitaph records."
 					],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
+						"url": "http://epitaph.com/artists/scatter-the-ashes/",
+						"text": "Listen to scattertheashes on epitaph.com"
 					}],
-					"iconImage": "temp4.png",
-					"coverImage": "temp4.png"
+					"iconImage": "temp1.png",
+					"coverImage": "scattertheasheslogo.jpg",
+					"additionalImage": "scattertheashesphoto.jpg"
 				},
 				{
 					"name": "Mother/Father",
+					"shortText": "April 2006 - September 2009",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Toured the country playing bass guitar, and wrote and recorded music with this four piece post-rock band. Produced and managed by Jacquire King (known for his work with Kings of Leon, Modest Mouse, Tom Waits, and more) and Jon Stinson. Released two EPs. Highlight show was opening for Kings of Leon and White Lies at the Sommet Center, and landing booking with CAA."
 					],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
+						"url": "http://www.nashvillescene.com/music/article/13019095/kings-of-leon-motherfather-monotonix-and-more",
+						"text": "Nashville Scene Article"
+					},
+					{
+						"url": "https://www.reverbnation.com/thisismotherfather",
+						"text": "Listen to Mother/Father on ReverbNation"
 					}],
 					"iconImage": "temp1.png",
-					"coverImage": "temp4.png"
+					"coverImage": "motherfatherlogo.jpg",
+					"additionalImage": "motherfatherphoto.jpg"
 				},
 				{
 					"name": "Future Unlimited",
+					"shortText": "December 2011 - March 2016",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Toured the country, while writing and recorded songs, playing bass guitar and sometimes keyboards for this five piece rock/electronic band. Played festivals such as Bonaroo, Austin City Limits, Art Basel, and SXSW. Released two EPs and mulitple singles."
 					],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
+						"url": "https://soundcloud.com/future-unlimited",
+						"text": "Listen to Future Unlimited on soundcloud"
 					}],
 					"iconImage": "temp3.png",
-					"coverImage": "temp4.png"
+					"coverImage": "futureunlimitedlogo.jpg",
+					"additionalImage": "futureunlimitedphoto.jpg"
 				},
 				{
-					"name": "Sound Cloud",
+					"name": "MCCORDINATOR",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Mostly made in a bedroom home studio, these are recordings of personally written material. These songs helped me to learn how to record, write, and express myself individually through music."
 					],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
+						"url": "https://soundcloud.com/mmmmmusic",
+						"text": "Listen to MCCORDINATOR on soundcloud"
 					}],
 					"iconImage": "temp4.png",
-					"coverImage": "temp4.png"
+					"coverImage": "mccordinatorlogo.jpg"
 				}
 			]
 		},
