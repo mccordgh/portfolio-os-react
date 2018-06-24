@@ -14,8 +14,9 @@ div.opendesktopApp {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    left: 17%;
     height: 70%;
+    left: 17%;
+    min-width: 62rem;
     overflow-y: scroll;
     position: fixed;
     top: 15%;

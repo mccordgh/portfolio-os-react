@@ -1,9 +1,11 @@
 import extraGameData from '../json/games.json';
 
+const THIRD_POSITION = 2;
+
 export default class DataTransformer {
     static parseGamesResponse(appList, response) {
         const gamesList = response.games.map((game) => {
-            console.log(game);
+            // console.log(game);
             return Object.assign({}, {
                 bgColor: 'green',
                 coverImage: game.cover_url,
@@ -18,7 +20,7 @@ export default class DataTransformer {
             });
         });
 
-        appList.unshift({
+        appList.splice(THIRD_POSITION, 0, {
             name: 'Game Programming',
             list: gamesList,
         });

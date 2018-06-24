@@ -6,14 +6,32 @@ import './DesktopAppGroup.css';
 const IMAGE_PATH = '/res';
 
 export default class DesktopAppGroup extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+          titleClass: '',
+          wrapperClass: '',
+        };
+
+        this.toggleExpansionClasses = this.toggleExpansionClasses.bind(this);
+    }
+
+
     render() {
+        const titleClass = `desktopAppWrapper ${this.state.titleClass}`;
+        const wrapperClass = `desktopAppGroupWrapper ${this.state.wrapperClass}`;
+
         return (
-            <div className="desktopAppGroupWrapper">
+            <div className={wrapperClass}>
                 <div className="desktopGroupTitleWrapper desktopGroupTitle">
-                    <h1 className="desktopGroupTitle"> { this.props.name } </h1>
+                    <h1
+                        onClick={this.toggleExpansionClasses}
+                        className="desktopGroupTitle"
+                    > { this.props.name } </h1>
                 </div>
 
-                <div className="desktopAppWrapper">
+                <div className={titleClass}>
                     {
                         this.props.list.map((item, key) => {
                             return <DesktopApp
@@ -31,5 +49,14 @@ export default class DesktopAppGroup extends Component {
                 </div>
             </div>
         );
+    }
+
+    toggleExpansionClasses() {
+        const expandedClass = this.state.titleClass === 'expanded' ? '' : 'expanded';
+
+        this.setState({
+            titleClass: expandedClass,
+            wrapperClass: expandedClass,
+        });
     }
 }

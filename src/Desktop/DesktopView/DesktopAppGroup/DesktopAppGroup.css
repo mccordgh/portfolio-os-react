@@ -28,22 +28,37 @@ h1.desktopGroupTitle {
 
 div.desktopAppGroupWrapper {
     border-bottom: 1px solid lightgrey;
+    height: 3rem;
     margin-top: 1.2rem;
-    max-height: 15rem;
+    transition: height 0.3s ease-out;
     width: 100%;
 }
 
-div.desktopAppGroupWrapper:nth-child(n+4) {
-    border: none;
+div.desktopAppGroupWrapper.expanded {
+    height: 13rem;
 }
 
+/* div.desktopAppGroupWrapper:nth-child(n+4) { */
+    /* border: none; */
+/* } */
+
 div.desktopAppGroupWrapper + div.desktopAppGroupWrapper {
-    margin-top: 1.2rem;
+    /* margin-top: 1.2rem; */
 }
 
 div.desktopAppWrapper {
     display: flex;
+    /* transition: max-height 0.5s, visibility 0.3s ease-out; */
+    transition: all 0.3s ease-out;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     width: 100%;
+}
+
+div.desktopAppWrapper.expanded {
+    max-height: 10rem;
+    visibility: visible;
 }

@@ -21,3 +21,7 @@ div.desktopAppTitle {
     text-align: center;
     width: 100%;
 }
+
+div.desktopAppTitle h3 {
+    margin: 0;
+}
