@@ -19,9 +19,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# api
-key.json
-
-# local backups
-apps_backup.json
