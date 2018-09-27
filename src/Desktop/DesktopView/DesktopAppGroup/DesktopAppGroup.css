@@ -6,20 +6,24 @@ div.desktopGroupTitle {
 }
 
 div.desktopGroupFolder {
-    background-color: goldenrod;
-    height: 6rem;
+    color: saddlebrown;
+    display: block;
+    font-size: 1.2rem;
+    height: 8rem;
+    left: 3rem;
+    margin: 0;
     position: relative;
-    transition: all 1s ease-in;
-    top: 2rem;
-    width: 4rem;
+    text-align: center;
+    top: 3rem;
+    width: 12rem;
 }
 
-div.desktopGroupFolder.expanded {
+/* div.desktopGroupFolder.expanded {
     height: 6rem;
     top: 2rem;
-}
+} */
 
-div.desktopGroupFolder.expanded::before {
+/* div.desktopGroupFolder.expanded::before {
     height: 4rem;
     top: -2rem;
 }
@@ -27,52 +31,100 @@ div.desktopGroupFolder.expanded::before {
 div.desktopGroupFolder.expanded::after {
     transform: rotateX(-50deg);
     top: -0.55rem;
-}
+} */
 
-div.desktopGroupFolder.expanded h1.desktopGroupTitle {
+/* div.desktopGroupFolder.expanded h1.desktopGroupTitle {
     transform: rotateX(-50deg);
     top: 1rem;
-}
+} */
     
-div.desktopGroupFolder::before {
+div.desktopGroupFolder_back {
     background-color: saddlebrown;
-    border-radius: 1rem 1rem 0 0;
-    content: "";
+    border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: 2rem;
-    left: 0rem;
+    height: calc(100% - 2rem);
+    left: 0;
     position: absolute;
-    top: -2rem;
-    width: 12rem;
+    top: 2rem;
+    width: 6rem;
 }
 
-div.desktopGroupFolder::after {
-    background-color: goldenrod;
-    border-radius: 1rem 1rem 1rem 0;
-    content: "";
+div.desktopGroupFolder_back::before {
+    content: '';
+    border-left: 2rem solid transparent;
+    border-bottom: 2rem solid saddlebrown;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: -2rem;
+    width: 0;
+}
+
+div.desktopGroupFolder_back::after {
+    background-color: saddlebrown;
+    border-radius: 0 1rem 0 0;
+    content: '';
     display: inline-block;
     height: 8rem;
-    left: 4rem;
+    left: 6rem;
     position: absolute;
     top: -2rem;
+    width: 6rem;
+}
+
+/* div.desktopGroupFolder_front {
+    background-color: goldenrod;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
     width: 8rem;
+} */
+
+div.desktopGroupFolder_front {
+    background-color: goldenrod;
+    border-radius: 1rem 0 0 1rem;
+    display: inline-block;
+    height: calc(100% - 2rem);
+    left: -0.2rem;
+    position: absolute;
+    top: 3rem;
+    width: 6.2rem;
+}
+
+div.desktopGroupFolder_front::before {
+    content: '';
+    border-left: 2rem solid transparent;
+    border-bottom: 2rem solid goldenrod;
+    height: 0;
+    position: absolute;
+    right: 0.2rem;
+    top: -2rem;
+    width: 0;
+}
+
+div.desktopGroupFolder_front::after {
+    background-color: goldenrod;
+    border-radius: 0 1rem 1rem 0;
+    content: '';
+    display: inline-block;
+    height: 8rem;
+    left: 6rem;
+    position: absolute;
+    top: -2rem;
+    width: 6.4rem;
 }
 
 h1.desktopGroupTitle {
     color: saddlebrown;
     display: block;
     font-size: 1.2rem;
-    left: 4rem;
+    left: 6rem;
     margin: 0;
     position: absolute;
     text-align: center;
     top: -1.6rem;
-    width: 8rem;
+    width: 6rem;
     z-index: 2;
-    /* background: -webkit-linear-gradient(0.45turn, transparent, white 60%); */
-    /* background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
 div.desktopAppGroupWrapper {

@@ -10,27 +10,24 @@ export default class DesktopAppGroup extends Component {
         super();
 
         this.state = {
-          titleClass: '',
           wrapperClass: '',
         };
 
         this.toggleExpansionClasses = this.toggleExpansionClasses.bind(this);
     }
 
-
     render() {
-        const titleClass = `desktopAppWrapper ${this.state.titleClass}`;
-        // const wrapperClass = this.state.wrapperClass;
-
         return (
             <div className="desktopAppGroupWrapper">
-                <div className="desktopGroupTitle" onClick={this.toggleExpansionClasses}>
-                    <div className={"desktopGroupFolder " + this.state.wrapperClass}>
-                        <h1 className="desktopGroupTitle"> { this.props.name } </h1>
+                <div className="desktopGroupFolder" onClick={this.toggleExpansionClasses}>
+                    <div className="desktopGroupFolder_back"></div>
+
+                    <div className={"desktopGroupFolder_front " + this.state.wrapperClass}>
+                        <h1 className="desktopGroupTitle">{ this.props.name }</h1>
                     </div>
                 </div>
 
-                <div className={titleClass}>
+                <div className="desktopAppWrapper">
                     {
                         this.props.list.map((item, key) => {
                             return <DesktopApp
@@ -51,11 +48,8 @@ export default class DesktopAppGroup extends Component {
     }
 
     toggleExpansionClasses() {
-        const expandedClass = this.state.titleClass === 'expanded' ? '' : 'expanded';
+        const expandedClass = this.state.wrapperClass === 'expanded' ? '' : 'expanded';
 
-        this.setState({
-            titleClass: expandedClass,
-            wrapperClass: expandedClass,
-        });
+        this.setState({ wrapperClass: expandedClass });
     }
 }
