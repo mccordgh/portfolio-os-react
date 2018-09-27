@@ -4,6 +4,6 @@ div.desktopContainer {
     flex-wrap: wrap;
     height: calc(100% - 8rem);
     position: relative;
-    padding: 2rem;
+    padding: 2rem 4rem;
     width: 100%;
 }

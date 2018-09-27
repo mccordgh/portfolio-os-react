@@ -6,16 +6,10 @@ div.desktopGroupTitle {
 }
 
 div.desktopGroupFolder {
-    color: saddlebrown;
-    display: block;
-    font-size: 1.2rem;
     height: 8rem;
-    left: 3rem;
     margin: 0;
     position: relative;
-    text-align: center;
-    top: 3rem;
-    width: 12rem;
+    width: 12.4rem;
 }
 
 /* div.desktopGroupFolder.expanded {
@@ -42,7 +36,7 @@ div.desktopGroupFolder_back {
     background-color: saddlebrown;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: calc(100% - 2rem);
+    height: calc(100% - 1rem);
     left: 0;
     position: absolute;
     top: 2rem;
@@ -56,7 +50,7 @@ div.desktopGroupFolder_back::before {
     height: 0;
     position: absolute;
     right: 0;
-    top: -2rem;
+    top: -1rem;
     width: 0;
 }
 
@@ -68,7 +62,7 @@ div.desktopGroupFolder_back::after {
     height: 8rem;
     left: 6rem;
     position: absolute;
-    top: -2rem;
+    top: -1rem;
     width: 6rem;
 }
 
@@ -84,7 +78,7 @@ div.desktopGroupFolder_front {
     background-color: goldenrod;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: calc(100% - 2rem);
+    height: calc(100% - 1rem);
     left: -0.2rem;
     position: absolute;
     top: 3rem;
@@ -98,7 +92,7 @@ div.desktopGroupFolder_front::before {
     height: 0;
     position: absolute;
     right: 0.2rem;
-    top: -2rem;
+    top: -1rem;
     width: 0;
 }
 
@@ -110,26 +104,26 @@ div.desktopGroupFolder_front::after {
     height: 8rem;
     left: 6rem;
     position: absolute;
-    top: -2rem;
+    top: -1rem;
     width: 6.4rem;
 }
 
 h1.desktopGroupTitle {
+    background-color: whitesmoke;
     color: saddlebrown;
     display: block;
-    font-size: 1.2rem;
-    left: 6rem;
+    font-size: 2rem;
+    left: 0;
     margin: 0;
     position: absolute;
     text-align: center;
-    top: -1.6rem;
-    width: 6rem;
+    top: 1.6rem;
+    width: 12.4rem;
     z-index: 2;
 }
 
 div.desktopAppGroupWrapper {
     height: 9rem;
-    margin-top: 1.2rem;
     transition: height 0.3s ease-out;
     width: 100%;
 }
