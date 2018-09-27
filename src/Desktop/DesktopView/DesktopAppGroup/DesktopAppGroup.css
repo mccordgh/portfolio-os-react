@@ -6,40 +6,28 @@ div.desktopGroupTitle {
 }
 
 div.desktopGroupFolder {
-    height: 8rem;
+    background-color: #0978B2;
+    cursor: pointer;
+    height: 12rem;
     margin: 0;
     position: relative;
     width: 12.4rem;
+    z-index: 10;
 }
 
-/* div.desktopGroupFolder.expanded {
-    height: 6rem;
-    top: 2rem;
-} */
-
-/* div.desktopGroupFolder.expanded::before {
-    height: 4rem;
-    top: -2rem;
+div.desktopAppGroupWrapper.expanded div.desktopGroupFolder div.desktopGroupFolder_front {
+    top: 2.6rem;
+    transform: rotateX(-25deg);
 }
-
-div.desktopGroupFolder.expanded::after {
-    transform: rotateX(-50deg);
-    top: -0.55rem;
-} */
-
-/* div.desktopGroupFolder.expanded h1.desktopGroupTitle {
-    transform: rotateX(-50deg);
-    top: 1rem;
-} */
     
 div.desktopGroupFolder_back {
     background-color: saddlebrown;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: calc(100% - 1rem);
+    height: calc(100% - 4rem);
     left: 0;
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     width: 6rem;
 }
 
@@ -78,10 +66,10 @@ div.desktopGroupFolder_front {
     background-color: goldenrod;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: calc(100% - 1rem);
+    height: calc(100% - 5rem);
     left: -0.2rem;
     position: absolute;
-    top: 3rem;
+    top: 2rem;
     width: 6.2rem;
 }
 
@@ -134,22 +122,28 @@ div.desktopAppGroupWrapper {
 
 div.desktopAppWrapper {
     display: -ms-flexbox;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 9rem;
+    left: 0;
     max-width: 0;
     overflow: hidden;
     position: relative;
-    top: -0.5rem;
+    top: -11rem;
     -o-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     visibility: hidden;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
-div.desktopAppWrapper.expanded {
+div.desktopAppGroupWrapper.expanded div.desktopAppWrapper {
+    /* background-color: orange; */
     max-width: 100%;
+    left: 12.4rem;
     visibility: visible;
 }

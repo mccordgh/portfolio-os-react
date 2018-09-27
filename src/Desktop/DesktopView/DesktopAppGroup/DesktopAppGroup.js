@@ -18,11 +18,11 @@ export default class DesktopAppGroup extends Component {
 
     render() {
         return (
-            <div className="desktopAppGroupWrapper">
+            <div className={"desktopAppGroupWrapper " + this.state.wrapperClass}>
                 <div className="desktopGroupFolder" onClick={this.toggleExpansionClasses}>
                     <div className="desktopGroupFolder_back"></div>
 
-                    <div className={"desktopGroupFolder_front " + this.state.wrapperClass}>
+                    <div className="desktopGroupFolder_front">
                         <h1 className="desktopGroupTitle">{ this.props.name }</h1>
                     </div>
                 </div>
