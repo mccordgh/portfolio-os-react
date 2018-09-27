@@ -2,41 +2,73 @@ import React, { Component } from 'react';
 
 import './Mccordinator.css';
 
+import dialogue from '../../json/dialogue.json';
+
 export default class Mccordinator extends Component {
     constructor() {
         super();
 
         this.state = {
+            dialogueNumber: 0,
             bubbleText: '',
             showBubble: false,
         };
 
         this.clickyTheFace = this.clickyTheFace.bind(this);
+        this.nextDialogueQueue = this.nextDialogueQueue.bind(this);
+        this.closeDialogue = this.closeDialogue.bind(this);
     }
 
     render() {
         return (
-            <div onClick={this.clickyTheFace} className="mccordinatorHead">
-                { this.state.showBubble &&
+            <div>
+                <div onClick={this.clickyTheFace} className="mccordinatorHead"></div>
+
+                 { this.state.showBubble &&
                     <div className="mccordinatorSpeechBubble">
                         <p>
-                            { this.state.bubbleText }
+                            { this.state.bubbleText.text }
                         </p>
-                        <hr />
-                        <span> + Yes </span>
-                        <span> + No </span>
+                        {/* {
+                            (this.state.dialogueNumber >= dialogue.length)
+                                ? (<button onClick={this.closeDialogue}>Finito</button>)
+                                : (<button onClick={this.nextDialogueQueue}>Next</button>)
+                        } */}
+                        <span onClick={this.nextDialogueQueue}> + {this.state.bubbleText.continue}</span>
+                        <span onClick={this.closeDialogue}> + {this.state.bubbleText.exit}</span>
                     </div>
                 }
             </div>
         );
     }
 
-    nextDialogueShow() {
-        this.setState({bubbleText: 'It looks like you are trying to browse this portfolio. Would you like me tell you just how awesome Matthew McCord is?'});
-        this.setState({showBubble: true});
+    componentWillMount() {
+        this.nextDialogueQueue();
+    }
+
+    nextDialogueQueue() {
+        const next = this.state.dialogueNumber + 1;
+        
+        this.setState({
+                bubbleText: dialogue[this.state.dialogueNumber],
+                dialogueNumber: next,
+        });
+    }
+
+    closeDialogue() {
+        this.setState({
+            showBubble: false,
+            dialogueNumber: 0,
+        });
+
+        this.nextDialogueQueue();
+    }
+
+    showDialogue() {
+        this.setState(() => { return {showBubble: true} });
     }
 
     clickyTheFace() {
-        this.nextDialogueShow();
+        this.showDialogue();
     }
 }

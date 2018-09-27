@@ -1,0 +1,17 @@
+[
+    {
+        "text": "Hi, there! Thanks for dropping by. Would you like to know a little bit more about Matthew McCord?",
+        "continue": "OH YEA!",
+        "exit": "No thanks."
+    },
+    {
+        "text": "Matthew is a full stack web engineer with literally YEARS of experience  in his field! (gasp! ooh! ahh! a wizard!)",
+        "continue": "Tell me more!",
+        "exit": "Cool story..."
+    },
+    {
+        "text": "In his spare time, he loves to abosorb game programming and game design knowledge, and play board games.",
+        "continue": "Darn tootin!",
+        "exit": "Sounds dull..."
+    }
+]

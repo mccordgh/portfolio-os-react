@@ -1,5 +1,6 @@
 div.desktopGroupTitle {
     display: inline-block;
+    cursor: pointer;
     height: 8rem;
     width: 12rem;
 }
@@ -8,10 +9,30 @@ div.desktopGroupFolder {
     background-color: goldenrod;
     height: 6rem;
     position: relative;
+    transition: all 1s ease-in;
     top: 2rem;
     width: 4rem;
 }
 
+div.desktopGroupFolder.expanded {
+    height: 6rem;
+    top: 2rem;
+}
+
+div.desktopGroupFolder.expanded::before {
+    height: 4rem;
+    top: -2rem;
+}
+
+div.desktopGroupFolder.expanded::after {
+    transform: rotateX(-50deg);
+    top: -0.55rem;
+}
+
+div.desktopGroupFolder.expanded h1.desktopGroupTitle {
+    transform: rotateX(-50deg);
+    top: 1rem;
+}
     
 div.desktopGroupFolder::before {
     background-color: saddlebrown;
@@ -70,7 +91,7 @@ div.desktopAppWrapper {
     display: inline-flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 10rem;
+    height: 9rem;
     max-width: 0;
     overflow: hidden;
     position: relative;

@@ -51,7 +51,7 @@ div.appLinksWrapper a {
 div.closeAppWrapper {
     height: 2rem;
     font-size: 2rem;
-    left: calc(100% - 2rem);
+    right: 1rem;
     position: fixed;
     top: 2rem;
     width: 2rem;

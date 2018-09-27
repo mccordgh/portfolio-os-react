@@ -11,41 +11,47 @@ div.mccordinatorHead {
 
 div.mccordinatorSpeechBubble {
     background-color: lightgoldenrodyellow;
-    border: 1px solid lightgrey;
+    border: 0.1rem solid saddlebrown;
     border-radius: 1rem;
     box-shadow: -15px 15px 50px -12px #000;
     -moz-box-shadow: -15px 15px 50px -12px #000;
     -webkit-box-shadow: -15px 15px 50px -12px #000;
     bottom: 17rem;
-    position: fixed;
+    position: absolute;
     right: 6rem;
     min-width: 10rem;
     max-width: 20rem;
     z-index: 2;
 }
 
-div.mccordinatorSpeechBubble::before {
+div.mccordinatorSpeechBubble::after {
     background: lightgoldenrodyellow;
-    border-radius: 4px;
-    bottom: 16.4rem;
+    border-top: 0.1rem solid saddlebrown;
+    border-right: 0.1rem solid saddlebrown;
+    bottom: -1.2rem;
+    -webkit-box-shadow: 19px -30px 50px -10px #000;
     box-shadow: 19px -30px 50px -10px #000;
     content: "";
     height: 2rem;
-    position: fixed;
-    right: 12rem;
-    transform: rotate(90deg) skew(-50deg);
+    position: absolute;
+    right: 6rem;
+    -webkit-transform: rotate(90deg) skew(-50deg);
+    -ms-transform: rotate(90deg) skew(-50deg);
+    transform: rotate(90deg) skew(-45deg);
     width: 2rem;
     z-index: -1;
 }
 
 div.mccordinatorSpeechBubble p {
+    border-bottom: 0.1rem solid saddlebrown;
     box-sizing: border-box;
     color: black;
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.4rem;
-    margin: 0.8rem 0 0 0;
-    padding: 0 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: justify;
     width: 100%;
 }
 
