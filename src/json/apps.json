@@ -1,20 +1,97 @@
 {
 	"data": [{
-			"name": "Community",
+			"name": "Games",
 			"list": [{
-					"name": "Nashville Software School Alumni",
-					"shortText": "short text for NSSAA",
+					"name": "Defend The Castle",
+					"shortText": "arcade style description",
 					"description": [
-						"Are you all right? What's wrong? I felt a great disturbance in the Force...as if millions of voices suddenly cried out in terror and were suddenly silenced. I fear something terrible has happened. You'd better get on with your exercises. Well, you can forget your troubles with those Imperial slugs. I told you I'd outrun 'em. Don't everyone thank me at once. Anyway, we should be at Alderaan about oh-two-hundred hours. Now be careful, Artoo. He made a fair move. Screaming about it won't help you. Let him have it. It's not wise to upset a Wookiee. But sir, nobody worries about upsetting a droid. That's 'cause droids don't pull people's arms out of their socket when they lose. Wookiees are known to do that. I see your point, sir. I suggest a new strategy, Artoo. Let the Wookiee win.",
-						"He says he's found the main computer to power the tractor beam that's holding the ship here. He'll try to make the precise location appear on the monitor. The tractor beam is coupled to the main reactor in seven locations. A power loss at one of the terminals will allow the ship to leave. I don't think you boys can help. I must go alone. Whatever you say. I've done more that I bargained for on this trip already. Be patient, Luke. Stay and watch over the droids. But he can...",
-						"It looks like an Imperial cruiser. Our passengers must be hotter than I thought. Try and hold them off. Angle the deflector shield while I make the calculations for the jump to light speed. Stay sharp! There are two more coming in, they're going to try to cut us off. Why don't you outrun them? I thought you said this thing was fast. Watch your mouth, kid, or you're going to find yourself floating home. We'll be safe enough once we make the jump to hyperspace. Besides, I know a few maneuvers. We'll lose them! Here's where the fun begins!",
-						"You know, I think that R2 unit we bought might have been stolen. What makes you think that? Well, I stumbled across a recording while I was cleaning him. He says he belongs to someone called Obi-Wan Kenobi. I thought he might have meant old Ben. Do you know what he's talking about? Well, I wonder if he's related to Ben. That old man's just a crazy old wizard. Tomorrow I want you to take that R2 unit into Anchorhead and have its memory flushed. That'll be the end of it. It belongs to us now. But what if this Obi-Wan comes looking for him? He won't, I don't think he exists any more. He died about the same time as your father. He knew my father? I told you to forget it. Your only concern is to prepare the new droids for tomorrow. In the morning I want them on the south ridge working out those condensers.",
-						"What? Yahoo! Look out! You're all clear, kid. Now let's blow this thing and go home! Stand by to fire at Rebel base. Standing by. Great shot, kid. That was one in a million. Remember, the Force will be with you...always."
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
 					],
 					"links": [{
-						"url": "#",
-						"text": "Some Link"
-					}],
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"iconImage": "temp2.png",
+					"coverImage": "temp2.png",
+					"additionalImage": "temp3.png"
+				},
+				{
+					"name": "Golden Beak Golf",
+					"shortText": "golfing meets flappy bird",
+					"description": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+					],
+					"links": [{
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"iconImage": "temp2.png",
+					"coverImage": "temp2.png",
+					"additionalImage": "temp3.png"
+				},
+				{
+					"name": "Me, Myself, and i",
+					"shortText": "creepy description oohoooooOOoo",
+					"description": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+					],
+					"links": [{
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"iconImage": "temp2.png",
+					"coverImage": "temp2.png",
+					"additionalImage": "temp3.png"
+				},
+				{
+					"name": "Waves '87: Business Cruizin'",
+					"shortText": "radical description here",
+					"description": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+					],
+					"links": [{
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"iconImage": "temp2.png",
+					"coverImage": "temp2.png",
+					"additionalImage": "temp3.png"
+				},
+				{
+					"name": "The Core",
+					"shortText": "factory description here",
+					"description": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+					],
+					"links": [{
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
 					"iconImage": "temp2.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
@@ -22,12 +99,10 @@
 			]
 		},
 		{
-			"name": "Web Programming",
+			"name": "Web Apps",
 			"list": [{
-					"name": "Front End",
-					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
-					],
+					"name": "Some App",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
 					"links": [{
 							"url": "https://LINK/TO/WEBAPP",
 							"text": "Check Me Out!"
@@ -37,8 +112,63 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "temp3.png",
-					"coverImage": "temp4.png"
+					"bgImage": "temp3.png"
+				},
+				{
+					"name": "Also Some App",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+							"url": "https://LINK/TO/WEBAPP",
+							"text": "Check Me Out!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"bgImage": "temp4.png"
+				},
+				{
+					"name": "Also Other App",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+							"url": "https://LINK/TO/WEBAPP",
+							"text": "Check Me Out!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"bgImage": "temp1.png"
+				},
+				{
+					"name": "Also Cool App",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+							"url": "https://LINK/TO/WEBAPP",
+							"text": "Check Me Out!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"bgImage": "temp2.png"
+				},
+				{
+					"name": "Really Some App",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+							"url": "https://LINK/TO/WEBAPP",
+							"text": "Check Me Out!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"bgImage": "temp3.png"
 				}
 			]
 		},
@@ -46,98 +176,70 @@
 			"name": "Music",
 			"list": [{
 					"name": "Scatter the Ashes",
-					"shortText": "March 2000 - October 2005",
-					"description": [
-						"",
-						"Toured the country, and some of Canada, and wrote and recorded music with this four piece post-hardcore band. Signed a development deal with Island records, releasing a full length LP on Epitaph records."
-					],
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
 					"links": [{
-						"url": "http://epitaph.com/artists/scatter-the-ashes/",
-						"text": "Listen to scattertheashes on epitaph.com"
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
 					}],
-					"iconImage": "temp1.png",
-					"coverImage": "scattertheasheslogo.jpg",
-					"additionalImage": "scattertheashesphoto.jpg"
+					"bgImage": "temp4.png"
 				},
 				{
 					"name": "Mother/Father",
-					"shortText": "April 2006 - September 2009",
-					"description": [
-						"Toured the country playing bass guitar, and wrote and recorded music with this four piece post-rock band. Produced and managed by Jacquire King (known for his work with Kings of Leon, Modest Mouse, Tom Waits, and more) and Jon Stinson. Released two EPs. Highlight show was opening for Kings of Leon and White Lies at the Sommet Center, and landing booking with CAA."
-					],
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
 					"links": [{
-						"url": "http://www.nashvillescene.com/music/article/13019095/kings-of-leon-motherfather-monotonix-and-more",
-						"text": "Nashville Scene Article"
-					},
-					{
-						"url": "https://www.reverbnation.com/thisismotherfather",
-						"text": "Listen to Mother/Father on ReverbNation"
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
 					}],
-					"iconImage": "temp1.png",
-					"coverImage": "motherfatherlogo.jpg",
-					"additionalImage": "motherfatherphoto.jpg"
+					"bgImage": "temp1.png"
 				},
 				{
 					"name": "Future Unlimited",
-					"shortText": "December 2011 - March 2016",
-					"description": [
-						"Toured the country, while writing and recorded songs, playing bass guitar and sometimes keyboards for this five piece rock/electronic band. Played festivals such as Bonaroo, Austin City Limits, Art Basel, and SXSW. Released two EPs and mulitple singles."
-					],
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
 					"links": [{
-						"url": "https://soundcloud.com/future-unlimited",
-						"text": "Listen to Future Unlimited on soundcloud"
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
 					}],
-					"iconImage": "temp3.png",
-					"coverImage": "futureunlimitedlogo.jpg",
-					"additionalImage": "futureunlimitedphoto.jpg"
+					"bgImage": "temp2.png"
 				},
 				{
-					"name": "MCCORDINATOR",
-					"description": [
-						"Mostly made in a bedroom home studio, these are recordings of personally written material. These songs helped me to learn how to record, write, and express myself individually through music."
-					],
+					"name": "Future Unlimited",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
 					"links": [{
-						"url": "https://soundcloud.com/mmmmmusic",
-						"text": "Listen to MCCORDINATOR on soundcloud"
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
 					}],
-					"iconImage": "temp4.png",
-					"coverImage": "mccordinatorlogo.jpg"
+					"bgImage": "temp3.png"
+				},
+				{
+					"name": "Sound Cloud",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
+					}],
+					"bgImage": "temp4.png"
 				}
 			]
 		},
 		{
-			"name": "Social Media",
+			"name": "Recognition",
 			"list": [{
-					"name": "Twitter",
-					"description": [],
-					"activeLink": "https://twitter.com/mattmccordmattm/",
-					"links": [],
-					"iconImage": "twitter.png",
-					"coverImage": ""
+					"name": "Most Valuable Team (award)",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
+					}],
+					"bgImage": "temp4.png"
 				},
 				{
-					"name": "LinkedIn",
-					"description": [],
-					"activeLink": "https://www.linkedin.com/in/mccordinator/",
-					"links": [],
-					"iconImage": "linkedin.png",
-					"coverImage": ""
-				},
-				{
-					"name": "Instagram",
-					"description": [],
-					"activeLink": "https://www.instagram.com/mccordinator/",
-					"links": [],
-					"iconImage": "instagram.png",
-					"coverImage": ""
-				},
-				{
-					"name": "Itch.io",
-					"description": [],
-					"activeLink": "https://mccordinator.itch.io/",
-					"links": [],
-					"iconImage": "itchio.png",
-					"coverImage": ""
+					"name": "Top Developer (nomination)",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros.",
+					"links": [{
+						"url": "https://LINK/TO/BANDSTUFF",
+						"text": "Band Stuff!"
+					}],
+					"bgImage": "temp2.png"
 				}
 			]
 		}

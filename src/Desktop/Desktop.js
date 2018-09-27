@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import MobileView from './MobileView/MobileView';
 import DesktopView from './DesktopView/DesktopView';
-import RequestManager from '../Requests/RequestManager';
+// import RequestManager from '../Requests/RequestManager';
 
 import appsList from '../json/apps';
+// import gamesList from '../json/games';
 
 import headIcon from '../res/mccordinator2_head.png';
 
@@ -51,13 +52,20 @@ export default class Desktop extends Component {
   }
 
   init() {
-    this.getAppsInfo()
-      .then((response) => {
-        RequestManager.fetchGames(response)
-          .then((response) => {
-            this.setState({apps: response});
-          });
-      });
+    this.setState({apps: this.setAppsBgColors(appsList.data)});
+    // console.log(appsList);
+
+    // this.getAppsInfo()
+      // .then((response) => {
+        // console.log(response);
+        // console.log(this.state.apps);
+        // console.log({gamesList})
+        // this.setState({apps: gamesList})
+        // RequestManager.fetchGames(response)
+          // .then((response) => {
+            // this.setState({apps: response});
+          // });
+      // });
   }
 
   componentDidMount() {
@@ -77,9 +85,9 @@ export default class Desktop extends Component {
   }
 
   getAppsInfo() {
-    return new Promise((resolve, reject) => {
-      resolve(this.setAppsBgColors(appsList.data))
-    });
+    // return new Promise((resolve) => {
+      // resolve(this.setAppsBgColors(appsList.data))
+    // });
   }
 
   setAppsBgColors(data) {

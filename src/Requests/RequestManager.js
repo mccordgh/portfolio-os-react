@@ -1,12 +1,12 @@
 import DataTransformer from '../Transformers/DataTransformer';
 
-import API_KEY from '../json/key';
+// import API_KEY from '../json/key';
 
 const API_URL = 'https://itch.io/api/1/key'
 
 export default class RequestManager {
     static fetchGames(appList) {
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve) => {
             this.makeGamesRequest()
                 .then(response => response.json())
                 .then((response) => {
