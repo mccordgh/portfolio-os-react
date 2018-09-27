@@ -24,7 +24,7 @@ export default class Mccordinator extends Component {
             <div>
                 <div onClick={this.clickyTheFace} className="mccordinatorHead"></div>
 
-                 { this.state.showBubble &&
+                { this.state.showBubble &&
                     <div className="mccordinatorSpeechBubble">
                         <p>
                             { this.state.bubbleText.text }

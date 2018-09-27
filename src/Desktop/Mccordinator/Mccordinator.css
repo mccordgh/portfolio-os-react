@@ -2,10 +2,10 @@ div.mccordinatorHead {
     background-image: url('../../res/mccordinator2_head.png');
     background-position: center center;
     background-repeat: no-repeat;
-    bottom: 3rem;
+    bottom: 1rem;
     height: 13rem;
     position: fixed;
-    right: 6rem;
+    right: 3rem;
     width: 9rem;
 }
 
@@ -16,9 +16,9 @@ div.mccordinatorSpeechBubble {
     box-shadow: -15px 15px 50px -12px #000;
     -moz-box-shadow: -15px 15px 50px -12px #000;
     -webkit-box-shadow: -15px 15px 50px -12px #000;
-    bottom: 17rem;
-    position: absolute;
-    right: 6rem;
+    bottom: 15rem;
+    position: fixed;
+    right: 3rem;
     min-width: 10rem;
     max-width: 20rem;
     z-index: 2;
@@ -49,7 +49,7 @@ div.mccordinatorSpeechBubble p {
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.4rem;
-    margin-bottom: 1rem;
+    margin: 0;
     padding: 1rem;
     text-align: justify;
     width: 100%;
@@ -62,7 +62,7 @@ div.mccordinatorSpeechBubble span {
     font-size: 1rem;
     font-weight: bold;
     height: 1rem;
-    margin: 0.4rem 1rem 0;
+    margin: 0.5rem 1rem 0;
     width: calc(100% - 2rem);
 }
 
@@ -70,10 +70,9 @@ div.mccordinatorSpeechBubble span:hover {
     background-color: lightgrey;
 }
 
-div.mccordinatorSpeechBubble span:last-child {
-    margin-bottom: 0.8rem;
+div.mccordinatorSpeechBubble span:first-child {
+    margin-top: 1rem;
 }
-
-div.mccordinatorSpeechBubble hr {
-    width: 90%
+div.mccordinatorSpeechBubble span:last-child {
+    margin-bottom: 1rem;
 }

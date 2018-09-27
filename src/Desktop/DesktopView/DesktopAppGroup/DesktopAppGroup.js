@@ -23,7 +23,7 @@ export default class DesktopAppGroup extends Component {
                     <div className="desktopGroupFolder_back"></div>
 
                     <div className="desktopGroupFolder_front">
-                        <h1 className="desktopGroupTitle">{ this.props.name }</h1>
+                        <h1 className="desktopGroupTitle no-select">{ this.props.name }</h1>
                     </div>
                 </div>
 
