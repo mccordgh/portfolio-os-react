@@ -15,11 +15,50 @@ div.desktopGroupTitle {
     width: fit-content;
 }
 
+div.desktopGroupFolder {
+    background-color: goldenrod;
+    height: 6rem;
+    position: relative;
+    top: 3rem;
+    width: 4rem;
+}
+
+    
+div.desktopGroupFolder::before {
+    background-color: saddlebrown;
+    border-radius: 1rem 1rem 0 0;
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    left: 0rem;
+    position: absolute;
+    top: -2rem;
+    width: 12rem;
+}
+
+div.desktopGroupFolder::after {
+    background-color: goldenrod;
+    border-radius: 1rem 1rem 1rem 0;
+    content: "";
+    display: inline-block;
+    height: 8rem;
+    left: 4rem;
+    position: absolute;
+    top: -2rem;
+    width: 8rem;
+}
+
 h1.desktopGroupTitle {
+    color: saddlebrown;
     display: block;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    left: 4rem;
     margin: 0;
-    padding-left: 1rem;
+    position: absolute;
+    text-align: center;
+    top: -1.6rem;
+    width: 8rem;
+    z-index: 2;
     /* background: -webkit-linear-gradient(0.45turn, transparent, white 60%); */
     /* background-clip: text;
     -webkit-background-clip: text;
@@ -27,7 +66,6 @@ h1.desktopGroupTitle {
 }
 
 div.desktopAppGroupWrapper {
-    border-bottom: 1px solid lightgrey;
     height: 3rem;
     margin-top: 1.2rem;
     transition: height 0.3s ease-out;

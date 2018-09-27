@@ -25,10 +25,12 @@ export default class DesktopAppGroup extends Component {
         return (
             <div className={wrapperClass}>
                 <div className="desktopGroupTitleWrapper desktopGroupTitle">
-                    <h1
-                        onClick={this.toggleExpansionClasses}
-                        className="desktopGroupTitle"
-                    > { this.props.name } </h1>
+                    <div className="desktopGroupFolder">
+                        <h1
+                            onClick={this.toggleExpansionClasses}
+                            className="desktopGroupTitle"
+                        > { this.props.name } </h1>
+                    </div>
                 </div>
 
                 <div className={titleClass}>
