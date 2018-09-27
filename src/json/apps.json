@@ -1,6 +1,6 @@
 {
 	"data": [{
-			"name": "Game Programming",
+			"name": "Game Dev",
 			"list": [{
 					"name": "Defend The Castle",
 					"shortText": "arcade style description",
@@ -99,7 +99,7 @@
 			]
 		},
 		{
-			"name": "Web Programming",
+			"name": "Web Dev",
 			"list": [{
                     "name": "ToDon't List Client",
                     "shortText": "todo client desc here",
