@@ -1,7 +1,8 @@
 div.OsAppGroupBig {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 15%;
-    margin: 6.875% 0;
+    height: 3rem;
+    margin: 1.5rem 0;
     width: 33%;
 }
 

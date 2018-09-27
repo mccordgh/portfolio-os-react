@@ -1,21 +1,26 @@
 div.mobileContainer {
-    background: linear-gradient(#2c73ba, #5A7B9B); 
+    /* background: linear-gradient(#2c73ba, #5A7B9B);  */
     height: 100vh;
     padding-top: 1rem;
 }
 
 div.appgroupContainer {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 55%;
-    padding: 1rem;
-    margin-top: 1rem;
+    height: 28rem;
+    justify-content: space-between;
+    padding: 2rem 1rem;
 }
 
 div.osImage {
-    margin: 0 auto;
-    width: 50%;
+    top: calc(100% - 21rem);
+    left: calc(50% - 4.5rem);
+    position: fixed;
+    width: 9rem;
 }
 
 div.osImage img {
