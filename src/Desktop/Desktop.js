@@ -52,20 +52,11 @@ export default class Desktop extends Component {
   }
 
   init() {
-    this.setState({apps: this.setAppsBgColors(appsList.data)});
-    // console.log(appsList);
-
-    // this.getAppsInfo()
-      // .then((response) => {
-        // console.log(response);
-        // console.log(this.state.apps);
-        // console.log({gamesList})
-        // this.setState({apps: gamesList})
-        // RequestManager.fetchGames(response)
-          // .then((response) => {
-            // this.setState({apps: response});
-          // });
-      // });
+    this.setState({apps: appsList.data});
+    
+    // const appsWithBgColors = this.setAppsBgColors(appsList.data);
+    // console.log(appsWithBgColors);
+    // this.setState({apps: appsWithBgColors});
   }
 
   componentDidMount() {
@@ -101,8 +92,9 @@ export default class Desktop extends Component {
   }
 
   getRandomColor() {
-    const colors = ['red', 'green', 'orange', 'blue', 'purple', 'gold'];
-    const rndColor = Math.floor(Math.random() * 6);
+    // const colors = ['red', 'green', 'orange', 'blue', 'purple', 'gold'];
+    const colors = ['#133F60', '#63B8F9', '#603E09', '#AD7C33'];
+    const rndColor = Math.floor(Math.random() * colors.length);
 
     return colors[rndColor];
   }
