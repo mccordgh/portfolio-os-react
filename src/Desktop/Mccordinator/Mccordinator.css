@@ -2,7 +2,7 @@ div.mccordinatorHead {
     background-image: url('../../res/mccordinator2_head.png');
     background-position: center center;
     background-repeat: no-repeat;
-    bottom: 1rem;
+    bottom: 3rem;
     height: 13rem;
     position: fixed;
     right: 3rem;
@@ -10,13 +10,13 @@ div.mccordinatorHead {
 }
 
 div.mccordinatorSpeechBubble {
-    background-color: light#FFA419yellow;
-    border: 0.1rem solid #B26B00;
+    background-color: whitesmoke;
+    /* border: 0.1rem solid #222; */
     border-radius: 1rem;
-    box-shadow: -15px 15px 50px -12px #000;
-    -moz-box-shadow: -15px 15px 50px -12px #000;
-    -webkit-box-shadow: -15px 15px 50px -12px #000;
-    bottom: 15rem;
+    box-shadow: 0rem 0 12rem -2rem #000;
+    -moz-box-shadow: -15px 10px 20px -12px #000;
+    /* -webkit-box-shadow: -15px 15px 50px -12px #000; */
+    bottom: 17rem;
     position: fixed;
     right: 3rem;
     min-width: 10rem;
@@ -25,10 +25,8 @@ div.mccordinatorSpeechBubble {
 }
 
 div.mccordinatorSpeechBubble::after {
-    background: light#FFA419yellow;
-    border-top: 0.1rem solid #B26B00;
-    border-right: 0.1rem solid #B26B00;
-    bottom: -1.2rem;
+    background: whitesmoke;
+    bottom: -0.6rem;
     -webkit-box-shadow: 19px -30px 50px -10px #000;
     box-shadow: 19px -30px 50px -10px #000;
     content: "";
@@ -43,7 +41,8 @@ div.mccordinatorSpeechBubble::after {
 }
 
 div.mccordinatorSpeechBubble p {
-    border-bottom: 0.1rem solid #B26B00;
+    border-bottom: 0.1rem dotted #222;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: black;
     font-size: 1rem;
@@ -67,10 +66,10 @@ div.mccordinatorSpeechBubble span {
 }
 
 div.mccordinatorSpeechBubble span:hover {
-    background-color: lightgrey;
+    background-color: #e5e5e5;
 }
 
-div.mccordinatorSpeechBubble span:first-child {
+div.mccordinatorSpeechBubble p + span {
     margin-top: 1rem;
 }
 div.mccordinatorSpeechBubble span:last-child {

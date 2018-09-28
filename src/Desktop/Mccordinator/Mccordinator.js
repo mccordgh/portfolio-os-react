@@ -29,11 +29,6 @@ export default class Mccordinator extends Component {
                         <p>
                             { this.state.bubbleText.text }
                         </p>
-                        {/* {
-                            (this.state.dialogueNumber >= dialogue.length)
-                                ? (<button onClick={this.closeDialogue}>Finito</button>)
-                                : (<button onClick={this.nextDialogueQueue}>Next</button>)
-                        } */}
                         <span onClick={this.nextDialogueQueue}> + {this.state.bubbleText.continue}</span>
                         <span onClick={this.closeDialogue}> + {this.state.bubbleText.exit}</span>
                     </div>
@@ -47,7 +42,9 @@ export default class Mccordinator extends Component {
     }
 
     nextDialogueQueue() {
-        const next = this.state.dialogueNumber + 1;
+        const next = (this.state.dialogueNumber >= (dialogue.length - 1))
+            ? 0
+            : this.state.dialogueNumber + 1;
         
         this.setState({
                 bubbleText: dialogue[this.state.dialogueNumber],

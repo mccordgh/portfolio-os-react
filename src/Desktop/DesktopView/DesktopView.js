@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import DesktopAppGroup from './DesktopAppGroup/DesktopAppGroup';
-import DesktopSocialMediaBar from './DesktopSocialMediaBar/DesktopSocialMediaBar';
+// import DesktopSocialMediaBar from './DesktopSocialMediaBar/DesktopSocialMediaBar';
+import DesktopStatusBar from './DesktopStatusBar/DesktopStatusBar';
 import Mccordinator from '../Mccordinator/Mccordinator';
 import OpenDesktopAppWindow from './OpenDesktopAppWindow/OpenDesktopAppWindow';
 
@@ -35,6 +36,7 @@ export default class DesktopView extends Component {
 
         return (
             <div className="desktopContainer">
+                <DesktopStatusBar />
                 { appGroups }
 
                 {/* <DesktopSocialMediaBar />  */}
