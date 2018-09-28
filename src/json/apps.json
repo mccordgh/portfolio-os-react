@@ -213,6 +213,7 @@
 		},
 		{
 			"name": "Music",
+			"directory": "music/",
 			"list": [{
                     "name": "Scatter the Ashes",
                     "shortText": "sta desc here",
@@ -223,7 +224,7 @@
 						"url": "https://LINK/TO/BANDSTUFF",
 						"text": "Band Stuff!"
 					}],
-                    "iconImage": "temp2.png",
+                    "iconImage": "scatter_the_ashes_icon.jpg",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 },
@@ -237,7 +238,7 @@
 						"url": "https://LINK/TO/BANDSTUFF",
 						"text": "Band Stuff!"
 					}],
-                    "iconImage": "temp2.png",
+                    "iconImage": "mother_father_icon.jpg",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 },
@@ -251,7 +252,7 @@
 						"url": "https://LINK/TO/BANDSTUFF",
 						"text": "Band Stuff!"
 					}],
-                    "iconImage": "temp2.png",
+                    "iconImage": "future_unlimited_icon.jpg",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 }
@@ -259,6 +260,7 @@
 		},
 		{
 			"name": "Recognition",
+			"directory": "recognition/",
 			"list": [{
                     "name": "Most Valuable Team",
                     "shortText": "shortText here maybe",
@@ -269,7 +271,7 @@
 						"url": "https://LINK/TO/BANDSTUFF",
 						"text": "Band Stuff!"
 					}],
-                    "iconImage": "temp2.png",
+                    "iconImage": "trophy_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
             },
@@ -283,7 +285,7 @@
 						"url": "https://LINK/TO/BANDSTUFF",
 						"text": "Band Stuff!"
 					}],
-                    "iconImage": "temp2.png",
+                    "iconImage": "nomination_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 }
