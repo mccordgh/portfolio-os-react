@@ -3,7 +3,7 @@ import DesktopApp from './DesktopApp/DesktopApp';
 
 import './DesktopAppGroup.css';
 
-const IMAGE_PATH = '/res';
+import IMAGE_PATH from '../../../constants/image_path';
 
 export default class DesktopAppGroup extends Component {
     constructor() {
@@ -18,7 +18,7 @@ export default class DesktopAppGroup extends Component {
 
     render() {
         return (
-            <div className={"desktopAppGroupWrapper " + this.state.wrapperClass}>
+            <div className={`desktopAppGroupWrapper ${this.state.wrapperClass}`}>
                 <div className="desktopGroupFolder" onClick={this.toggleExpansionClasses}>
                     <div className="desktopGroupFolder_back"></div>
 

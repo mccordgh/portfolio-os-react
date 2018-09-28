@@ -1,4 +1,4 @@
-const IMAGE_PATH = '/res';
+import IMAGE_PATH from '../constants/image_path';
 
 export default class ImageProcessor {
     static formatImageUrl(imageUrl) {

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+
 import DesktopAppGroup from './DesktopAppGroup/DesktopAppGroup';
-import OpenDesktopAppWindow from './OpenDesktopAppWindow/OpenDesktopAppWindow';
+import DesktopSocialMediaBar from './DesktopSocialMediaBar/DesktopSocialMediaBar';
 import Mccordinator from '../Mccordinator/Mccordinator';
+import OpenDesktopAppWindow from './OpenDesktopAppWindow/OpenDesktopAppWindow';
 
 import './DesktopView.css';
 
@@ -35,10 +37,7 @@ export default class DesktopView extends Component {
             <div className="desktopContainer">
                 { appGroups }
 
-                {/* <div className="desktopAppGroupWrapper">
-                    <img
-                        src={this.props.socialIcons.twitter} />
-                </div> */}
+                {/* <DesktopSocialMediaBar />  */}
 
                 { selectedApp }
                 <Mccordinator />

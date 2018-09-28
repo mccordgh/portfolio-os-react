@@ -1,0 +1,20 @@
+{
+	"data": [
+        {
+            "name": "Github",
+            "logo": "temp1.png"
+        },
+        {
+            "name": "LinkedIn",
+            "logo": "temp2.png"
+        },
+        {
+            "name": "Steam",
+            "logo": "temp3.png"
+        },
+        {
+            "name": "Twitter",
+            "logo": "temp4.png"
+        }
+	]
+}

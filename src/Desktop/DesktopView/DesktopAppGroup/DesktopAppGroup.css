@@ -11,6 +11,7 @@ div.desktopGroupFolder {
     height: 12rem;
     margin: 0;
     position: relative;
+    transform: scale(0.6);
     width: 12.4rem;
     z-index: 10;
 }
@@ -112,7 +113,7 @@ h1.desktopGroupTitle {
 
 div.desktopAppGroupWrapper {
     height: 9rem;
-    transition: height 0.3s ease-out;
+    /* transition: height 0.3s ease-out; */
     width: 100%;
 }
 
@@ -127,11 +128,11 @@ div.desktopAppWrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 9rem;
-    left: 0;
+    left: 2rem;
     max-width: 0;
     overflow: hidden;
     position: relative;
-    top: -11rem;
+    top: -10rem;
     -o-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;

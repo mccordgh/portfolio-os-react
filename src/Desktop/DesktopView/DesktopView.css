@@ -2,7 +2,7 @@ div.desktopContainer {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    height: calc(100% - 8rem);
+    height: 90%;
     position: relative;
     padding: 3rem 4rem;
     width: 100%;

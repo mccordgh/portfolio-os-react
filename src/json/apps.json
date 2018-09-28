@@ -179,6 +179,35 @@
 			]
 		},
 		{
+			"name": "Social Media",
+			"list": [
+				{
+					"directLink": true,
+					"logo": "temp1.png",
+					"name": "Github",
+					"url": ""
+				},
+				{
+					"directLink": true,
+					"logo": "temp2.png",
+					"name": "LinkedIn",
+					"url": ""
+				},
+				{
+					"directLink": true,
+					"logo": "temp3.png",
+					"name": "Steam",
+					"url": ""
+				},
+				{
+					"directLink": true,
+					"logo": "temp4.png",
+					"name": "Twitter",
+					"url": ""
+				}
+			]
+		},
+		{
 			"name": "Music",
 			"list": [{
                     "name": "Scatter the Ashes",

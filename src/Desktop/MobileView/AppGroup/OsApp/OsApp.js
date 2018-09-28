@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import OsAppSmall from './OsAppSmall/OsAppSmall';
 import OsAppBig from './OsAppBig/OsAppBig';
 
-const IMAGE_PATH = '/res';
+import IMAGE_PATH from '../../../../constants/image_path';
 
 export default class OsApp extends Component {
     render() {

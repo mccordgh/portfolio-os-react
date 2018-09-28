@@ -1,0 +1,9 @@
+div.social-media__wrapper {
+    background-color: #222;
+    border-radius: 1rem;
+    bottom: 2rem;
+    height: 6rem;
+    left: calc(50% - 8rem);
+    position: fixed;
+    width: 16rem;
+}

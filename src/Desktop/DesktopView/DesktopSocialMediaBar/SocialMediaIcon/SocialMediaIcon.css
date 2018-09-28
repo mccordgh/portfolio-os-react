@@ -1,0 +1,10 @@
+div.social-media__icon {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+}
+
+div.social-media__icon img {
+    height: 100%;
+    width: 100%;
+}

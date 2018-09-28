@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './OpenAppWindow.css';
 
-const IMAGE_PATH = '/res';
+import IMAGE_PATH from '../../constants/image_path';
 
 export default class OpenAppWindow extends Component {
     render() {
