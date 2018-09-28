@@ -101,6 +101,7 @@
 		},
 		{
 			"name": "Web Dev",
+			"directory": "web_dev/",
 			"list": [{
                     "name": "ToDon't List Client",
                     "shortText": "todo client desc here",
@@ -116,7 +117,7 @@
 							"text": "View Github Source!"
                         }
 					],
-                    "iconImage": "temp2.png",
+                    "iconImage": "todo_client_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 },
@@ -135,7 +136,7 @@
 							"text": "View Github Source!"
 						}
 					],
-                    "iconImage": "temp2.png",
+                    "iconImage": "api_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
             },
@@ -154,7 +155,7 @@
 							"text": "View Github Source!"
 						}
 					],
-                    "iconImage": "temp2.png",
+                    "iconImage": "battle_bots_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
             },
@@ -173,7 +174,7 @@
 							"text": "View Github Source!"
 						}
 					],
-                    "iconImage": "temp2.png",
+                    "iconImage": "cli_icon.png",
                     "coverImage": "temp2.png",
                     "additionalImage": "temp3.png"
                 }
