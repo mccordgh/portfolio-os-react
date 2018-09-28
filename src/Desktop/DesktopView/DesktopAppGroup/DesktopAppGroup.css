@@ -11,6 +11,8 @@ div.desktopGroupFolder {
     height: 12rem;
     margin: 0;
     position: relative;
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
     transform: scale(0.6);
     width: 12.4rem;
     z-index: 10;
@@ -22,10 +24,10 @@ div.desktopAppGroupWrapper.expanded div.desktopGroupFolder div.desktopGroupFolde
 }
     
 div.desktopGroupFolder_back {
-    background-color: saddlebrown;
+    background-color: #B26B00;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
-    height: calc(100% - 4rem);
+    height: calc(100% - 8rem);
     left: 0;
     position: absolute;
     top: 1rem;
@@ -35,7 +37,7 @@ div.desktopGroupFolder_back {
 div.desktopGroupFolder_back::before {
     content: '';
     border-left: 2rem solid transparent;
-    border-bottom: 2rem solid saddlebrown;
+    border-bottom: 2rem solid #B26B00;
     height: 0;
     position: absolute;
     right: 0;
@@ -44,7 +46,7 @@ div.desktopGroupFolder_back::before {
 }
 
 div.desktopGroupFolder_back::after {
-    background-color: saddlebrown;
+    background-color: #B26B00;
     border-radius: 0 1rem 0 0;
     content: '';
     display: inline-block;
@@ -56,7 +58,7 @@ div.desktopGroupFolder_back::after {
 }
 
 /* div.desktopGroupFolder_front {
-    background-color: goldenrod;
+    background-color: #FFA419;
     display: inline-block;
     height: 100%;
     position: absolute;
@@ -64,20 +66,24 @@ div.desktopGroupFolder_back::after {
 } */
 
 div.desktopGroupFolder_front {
-    background-color: goldenrod;
+    background-color: #FFA419;
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
     height: calc(100% - 5rem);
     left: -0.2rem;
     position: absolute;
     top: 2rem;
+    -webkit-transition: top 0.4s ease-out, -webkit-transform 0.4s ease-out;
+    transition: top 0.4s ease-out, -webkit-transform 0.4s ease-out;
+    -o-transition: transform 0.4s ease-out, top 0.4s ease-out;
+    transition: transform 0.4s ease-out, top 0.4s ease-out;
     width: 6.2rem;
 }
 
 div.desktopGroupFolder_front::before {
     content: '';
     border-left: 2rem solid transparent;
-    border-bottom: 2rem solid goldenrod;
+    border-bottom: 2rem solid #FFA419;
     height: 0;
     position: absolute;
     right: 0.2rem;
@@ -86,7 +92,7 @@ div.desktopGroupFolder_front::before {
 }
 
 div.desktopGroupFolder_front::after {
-    background-color: goldenrod;
+    background-color: #FFA419;
     border-radius: 0 1rem 1rem 0;
     content: '';
     display: inline-block;
@@ -99,7 +105,7 @@ div.desktopGroupFolder_front::after {
 
 h1.desktopGroupTitle {
     background-color: whitesmoke;
-    color: saddlebrown;
+    color: #B26B00;
     display: block;
     font-size: 2rem;
     left: 0;
@@ -127,12 +133,12 @@ div.desktopAppWrapper {
     display: inline-flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 9rem;
+    height: 7rem;
     left: 2rem;
     max-width: 0;
     overflow: hidden;
     position: relative;
-    top: -10rem;
+    top: -8.8rem;
     -o-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -143,6 +149,10 @@ div.desktopAppWrapper {
 div.desktopAppGroupWrapper.expanded div.desktopAppWrapper {
     /* background-color: orange; */
     max-width: 100%;
-    left: 12.4rem;
+    left: 10.4rem;
     visibility: visible;
+}
+
+div.desktopAppGroupWrapper.expanded div.desktopAppWrapper div.desktopApp div.desktopAppBackground {
+    transform: rotateZ(-360deg);
 }

@@ -11,6 +11,7 @@ div.desktopAppBackground {
     box-shadow: 0 9px 6px -6px black;
     height: 4rem;
     margin: 0.5rem auto;
+    transition: all 1s ease-in;
     width: 4rem;
 }
 
