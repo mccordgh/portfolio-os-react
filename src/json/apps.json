@@ -16,7 +16,7 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "temp2.png",
+					"iconImage": "game_dev/defend_the_castle_icon.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				},
@@ -182,28 +182,29 @@
 			"name": "Social Media",
 			"list": [
 				{
-					"directLink": true,
-					"logo": "temp1.png",
+					"iconImage": "social_media/github_icon.png",
 					"name": "Github",
-					"url": ""
+					"activeLink": "https://github.com/mccordgh"
 				},
 				{
-					"directLink": true,
-					"logo": "temp2.png",
+					"iconImage": "social_media/itchio_icon.png",
+					"name": "Itch.io",
+					"activeLink": "https://mccordinator.itch.io/"
+				},
+				{
+					"iconImage": "social_media/linkedin_icon.png",
 					"name": "LinkedIn",
-					"url": ""
+					"activeLink": "https://www.linkedin.com/in/mccordinator/"
 				},
 				{
-					"directLink": true,
-					"logo": "temp3.png",
+					"iconImage": "social_media/steam_icon.png",
 					"name": "Steam",
-					"url": ""
+					"activeLink": "https://steamcommunity.com/id/mccordinator"
 				},
 				{
-					"directLink": true,
-					"logo": "temp4.png",
+					"iconImage": "social_media/twitter_icon.png",
 					"name": "Twitter",
-					"url": ""
+					"activeLink": "https://twitter.com/mattmccordmattm"
 				}
 			]
 		},
