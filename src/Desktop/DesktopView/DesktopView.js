@@ -17,6 +17,7 @@ export default class DesktopView extends Component {
                         key={key}
                         name={appGroup.name}
                         list={appGroup.list}
+                        directory={appGroup.directory}
                         openAppCallback={this.props.openAppCallback}
                     />
                 );

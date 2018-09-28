@@ -34,7 +34,7 @@ export default class DesktopAppGroup extends Component {
                                 key={key}
                                 activeLink={item.activeLink}
                                 bgColor={item.bgColor}
-                                iconImage={`${IMAGE_PATH}/${item.iconImage}`}
+                                iconImage={`${IMAGE_PATH}/${this.props.directory}${item.iconImage}`}
                                 group={this.props.name}
                                 id={key}
                                 name={item.name}

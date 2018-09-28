@@ -1,7 +1,27 @@
 {
 	"data": [{
-			"name": "Game Dev",
-			"list": [{
+		"name": "Game Dev",
+		"directory": "game_dev/",
+		"list": [{
+					"name": "The Core",
+					"shortText": "factory description here",
+					"description": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+					],
+					"links": [{
+							"url": "https://LINK/TO/PLAY",
+							"text": "Play Me!"
+						},
+						{
+							"url": "https://LINK/TO/SOURCE",
+							"text": "View Github Source!"
+						}
+					],
+					"iconImage": "the_core_icon.png",
+					"coverImage": "temp2.png",
+					"additionalImage": "temp3.png"
+				},
+				{
 					"name": "Defend The Castle",
 					"shortText": "arcade style description",
 					"description": [
@@ -16,7 +36,7 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "game_dev/defend_the_castle_icon.png",
+					"iconImage": "defend_the_castle_icon.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				},
@@ -35,7 +55,7 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "temp2.png",
+					"iconImage": "golden_beak_golf_icon.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				},
@@ -54,7 +74,7 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "temp2.png",
+					"iconImage": "me_myself_i_icon.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				},
@@ -73,26 +93,7 @@
 							"text": "View Github Source!"
 						}
 					],
-					"iconImage": "temp2.png",
-					"coverImage": "temp2.png",
-					"additionalImage": "temp3.png"
-				},
-				{
-					"name": "The Core",
-					"shortText": "factory description here",
-					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
-					],
-					"links": [{
-							"url": "https://LINK/TO/PLAY",
-							"text": "Play Me!"
-						},
-						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
-						}
-					],
-					"iconImage": "temp2.png",
+					"iconImage": "waves_87_icon.png",
 					"coverImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				}
@@ -180,29 +181,30 @@
 		},
 		{
 			"name": "Social Media",
+			"directory": "social_media/",
 			"list": [
 				{
-					"iconImage": "social_media/github_icon.png",
+					"iconImage": "github_icon.png",
 					"name": "Github",
 					"activeLink": "https://github.com/mccordgh"
 				},
 				{
-					"iconImage": "social_media/itchio_icon.png",
+					"iconImage": "itchio_icon.png",
 					"name": "Itch.io",
 					"activeLink": "https://mccordinator.itch.io/"
 				},
 				{
-					"iconImage": "social_media/linkedin_icon.png",
+					"iconImage": "linkedin_icon.png",
 					"name": "LinkedIn",
 					"activeLink": "https://www.linkedin.com/in/mccordinator/"
 				},
 				{
-					"iconImage": "social_media/steam_icon.png",
+					"iconImage": "steam_icon.png",
 					"name": "Steam",
 					"activeLink": "https://steamcommunity.com/id/mccordinator"
 				},
 				{
-					"iconImage": "social_media/twitter_icon.png",
+					"iconImage": "twitter_icon.png",
 					"name": "Twitter",
 					"activeLink": "https://twitter.com/mattmccordmattm"
 				}
