@@ -17,7 +17,7 @@ div.desktop_banner-container span {
     padding: 0.5rem 1rem;
 }
 
-div.desktop_banner-container span:hover {
+div.desktop_banner-container span.banner-left--highlights:hover {
     background-color: #0978B2;
 }
 

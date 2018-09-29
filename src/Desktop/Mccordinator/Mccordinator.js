@@ -37,7 +37,7 @@ export default class Mccordinator extends Component {
         );
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.nextDialogueQueue();
     }
 

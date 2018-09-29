@@ -46,7 +46,7 @@ export default class OpenDesktopAppWindow extends Component {
                         {
                             this.props.app.links.map((link, key) => {
                                 return (
-                                    <a key={key} href={link.url} target="_blank">{link.text}</a>
+                                    <a key={key} href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a>
                                 )
                             })
                         }
