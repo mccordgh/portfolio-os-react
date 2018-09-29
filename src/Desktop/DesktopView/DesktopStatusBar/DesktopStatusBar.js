@@ -6,12 +6,14 @@ export default class DesktopStatusBar extends Component {
     render() {
         return (
             <div className="desktop_banner-container">
-              <div className="desktop_banner-left">
-               <span className="banner-left--highlights"><b>About This Portfolio</b></span>
-              </div>
-              <div className="desktop_banner-right">
-              <span>{ this.currentTime() }</span>
-              </div>
+                <div className="desktop_banner-left">
+                    <span>Portfolio OS v1.0</span>
+                    <span className="banner-left--highlights"><b>About This Portfolio</b></span>
+                </div>
+                
+                <div className="desktop_banner-right">
+                    <span>{ this.currentTime() }</span>
+                </div>
             </div>
           );
     }

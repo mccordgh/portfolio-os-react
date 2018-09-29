@@ -5,15 +5,12 @@ div.mobileContainer {
 }
 
 div.appgroupContainer {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 28rem;
     justify-content: space-between;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem 1rem;
 }
 
 div.osImage {

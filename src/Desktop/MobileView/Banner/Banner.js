@@ -4,15 +4,38 @@ import './Banner.css';
 export default class Banner extends Component {
   render() {
     return (
-      <div className="banner__container">
-        <div className="banner__left">
-         <span>Matthew McCord</span>
+        <div className="banner-container">
+          <div className="banner-left">
+            <span>Portfolio OS v1.0</span>
+          </div>
+           
+          <div className="banner-right">
+            <span>{ this.currentTime() }</span>
+          </div>
         </div>
-         <span>13:37</span>
-        <div className="banner__right">
-         <span>Portfolio OS 1.0</span>
-        </div>
-      </div>
-    );
-  }
+      );
+}
+
+currentTime() {
+const days = ['Sun', 'Mon', 'Tues', 'Weds', 'Thurs', 'Fri', 'Sat'];
+const currentTime = new Date(), currentDay = currentTime.getDay();
+let hours = currentTime.getHours(), minutes = currentTime.getMinutes();
+
+if (minutes < 10) {
+   minutes = `0${minutes}`;
+}
+
+let suffix = "AM";
+
+if (hours >= 12) {
+suffix = "PM";
+hours = hours - 12;
+}
+
+if (hours === 0) {
+hours = 12;
+}
+
+return `${days[currentDay]} ${hours}:${minutes} ${suffix}`;
+}
 }

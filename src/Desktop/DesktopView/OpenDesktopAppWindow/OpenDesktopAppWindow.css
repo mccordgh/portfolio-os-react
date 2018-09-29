@@ -15,11 +15,11 @@ div.desktop-app_open {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    height: 40.9rem;
+    height: 47.65rem;
     left: calc(50% - 36.2rem);
     overflow-y: scroll;
     position: fixed;
-    top: calc(50% - 20.45rem);
+    top: calc(50% - 23.825rem);
     width: 72.4rem;
     z-index: 12;
 }
@@ -55,7 +55,7 @@ div.desktop-app--content_wrapper hr {
 }
 
 div.app--header-image {
-    height: 15rem;
+    height: 24rem;
     overflow-y: hidden;
     width: 100%;
 }

@@ -1,24 +1,33 @@
-div.banner__container {
+div.banner-container {
+    background-color: #0065B2;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 1rem;
+    height: 2rem;
+    font-size: 0.9rem;
     left: 0;
-    padding: 0.4rem;
-    position: absolute;
+    padding: 0.5rem;
+    position: fixed;
     text-align: center;
     top: 0;
-    width: 100vw;
+    width: 100%;
 }
 
-div.banner__left {
-    float:left;
+div.banner-container span {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
 }
 
-/* div.banner__center { */
-    /* display: inline; */
-    /* text-align:center; */
-    /* width: 100vw; */
-/* } */
+div.banner-container span.banner-left--highlights:hover {
+    background-color: #0978B2;
+}
 
-div.banner__right {
-    float: right;
+div.banner-left {
+    left: 0;
+    position: absolute;
+}
+
+div.banner-right {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
 }

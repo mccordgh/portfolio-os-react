@@ -13,12 +13,12 @@ div.desktop_banner-container {
 }
 
 div.desktop_banner-container span {
-    cursor: pointer;
-    padding: 0.5rem 1rem;
+     padding: 0.5rem 1rem;
 }
 
 div.desktop_banner-container span.banner-left--highlights:hover {
     background-color: #0978B2;
+    cursor: pointer;
 }
 
 div.desktop_banner-left {
