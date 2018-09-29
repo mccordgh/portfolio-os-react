@@ -15,11 +15,11 @@ export default class OpenDesktopAppWindow extends Component {
             <div>
                 <div className="desktop-app_behind" onClick={() => {this.props.closeAppCallback()}}></div>
 
-                <div className="opendesktopApp">
+                <div className="desktop-app_open">
                     <div className="topWindowBanner">
                         <span className="windowTitle">{ this.props.app.name }</span>
 
-                        <div className="closedesktopAppWrapper">
+                        <div className="desktop-app_close">
                             <span onClick={() => {this.props.closeAppCallback()}}>X</span>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export default class OpenDesktopAppWindow extends Component {
                         {/* <h1>{this.props.app.name}</h1> */}
 
                         { this.props.app.shortText &&
-                            <h3><i>{this.props.app.shortText}</i></h3>
+                            <span>{this.props.app.shortText}</span>
                         }
 
                         {/* <hr /> */}

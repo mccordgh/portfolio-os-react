@@ -3,7 +3,7 @@
     color: lightgrey;
 } */
 
-div.opendesktopApp {
+div.desktop-app_open {
     background-color: whitesmoke;
     border-top: 0.2rem solid grey;
     border-right: .2rem solid lightgrey;
@@ -15,16 +15,16 @@ div.opendesktopApp {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    height: 40rem;
-    left: calc(50% - 30rem);
+    height: 40.9rem;
+    left: calc(50% - 36.2rem);
     overflow-y: scroll;
     position: fixed;
-    top: calc(50% - 20rem);
-    width: 60rem;
+    top: calc(50% - 20.45rem);
+    width: 72.4rem;
     z-index: 12;
 }
 
-div.opendesktopApp hr {
+div.desktop-app_open hr {
     width: calc(100% - 6rem);
 }
 
@@ -38,9 +38,10 @@ div.desktop-app--content_wrapper h1 {
     margin-top: 0;
 }
 
-div.desktop-app--content_wrapper h3 {
-    font-size: 1.4rem;
+div.desktop-app--content_wrapper span {
+    font-size: 1rem;
     margin-top: 0;
+    font-style: italic;
 }
 
 div.desktop-app--content_wrapper p {
@@ -54,8 +55,13 @@ div.desktop-app--content_wrapper hr {
 }
 
 div.app--header-image {
-    width: 100%;
     height: 15rem;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+div.app--header-image img {
+    width: 100%;
 }
 
 div.additionalImageFrame {
@@ -104,6 +110,10 @@ div.app-description_wrapper {
     width: 100%;
 }
 
+div.app-description_wrapper a + a {
+    padding-left: 2rem;
+}
+
 div.appLinksWrapper {
     text-align: left;
 }
@@ -113,12 +123,13 @@ div.desktopAppLinksWrapper a {
     padding: 1rem;
 }
 
-div.closedesktopAppWrapper {
+div.desktop-app_close {
     background-color: grey;
     border-top: 3px solid #333;
     border-right: 3px solid lightgrey;
     border-bottom: 3px solid lightgrey;
     border-left: 3px solid #333;
+    border-radius: 0.4rem;
     color: black;
     cursor: pointer;
     height: 1rem;
