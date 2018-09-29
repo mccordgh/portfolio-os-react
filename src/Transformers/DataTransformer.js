@@ -8,7 +8,7 @@ export default class DataTransformer {
             // console.log(game);
             return Object.assign({}, {
                 bgColor: 'green',
-                coverImage: game.cover_url,
+                headerImage: game.cover_url,
                 description: this.descriptionByGameName(game.title),
                 iconImage: this.iconByGameName(game.title),
                 language: this.languageByGameName(game.title),

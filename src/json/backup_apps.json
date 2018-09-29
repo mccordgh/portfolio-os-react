@@ -16,7 +16,7 @@
 						"text": "Some Link"
 					}],
 					"iconImage": "temp2.png",
-					"coverImage": "temp2.png",
+					"headerImage": "temp2.png",
 					"additionalImage": "temp3.png"
 				}
 			]
@@ -38,7 +38,7 @@
 						}
 					],
 					"iconImage": "temp3.png",
-					"coverImage": "temp4.png"
+					"headerImage": "temp4.png"
 				}
 			]
 		},
@@ -56,7 +56,7 @@
 						"text": "Listen to scattertheashes on epitaph.com"
 					}],
 					"iconImage": "temp1.png",
-					"coverImage": "scattertheasheslogo.jpg",
+					"headerImage": "scattertheasheslogo.jpg",
 					"additionalImage": "scattertheashesphoto.jpg"
 				},
 				{
@@ -74,7 +74,7 @@
 						"text": "Listen to Mother/Father on ReverbNation"
 					}],
 					"iconImage": "temp1.png",
-					"coverImage": "motherfatherlogo.jpg",
+					"headerImage": "motherfatherlogo.jpg",
 					"additionalImage": "motherfatherphoto.jpg"
 				},
 				{
@@ -88,7 +88,7 @@
 						"text": "Listen to Future Unlimited on soundcloud"
 					}],
 					"iconImage": "temp3.png",
-					"coverImage": "futureunlimitedlogo.jpg",
+					"headerImage": "futureunlimitedlogo.jpg",
 					"additionalImage": "futureunlimitedphoto.jpg"
 				},
 				{
@@ -101,7 +101,7 @@
 						"text": "Listen to MCCORDINATOR on soundcloud"
 					}],
 					"iconImage": "temp4.png",
-					"coverImage": "mccordinatorlogo.jpg"
+					"headerImage": "mccordinatorlogo.jpg"
 				}
 			]
 		},
@@ -113,7 +113,7 @@
 					"activeLink": "https://twitter.com/mattmccordmattm/",
 					"links": [],
 					"iconImage": "twitter.png",
-					"coverImage": ""
+					"headerImage": ""
 				},
 				{
 					"name": "LinkedIn",
@@ -121,7 +121,7 @@
 					"activeLink": "https://www.linkedin.com/in/mccordinator/",
 					"links": [],
 					"iconImage": "linkedin.png",
-					"coverImage": ""
+					"headerImage": ""
 				},
 				{
 					"name": "Instagram",
@@ -129,7 +129,7 @@
 					"activeLink": "https://www.instagram.com/mccordinator/",
 					"links": [],
 					"iconImage": "instagram.png",
-					"coverImage": ""
+					"headerImage": ""
 				},
 				{
 					"name": "Itch.io",
@@ -137,7 +137,7 @@
 					"activeLink": "https://mccordinator.itch.io/",
 					"links": [],
 					"iconImage": "itchio.png",
-					"coverImage": ""
+					"headerImage": ""
 				}
 			]
 		}

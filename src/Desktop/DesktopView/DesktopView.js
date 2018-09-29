@@ -27,6 +27,7 @@ export default class DesktopView extends Component {
         const selectedApp = this.props.selectedApp.name
             ? (
                 <OpenDesktopAppWindow
+                    directory={this.props.selectedApp.directory}
                     app={this.props.selectedApp}
                     closeAppCallback={this.props.closeAppCallback}
                 />

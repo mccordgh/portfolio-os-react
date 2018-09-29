@@ -53,7 +53,7 @@ export default class Desktop extends Component {
 
   init() {
     this.setState({apps: appsList.data});
-    
+
     // const appsWithBgColors = this.setAppsBgColors(appsList.data);
     // console.log(appsWithBgColors);
     // this.setState({apps: appsWithBgColors});
@@ -106,6 +106,8 @@ export default class Desktop extends Component {
   findAppByIdAndGroup(id, groupName) {
     const group = this.state.apps.find(group => group.name === groupName);
     const appToOpen = group.list[id];
+    
+    appToOpen.directory = group.directory;
 
     return appToOpen;
   }
