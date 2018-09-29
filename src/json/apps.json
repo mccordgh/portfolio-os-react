@@ -227,7 +227,7 @@
 						"text": "Band Stuff!"
 					}],
                     "iconImage": "scatter_the_ashes_icon.jpg",
-                    "headerImage": "temp2.png",
+                    "headerImage": "scatter_the_ashes_header.jpg",
                     "additionalImage": "temp3.png"
                 },
 				{
@@ -241,7 +241,7 @@
 						"text": "Band Stuff!"
 					}],
                     "iconImage": "mother_father_icon.jpg",
-                    "headerImage": "temp2.png",
+                    "headerImage": "mother_father_header.jpg",
                     "additionalImage": "temp3.png"
                 },
 				{
@@ -255,7 +255,7 @@
 						"text": "Band Stuff!"
 					}],
                     "iconImage": "future_unlimited_icon.jpg",
-                    "headerImage": "temp2.png",
+                    "headerImage": "future_unlimited_header.jpg",
                     "additionalImage": "temp3.png"
                 }
 			]
@@ -264,7 +264,7 @@
 			"name": "Recognition",
 			"directory": "recognition/",
 			"list": [{
-                    "name": "Most Valuable Team",
+                    "name": "Most Valuable Team (Awarded)",
                     "shortText": "shortText here maybe",
 					"description": [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
@@ -274,11 +274,11 @@
 						"text": "Band Stuff!"
 					}],
                     "iconImage": "trophy_icon.png",
-                    "headerImage": "temp2.png",
+                    "headerImage": "mvt_award_header.png",
                     "additionalImage": "temp3.png"
             },
 				{
-                    "name": "Top Developer",
+                    "name": "Top Developer (Nominated)",
                     "shortText": "top dev shortText maybe",
 					"description": [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
@@ -288,7 +288,7 @@
 						"text": "Band Stuff!"
 					}],
                     "iconImage": "nomination_icon.png",
-                    "headerImage": "temp2.png",
+                    "headerImage": "top_developer_header.png",
                     "additionalImage": "temp3.png"
                 }
 			]
