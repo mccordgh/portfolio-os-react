@@ -4,17 +4,28 @@
 		"directory": "game_dev/",
 		"list": [{
 					"name": "The Core",
-					"shortText": "factory description here",
+					"shortText": "A procedurally generated adventure!",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in JavaScript",
+						"The CORE was written for the yearly code-golfing competition js13kgames, running from August 13 2018 to September 13 2018. The goal of this competition is to submit a full game made within a month, with all assets, libraries, etc coming in at under 13Kb compressed and able to run off-line. The theme of this competition was \"offline\".",
+						"You are one of many workers trapped in a factory and forced to work on THE CORE, a sinister mind control machine. The first version of THE CORE currently has everyone in the factory (workers, guards, managers) under it's control. The second version will enslave the world! Find the four keys, and use the on THE CORE to take it offline for good!",
+						"For a fun surprise, make sure to speak to a guard after you have taken the machine offline :)"
 					],
 					"links": [{
-							"url": "https://LINK/TO/PLAY",
+							"url": "https://mccordgh.github.io/the_line_js13kgames_2018/",
 							"text": "Play Me!"
 						},
 						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://github.com/mccordgh/the_line_js13kgames_2018",
+							"text": "View Github Source"
+						},
+						{
+							"url": "https://github.com/mccordgh/the_line_js13kgames_2018#post-mortem",
+							"text": "Post-mortem write up"
+						},
+						{
+							"url": "https://js13kgames.com",
+							"text": "js13kgames.com"
 						}
 					],
 					"iconImage": "the_core_icon.png",

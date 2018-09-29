@@ -16,7 +16,7 @@ export default class OpenDesktopAppWindow extends Component {
                 <div className="desktop-app_behind" onClick={() => {this.props.closeAppCallback()}}></div>
 
                 <div className="desktop-app_open">
-                    <div className="topWindowBanner">
+                    <div className="app_open-banner">
                         <span className="windowTitle">{ this.props.app.name }</span>
 
                         <div className="desktop-app_close">
