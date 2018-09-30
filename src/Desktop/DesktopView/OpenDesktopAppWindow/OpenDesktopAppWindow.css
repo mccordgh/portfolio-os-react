@@ -76,6 +76,10 @@ div.desktop-app--content_wrapper ul li a {
     text-decoration: none;
 }
 
+div.desktop-app--content_wrapper ul li a:hover {
+    text-decoration: underline;
+}
+
 /* div.desktop-app--content_wrapper hr {
     margin-right: 3rem;
     width: auto;

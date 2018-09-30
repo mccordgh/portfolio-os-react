@@ -241,8 +241,30 @@
 			"name": "Music",
 			"directory": "music/",
 			"list": [{
-                    "name": "Scatter the Ashes",
-                    "shortText": "sta desc here",
+					"name": "Future Unlimited",
+					"shortText": "\"Throwback rarely feels this genuine, a real accomplishment amongst so much nostalgia.\" - Adam Kivel, consequenceofsound.net",
+					"description": [
+						"During my time with Future Unlimited, I toured the country, wrote and recorded songs with the band, and played bass guitar (and sometimes keyboards).",
+						"We played festivals such as Bonaroo, Austin City Limits, Art Basel, and SXSW.",
+						"We have a music video directed by Shia LaBeouf for the single, \"Haunted Love\"",
+						"We released two EPs and multiple singles."
+					],
+					"links": [{
+							"url": "https://soundcloud.com/future-unlimited",
+							"text": "Hear our music"
+						},
+						{
+							"url": "https://www.youtube.com/watch?v=jo2Z9DygPxY",
+							"text": "Live footage"
+					}],
+					"iconImage": "future_unlimited_icon.jpg",
+					"headerImage": "future_unlimited_header.jpg",
+					"additionalImage": "temp3.png"
+				},
+                {
+
+				    "name": "Scatter the Ashes",
+                    "shortText": "\"STA has potential to remind us 20-somethings why we decided to like music in the first place.\" - Jennifer R. Vertullo, epitaph.com",
 					"description": [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
                     ],
@@ -266,20 +288,6 @@
 					}],
                     "iconImage": "mother_father_icon.jpg",
                     "headerImage": "mother_father_header.jpg",
-                    "additionalImage": "temp3.png"
-                },
-				{
-                    "name": "Future Unlimited",
-                    "shortText": "FUnltd shortext here",
-					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
-                    ],
-					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
-					}],
-                    "iconImage": "future_unlimited_icon.jpg",
-                    "headerImage": "future_unlimited_header.jpg",
                     "additionalImage": "temp3.png"
                 }
 			]
