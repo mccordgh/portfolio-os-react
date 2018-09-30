@@ -36,28 +36,21 @@ export default class OpenDesktopAppWindow extends Component {
                         {/* <h1>{this.props.app.name}</h1> */}
 
                         { this.props.app.shortText &&
-                            <span>{this.props.app.shortText}</span>
+                            <p>{this.props.app.shortText}</p>
                         }
 
                         {/* <hr /> */}
 
                         <div className="app-description_wrapper">
-                            {
+                            {/* {
                                 this.props.app.language &&
                                 <p>Written in: <span className="text--white">{this.props.app.language}</span></p>
-                            }
+                            } */}
                             {
                                 this.props.app.description.map((paragraph, key) => {
                                     return (
                                         <p key={key}>{ paragraph }</p>
                                     );
-                                })
-                            }
-                            {
-                                this.props.app.links.map((link, key) => {
-                                    return (
-                                        <a key={key} href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a>
-                                    )
                                 })
                             }
                             {/* {
@@ -67,6 +60,16 @@ export default class OpenDesktopAppWindow extends Component {
                                 </div>
                             } */}
                         </div>
+
+                        <ul>
+                            {
+                                this.props.app.links.map((link, key) => {
+                                    return (
+                                        <li key={key}><a href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a></li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>

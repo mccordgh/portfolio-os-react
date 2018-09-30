@@ -33,3 +33,8 @@ h1 {
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none; 
 }
+
+/* ::-webkit-scrollbar {
+  -webkit-appearance: scrollbarthumb-horizontal;
+  width: 10px;
+} */

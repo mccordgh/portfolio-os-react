@@ -4,7 +4,7 @@
 } */
 
 div.desktop-app_open {
-    background-color: whitesmoke;
+    background-color: #3378ad;
     border-top: 0.2rem solid grey;
     border-right: .2rem solid lightgrey;
     border-bottom: 0.2rem solid lightgrey;
@@ -30,8 +30,13 @@ div.desktop-app_open hr {
 }
 
 div.desktop-app--content_wrapper {
+    /* background: linear-gradient(0.45turn, #3378ad, #63B8F9); */
+    padding: 1rem;
     text-align: left;
-    padding: 2rem;
+}
+
+div.desktop-app--content_wrapper p:first-child {
+    margin: 0 0 1rem;
 }
 
 div.desktop-app--content_wrapper h1 {
@@ -39,10 +44,12 @@ div.desktop-app--content_wrapper h1 {
     margin-top: 0;
 }
 
-div.desktop-app--content_wrapper span {
+div.desktop-app--content_wrapper p {
+    color: whitesmoke;
     font-size: 1rem;
-    margin-top: 0;
     font-style: italic;
+    margin-top: 0;
+    padding-left: 1rem;
 }
 
 div.desktop-app--content_wrapper p {
@@ -50,10 +57,29 @@ div.desktop-app--content_wrapper p {
     line-height: 1.8rem;
 }
 
-div.desktop-app--content_wrapper hr {
+div.desktop-app--content_wrapper ul {
+    font-size: 1rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0 1rem;
+}
+
+div.desktop-app--content_wrapper ul li {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+div.desktop-app--content_wrapper ul li a {
+    color: whitesmoke;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* div.desktop-app--content_wrapper hr {
     margin-right: 3rem;
     width: auto;
-}
+} */
 
 div.app--header-image {
     height: 24rem;
@@ -107,8 +133,22 @@ div.imageFrame img {
 }
 
 div.app-description_wrapper {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-sizing: border-box;
     font-size: 1rem;
+    padding: 1rem;
     width: 100%;
+}
+
+div.app-description_wrapper p {
+    color: black;
+    font-style: initial;
+    padding-left: 0;
+}
+
+div.app-description_wrapper p:first-child {
+    margin-top: 0;
 }
 
 div.app-description_wrapper a + a {
@@ -149,12 +189,13 @@ div.app_open-banner {
     height: 2rem;
     position: fixed;
     text-align: center;
-    top: 4rem;
+    top: 5.4rem;
     width: 72.4rem;
 }
 
 div.app_open-banner span.windowTitle {
     font-size: 1.2rem;
+    font-weight: bold;
     position: relative;
     top: 0.4rem;
 }

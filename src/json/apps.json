@@ -34,10 +34,10 @@
 				},
 				{
 					"name": "Defend The Castle",
-					"shortText": "arcade style description",
+					"shortText": "A twist on the classic tower defense genre!",
 					"description": [
 						"Written in JavaScript",
-						"Defend the Castle is a fast-paced arcade-style video game, with a twist on the classic tower defense genre. The engine and game were written from scratch for a Nashville Software School front end capstone project, and it runs right in your browser (best on Firefox and Google Chrome).",
+						"Defend the Castle is a fast-paced arcade-style video game. The engine and game were written from scratch, and it runs right in your browser (best on Firefox and Google Chrome).",
 						"I wanted to create this game from scratch, to better understand how game engines work under the hood. The biggest challenge surfaced when I discovered that the tutorial I was following didn't actually bring the game to a basic completion. The series had left me with a solid foundation, no doubt, consisting of a tile map loader, a game camera, keyboard input and a hero to control, some basic collision detection, and some entity handling. The rest was up to me. Did I really want to stick this through, knowing it would be extremely challenging? In the end, I had to fully immerse myself in to this code base, and really learn how it worked in order to achieve the results that I desired. It was a wonderful learning experience."
 					],
 					"links": [{
@@ -151,17 +151,15 @@
                 },
 				{
                     "name": "ToDon't List API",
-                    "shortText": "todont api desc here",
+                    "shortText": "The back-end of the ToDon't List app.",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written using NodeJS, the MongoDB, Express, and mLab the database-as-a-service for MongoDB",
+						"As with the front-end, I wanted to branch out and work with some technologies that I was less familiar with, like the MERN stack.",
+						"During this project I learned about using a database-as-a-service system like mLab, and how to deploy a node app to Heroku as well."
                     ],
 					"links": [{
-							"url": "https://LINK/TO/WEBAPP",
-							"text": "Check Me Out!"
-						},
-						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://github.com/mccordgh/to_dont_list_api",
+							"text": "View Github Source"
 						}
 					],
                     "iconImage": "api_icon.png",
@@ -170,17 +168,19 @@
             },
 				{
                     "name": "Battle Bots",
-                    "shortText": "battle bot desc here",
+                    "shortText": "Local two player battle to the robot death!",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in HTML5, CSS, and JavaScript using Grunt, Browserify, and jQuery.",
+						"Each player chooses one of six classes (Johnny5, Wall-E, R2D2, R2BRO2, Bender, Baymax).",
+						"This project was exercise in prototypal inheritance."
                     ],
 					"links": [{
-							"url": "https://LINK/TO/WEBAPP",
-							"text": "Check Me Out!"
+							"url": "https://mccordgh.github.io/battlebots_mjd_quiz_copy/",
+							"text": "View App!"
 						},
 						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://www.github.com/mccordgh/battlebots_mjd_quiz_copy",
+							"text": "View Github Source"
 						}
 					],
                     "iconImage": "battle_bots_icon.png",
@@ -191,15 +191,13 @@
                     "name": "Bangazon CLI",
                     "shortText": "cli desc here",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in Python, with unit tests and SQL.",
+						"This was a group project. The CLI tool is a command line interface that allows the creation and storage of customer accounts, payment options, and orders, the storage and adding of products from the database in to the active order, the completion of an order after adding products and selecting a payment option, and a display of the current product popularity rankings by revenue generated.",
+						"This project allowed me to really dig in to SQL and Python. My contributions to this project include the ERD, the payment option class and unit tests, the refactoring of said class and tests, and the SQL database interactions for order and payment option models."
                     ],
 					"links": [{
-							"url": "https://LINK/TO/WEBAPP",
-							"text": "Check Me Out!"
-						},
-						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://github.com/Ambiguous-Squids/bangazon-cli",
+							"text": "View Github Source"
 						}
 					],
                     "iconImage": "cli_icon.png",

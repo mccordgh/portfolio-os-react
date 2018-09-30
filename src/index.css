@@ -5,3 +5,7 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 10px;
 }
+
+a {
+  cursor: pointer;
+}
