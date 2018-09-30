@@ -1,6 +1,6 @@
 {
 	"data": [{
-		"name": "Game Dev",
+		"name": "Games",
 		"directory": "game_dev/",
 		"list": [{
 					"name": "The Core",
@@ -36,15 +36,17 @@
 					"name": "Defend The Castle",
 					"shortText": "arcade style description",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in JavaScript",
+						"Defend the Castle is a fast-paced arcade-style video game, with a twist on the classic tower defense genre. The engine and game were written from scratch for a Nashville Software School front end capstone project, and it runs right in your browser (best on Firefox and Google Chrome).",
+						"I wanted to create this game from scratch, to better understand how game engines work under the hood. The biggest challenge surfaced when I discovered that the tutorial I was following didn't actually bring the game to a basic completion. The series had left me with a solid foundation, no doubt, consisting of a tile map loader, a game camera, keyboard input and a hero to control, some basic collision detection, and some entity handling. The rest was up to me. Did I really want to stick this through, knowing it would be extremely challenging? In the end, I had to fully immerse myself in to this code base, and really learn how it worked in order to achieve the results that I desired. It was a wonderful learning experience."
 					],
 					"links": [{
-							"url": "https://LINK/TO/PLAY",
+							"url": "https://mccordgh.github.io/Defend_The_Castle",
 							"text": "Play Me!"
 						},
 						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://www.github.com/mccordgh/Defend_The_Castle",
+							"text": "View Github Source"
 						}
 					],
 					"iconImage": "defend_the_castle_icon.png",
@@ -53,17 +55,22 @@
 				},
 				{
 					"name": "Golden Beak Golf",
-					"shortText": "golfing meets flappy bird",
+					"shortText": "Golfing meets flappy bird!",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in Pico-8 fantasy console.",
+						"Golden Beak Golf v1.0 was written during Ludum Dare 41 game jam taking place April 20th to April 23rd, 2018. The theme was \"Combine two incompatible genres\".",
+						"Golden Beak Golf v1.1 was an update to smooth out a couple of things:",
+						"• Main menu redesign.",
+						"• Graphics tweaks, and more animated sprites in background.",
+						"• Press Z to replay working properly."
 					],
 					"links": [{
-							"url": "https://LINK/TO/PLAY",
+							"url": "https://www.lexaloffle.com/bbs/?tid=31164",
 							"text": "Play Me!"
 						},
 						{
-							"url": "https://LINK/TO/SOURCE",
-							"text": "View Github Source!"
+							"url": "https://github.com/mccordgh/all_pico_8_carts/blob/master/carts/ludum_dare_41/ld41_golf_flappy_bird.p8",
+							"text": "View Github Source"
 						}
 					],
 					"iconImage": "golden_beak_golf_icon.png",
@@ -72,9 +79,13 @@
 				},
 				{
 					"name": "Me, Myself, and i",
-					"shortText": "creepy description oohoooooOOoo",
+					"shortText": "\"What is this strange fog and smell of decay?\"",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in JavaScript.",
+						"This game was written for the JS13kgames 2017 game jam, where you have a month to write a game from scratch with a complete project size limitation of 13kb.",
+						"The theme for js13kgames 2017 was \"Lost\".",
+						"Every time you start the game, you play as one in a series of hundreds of clones. These clones are dropped in to this maze of death and darkness as a test, with only the survivors having a chance to see the light of day again.",
+						"As you explore this maze, you will encounter other clones who couldn't make it out alive. They are rotten, and have been driven mad by the voice inside their head. Hopefully that same voice doesn't reach out to infect you..."
 					],
 					"links": [{
 							"url": "https://LINK/TO/PLAY",
@@ -91,16 +102,20 @@
 				},
 				{
 					"name": "Waves '87: Business Cruizin'",
-					"shortText": "radical description here",
+					"shortText": "Take a cruise. No seriously, TAKE A CRUISE.",
 					"description": [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Written in Python with the Ren'Py graphic novel engine.",
+						"This game was made during Global Game Jam 2017, which took place over 48 hour weekend period in January of 2017.",
+						"All sounds effects and music were recorded during Global Game Jam 2017",
+						"Kawa is your typical business man. Loathed by his peers and about to be fired from his job, a chance encounter with pirates may just turn his life around...",
+						"Builds of the game are available below for Linux, Mac, and PC."
 					],
 					"links": [{
-							"url": "https://LINK/TO/PLAY",
+							"url": "https://mccordinator.itch.io/waves-87-business-cruizin",
 							"text": "Play Me!"
 						},
 						{
-							"url": "https://LINK/TO/SOURCE",
+							"url": "https://github.com/GGJ-2017-waves-team/waves87",
 							"text": "View Github Source!"
 						}
 					],
@@ -111,7 +126,7 @@
 			]
 		},
 		{
-			"name": "Web Dev",
+			"name": "Web Apps",
 			"directory": "web_dev/",
 			"list": [{
                     "name": "ToDon't List Client",
