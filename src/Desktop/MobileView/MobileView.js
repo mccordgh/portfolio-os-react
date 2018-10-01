@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import Banner from './Banner/Banner';
-import AppGroup from './AppGroup/AppGroup';
-import OpenAppWindow from '../OpenAppWindow/OpenAppWindow';
+// import Banner from './Banner/Banner';
+// import AppGroup from './AppGroup/AppGroup';
+// import OpenAppWindow from '../OpenAppWindow/OpenAppWindow';
 
 export default class MobileView extends Component {
     render() {
         return (
             <div className="mobileContainer">
-                <Banner />
+                <h1 style={{textAlign:'center', width: '100%', marginTop: '5rem'}}>Mobile View is coming soon!!</h1>
 
-                <div className="appgroupContainer">
+                {/* <Banner /> */}
+
+                {/* <div className="appgroupContainer">
                 {
                     this.props.apps.map((appGroup, key) => {
                     return <AppGroup
@@ -20,17 +22,18 @@ export default class MobileView extends Component {
                     />;
                     })
                 }
-                </div>
+                </div> */}
+                
                 <div className="osImage">
-                <img src={this.props.headIcon} alt="Mccordinator's Pixel Head"/>
+                    <img src={this.props.headIcon} alt="Mccordinator's Pixel Head"/>
                 </div>
 
-                {this.props.selectedApp.name &&
-                <OpenAppWindow
-                    app={this.props.selectedApp}
-                    closeAppCallback={this.props.closeAppCallback}
-                />
-                }
+                {/* { this.props.selectedApp.name &&
+                    <OpenAppWindow
+                        app={this.props.selectedApp}
+                        closeAppCallback={this.props.closeAppCallback}
+                    />
+                } */}
             </div>
       );
     }
