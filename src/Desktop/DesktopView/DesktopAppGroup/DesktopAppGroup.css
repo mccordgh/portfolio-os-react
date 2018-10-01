@@ -11,7 +11,7 @@ div.desktopGroupFolder {
     height: 10rem;
     margin: 0;
     position: relative;
-    width: 8.2rem;
+    width: 12.2rem;
     z-index: 10;
 }
 
@@ -25,7 +25,7 @@ div.desktopGroupFolder_back {
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
     height: calc(100% - 5rem);
-    left: 0;
+    left: 4rem;
     position: absolute;
     top: 1rem;
     width: 4rem;
@@ -67,7 +67,7 @@ div.desktopGroupFolder_front {
     border-radius: 1rem 0 0 1rem;
     display: inline-block;
     height: calc(100% - 5rem);
-    left: -0.2rem;
+    left: 3.8rem;
     position: absolute;
     top: 2rem;
     -webkit-transition: top 0.4s ease-out, -webkit-transform 0.4s ease-out;
@@ -125,31 +125,25 @@ div.desktopAppGroupWrapper {
 /* } */
 
 div.desktopAppWrapper {
-    display: -ms-flexbox;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 7rem;
-    left: 2rem;
-    max-width: 0;
+    left: -40rem;
     overflow: hidden;
     position: relative;
-    top: -8.8rem;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    top: -10rem;
+    transition: all 1s ease-in-out;
     visibility: hidden;
     width: calc(100% - 12rem);
 }
 
 div.desktopAppGroupWrapper.expanded div.desktopAppWrapper {
     /* background-color: orange; */
-    max-width: 100%;
-    left: 10.4rem;
+    /* max-width: 100%; */
+    left: 13.4rem;
     visibility: visible;
 }
 
 div.desktopAppGroupWrapper.expanded div.desktopAppWrapper div.desktopApp div.desktopAppBackground {
-    transform: rotateZ(-360deg);
+    transform: rotateZ(720deg);
 }

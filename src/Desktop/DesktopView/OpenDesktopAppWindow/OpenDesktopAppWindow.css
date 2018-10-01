@@ -4,7 +4,7 @@
 } */
 
 div.desktop-app_open {
-    background-color: #f0f0f0;
+    background-color: #3378ad;
     border-top: 0.2rem solid grey;
     border-right: .2rem solid lightgrey;
     border-bottom: 0.2rem solid lightgrey;
@@ -15,13 +15,13 @@ div.desktop-app_open {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    height: 48.4rem;
-    left: calc(50% - 36.2rem);
-    overflow-y: scroll;
+    height: 40rem;
+    left: calc(50% - 35rem);
+    overflow: hidden;
     padding-top: 2rem;
     position: fixed;
-    top: calc(50% - 24.2rem);
-    width: 72.4rem;
+    top: calc(50% - 20rem);
+    width: 70rem;
     z-index: 12;
 }
 
@@ -170,7 +170,7 @@ div.app_open-banner {
     position: absolute;
     text-align: center;
     top: 0;
-    width: 72.4rem;
+    width: 70rem;
 }
 
 div.app_open-banner span.windowTitle {

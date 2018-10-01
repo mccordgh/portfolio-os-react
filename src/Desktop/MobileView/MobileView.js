@@ -7,7 +7,6 @@ import IMAGE_PATH from '../../constants/image_path';
 
 export default class MobileView extends Component {
     render() {
-        console.log(IMAGE_PATH);
         return (
             <div className="mobileContainer">
                 {/* <h1 style={{textAlign:'center', width: '100%', marginTop: '10rem', fontSize: '5rem'}}>Mobile View is coming soon!!</h1> */}

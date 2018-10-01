@@ -17,7 +17,6 @@ export default class DesktopAppGroup extends Component {
     }
 
     render() {
-        console.log('desktop', IMAGE_PATH);
         return (
             <div className={`desktopAppGroupWrapper ${this.state.wrapperClass}`}>
                 <div className="desktopGroupFolder" onClick={this.toggleExpansionClasses}>

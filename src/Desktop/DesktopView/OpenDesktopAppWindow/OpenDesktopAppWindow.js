@@ -38,16 +38,13 @@ export default class OpenDesktopAppWindow extends Component {
                         </div>
                     </div>
 
-
                     <div className="desktop-app--content_wrapper">
 
                         <div className="app--header-image">
                             <img src={headerImage} alt="App Logo"/>
                         </div>
-                        
-                        { this.props.app.shortText &&
-                            <p>{this.props.app.shortText}</p>
-                        }
+
+                        <p>{this.props.app.shortText}</p>
 
                         <div className="app-description_wrapper">
                             {
