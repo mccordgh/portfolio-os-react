@@ -8,8 +8,6 @@ import socialIcons from '../../../json/social_media.json';
 
 export default class DesktopSocialMediaBar extends Component {
     render() {
-        console.log(socialIcons);
-
         const icons = socialIcons.data.map((icon, key) => {
             return (
                 <SocialMediaIcon

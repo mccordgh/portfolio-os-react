@@ -1,1 +1,1 @@
-export default '/res';
+export default `${process.env.PUBLIC_URL}/res`;
