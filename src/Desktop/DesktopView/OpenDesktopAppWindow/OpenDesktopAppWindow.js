@@ -38,28 +38,18 @@ export default class OpenDesktopAppWindow extends Component {
                         </div>
                     </div>
 
-                    <div className="app--header-image">
-                        <img src={headerImage} alt="App Logo"/>
-                    </div>
-
-                    {/* <div className="app-button_exit">
-                        <button onClick={() => {this.props.closeAppCallback()}}>X</button>
-                    </div> */}
 
                     <div className="desktop-app--content_wrapper">
-                        {/* <h1>{this.props.app.name}</h1> */}
 
+                        <div className="app--header-image">
+                            <img src={headerImage} alt="App Logo"/>
+                        </div>
+                        
                         { this.props.app.shortText &&
                             <p>{this.props.app.shortText}</p>
                         }
 
-                        {/* <hr /> */}
-
                         <div className="app-description_wrapper">
-                            {/* {
-                                this.props.app.language &&
-                                <p>Written in: <span className="text--white">{this.props.app.language}</span></p>
-                            } */}
                             {
                                 this.props.app.description.map((paragraph, key) => {
                                     return (
@@ -70,12 +60,6 @@ export default class OpenDesktopAppWindow extends Component {
                                     );
                                 })
                             }
-                            {/* {
-                                additionalImage &&
-                                <div className="imageFrame additionalImageFrame">
-                                    <img src={additionalImage} alt="App Logo"/>
-                                </div>
-                            } */}
                         </div>
 
                         { links }

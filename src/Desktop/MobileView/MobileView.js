@@ -7,7 +7,7 @@ export default class MobileView extends Component {
     render() {
         return (
             <div className="mobileContainer">
-                <h1 style={{textAlign:'center', width: '100%', marginTop: '5rem'}}>Mobile View is coming soon!!</h1>
+                <h1 style={{textAlign:'center', width: '100%', marginTop: '10rem', fontSize: '3rem'}}>Mobile View is coming soon!!</h1>
 
                 {/* <Banner /> */}
 

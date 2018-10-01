@@ -25,19 +25,20 @@ div.desktop-app_open {
     z-index: 12;
 }
 
-div.desktop-app_open hr {
+/* div.desktop-app--content_wrapper ::-webkit-scrollbar-track:vertical {
+    border-left: 1px solid #E7E7E7;
+    box-shadow: 1px 0 1px 0 #F6F6F6 inset, -1px 0 1px 0 #F6F6F6 inset;
+} */
+
+/* div.desktop-app_open hr {
     width: calc(100% - 6rem);
-}
+} */
 
 div.desktop-app--content_wrapper {
-    /* background: linear-gradient(0.45turn, #3378ad, #63B8F9); */
     padding: 0;
-    /* text-align: center; */
+    height: 100%;
+    overflow-y: scroll;
 }
-
-/* div.desktop-app--content_wrapper p:first-child {
-    margin: 0 0 1rem;
-} */
 
 div.desktop-app--content_wrapper h1 {
     font-size: 2rem;
@@ -51,7 +52,7 @@ div.desktop-app--content_wrapper p {
     font-style: italic;
     margin: 0;
     text-align: left;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 0 1rem 2rem;
 }
 
 div.desktop-app--content_wrapper p {
@@ -64,7 +65,7 @@ div.desktop-app--content_wrapper ul {
     font-size: 1rem;
     list-style: none;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
 }
 
 div.desktop-app--content_wrapper ul li {
@@ -106,9 +107,7 @@ div.app-description_wrapper img {
 }
 
 div.app-description_wrapper {
-    /* border: solid 1rem #63B8F9; */
-    background-color: #f0f0f0;
-    /* border-radius: 1rem; */
+    background-color: #3378ad;
     box-sizing: border-box;
     font-size: 1rem;
     padding: 0 1rem;
@@ -117,9 +116,10 @@ div.app-description_wrapper {
 
 div.app-description_wrapper p {
     background-color: #f0f0f0;
+    border-radius: 0.6rem;
     color: black;
     font-style: initial;
-    padding-left: 0;
+    padding: 1rem;
     text-align: justify;
 }
 
@@ -167,9 +167,9 @@ div.app_open-banner {
     border-bottom: 0.2rem solid grey;
     color: whitesmoke;
     height: 2rem;
-    position: fixed;
+    position: absolute;
     text-align: center;
-    top: 5rem;
+    top: 0;
     width: 72.4rem;
 }
 
