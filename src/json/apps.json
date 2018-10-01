@@ -165,7 +165,7 @@
 					"description": [
 						"Written in HTML5, CSS, and JavaScript using Grunt, Browserify, and jQuery.",
 						"Each player chooses one of six classes (Johnny5, Wall-E, R2D2, R2BRO2, Bender, Baymax).",
-						"This project was exercise in prototypal inheritance."
+						"This project was an exercise in prototypal inheritance."
                     ],
 					"links": [{
 							"url": "https://mccordgh.github.io/battlebots_mjd_quiz_copy/",
