@@ -1,0 +1,21 @@
+{
+    "name": "Portfolio OS v1.0",
+    "directory": "portfolio/",
+    "shortText": "Portfolio of Matthew McCord, full stack developer",
+    "description": [
+        "Written in JavaScript with REACT",
+        "All graphics, except for my pixel heads, and animations done with CSS.",
+        "Deployed with Github Pages."
+    ],
+    "links": [{
+            "url": "https://mccordgh.github.io/",
+            "text": "View App! (Get META, dude)"
+        },
+        {
+            "url": "https://github.com/mccordgh/mccordgh.github.io",
+            "text": "View Github Source"
+        }
+    ],
+    "iconImage": "portfolio_os_icon.png",
+    "headerImage": "portfolio_os_header.png"
+}

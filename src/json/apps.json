@@ -29,8 +29,7 @@
 						}
 					],
 					"iconImage": "the_core_icon.png",
-					"headerImage": "the_core_header.png",
-					"additionalImage": "temp3.png"
+					"headerImage": "the_core_header.png"
 				},
 				{
 					"name": "Defend The Castle",
@@ -50,8 +49,7 @@
 						}
 					],
 					"iconImage": "defend_the_castle_icon.png",
-					"headerImage": "defend_the_castle_header.png",
-					"additionalImage": "temp3.png"
+					"headerImage": "defend_the_castle_header.png"
 				},
 				{
 					"name": "Golden Beak Golf",
@@ -74,8 +72,7 @@
 						}
 					],
 					"iconImage": "golden_beak_golf_icon.png",
-					"headerImage": "golden_beak_golf_header.png",
-					"additionalImage": "temp3.png"
+					"headerImage": "golden_beak_golf_header.png"
 				},
 				{
 					"name": "Me, Myself, and i",
@@ -97,8 +94,7 @@
 						}
 					],
 					"iconImage": "me_myself_i_icon.png",
-					"headerImage": "me_myself_i_header.png",
-					"additionalImage": "temp3.png"
+					"headerImage": "me_myself_i_header.png"
 				},
 				{
 					"name": "Waves '87: Business Cruizin'",
@@ -120,8 +116,7 @@
 						}
 					],
 					"iconImage": "waves_87_icon.png",
-					"headerImage": "waves_87_header.png",
-					"additionalImage": "temp3.png"
+					"headerImage": "waves_87_header.png"
 				}
 			]
 		},
@@ -146,8 +141,7 @@
                         }
 					],
                     "iconImage": "todo_client_icon.png",
-                    "headerImage": "todo_client_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "todo_client_header.png"
                 },
 				{
                     "name": "ToDon't List API",
@@ -163,8 +157,7 @@
 						}
 					],
                     "iconImage": "api_icon.png",
-                    "headerImage": "todo_api_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "todo_api_header.png"
             },
 				{
                     "name": "Battle Bots",
@@ -184,8 +177,7 @@
 						}
 					],
                     "iconImage": "battle_bots_icon.png",
-                    "headerImage": "battle_bots_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "battle_bots_header.png"
             },
 				{
                     "name": "Bangazon CLI",
@@ -201,8 +193,7 @@
 						}
 					],
                     "iconImage": "cli_icon.png",
-                    "headerImage": "bangazon_cli_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "bangazon_cli_header.png"
                 }
 			]
 		},
@@ -244,51 +235,71 @@
 					"name": "Future Unlimited",
 					"shortText": "\"Throwback rarely feels this genuine, a real accomplishment amongst so much nostalgia.\" - Adam Kivel, consequenceofsound.net",
 					"description": [
-						"During my time with Future Unlimited, I toured the country, wrote and recorded songs with the band, and played bass guitar (and sometimes keyboards).",
+						"Wrote and recorded songs with the band, toured the country, and played bass guitar (and sometimes keyboards).",
 						"We played festivals such as Bonaroo, Austin City Limits, Art Basel, and SXSW.",
 						"We have a music video directed by Shia LaBeouf for the single, \"Haunted Love\"",
-						"We released two EPs and multiple singles."
+						"We self-released two EPs and multiple singles."
 					],
 					"links": [{
 							"url": "https://soundcloud.com/future-unlimited",
-							"text": "Hear our music"
+							"text": "Hear the music"
 						},
 						{
 							"url": "https://www.youtube.com/watch?v=jo2Z9DygPxY",
-							"text": "Live footage"
+							"text": "Live from the Basement / Nashville, TN 2014"
 					}],
 					"iconImage": "future_unlimited_icon.jpg",
-					"headerImage": "future_unlimited_header.jpg",
-					"additionalImage": "temp3.png"
+					"headerImage": "future_unlimited_header.jpg"
 				},
                 {
-
 				    "name": "Scatter the Ashes",
                     "shortText": "\"STA has potential to remind us 20-somethings why we decided to like music in the first place.\" - Jennifer R. Vertullo, epitaph.com",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Played bass guitar, toured the country and some of Canada, wrote and recorded music with the band.",
+						"We played a few festivals including a stint on the Warped Tour.",
+						"We were featured on Punk-O-Rama volumes 9 and 10, the last ever Punk-O-Rama released by Epitaph.",
+						"We released a full length LP through Epitaph records."
                     ],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
-					}],
+							"url": "https://open.spotify.com/artist/4BgMsEFXpb7U1uFdtaPzuD",
+							"text": "Hear the music"
+						},
+						{
+							"url": "https://www.youtube.com/watch?v=CpEDzLKOEZc",
+							"text": "Live from the Epitaph Tour 2005"
+						}
+					],
                     "iconImage": "scatter_the_ashes_icon.jpg",
-                    "headerImage": "scatter_the_ashes_header.jpg",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "scatter_the_ashes_header.jpg"
                 },
 				{
                     "name": "Mother/Father",
-                    "shortText": "m/f desc here",
+                    "shortText": "\" Mother/Father definitely achieves a small sense of authenticity with their purist approach to late '70s gothic rock.\" - nashvillescene.com",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Toured the country playing bass guitar, and wrote and recorded music.",
+						"Produced and managed by Jacquire King (known for his work with Kings of Leon, Modest Mouse, Tom Waits, and more) and Jon Stinson.",
+						"Released two EPs.",
+						"Opened for Kings of Leon and White Lies at the Bridgestone Arena in Nashville, TN."
                     ],
 					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
+						"url": "https://www.youtube.com/watch?v=3tasyOiLx0U",
+						"text": "Live (Acoustic) on Balcony TV"
 					}],
                     "iconImage": "mother_father_icon.jpg",
-                    "headerImage": "mother_father_header.jpg",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "mother_father_header.jpg"
+				},
+				{
+                    "name": "MCCORDINATOR",
+                    "shortText": "",
+					"description": [
+						"Solo work learning how to record music in a small, self-made, home studio."
+                    ],
+					"links": [{
+						"url": "https://soundcloud.com/mmmmmusic",
+						"text": "SoundCloud demos"
+					}],
+                    "iconImage": "mccordinator_icon.png",
+                    "headerImage": "mccordinator_header.png"
                 }
 			]
 		},
@@ -297,31 +308,25 @@
 			"directory": "recognition/",
 			"list": [{
                     "name": "Most Valuable Team (Awarded)",
-                    "shortText": "shortText here maybe",
+                    "shortText": "Nashville Software School: Most Valuable Teammate Award",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Awarded December 2016",
+						"An award For showing exemplary leadership abilities, helping teammates achieve success, and assisting anyone needing help."
                     ],
-					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
-					}],
+					"links": [],
                     "iconImage": "trophy_icon.png",
-                    "headerImage": "mvt_award_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "mvt_award_header.png"
             },
 				{
                     "name": "Top Developer (Nominated)",
-                    "shortText": "top dev shortText maybe",
+                    "shortText": "Nashville Software School: Top Developer Award",
 					"description": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis lectus eros, quis fringilla tortor rutrum vel. Mauris at turpis aliquam, consectetur turpis non, rutrum orci. Praesent arcu augue, luctus sed tincidunt nec, vehicula quis quam. In commodo est id nunc placerat rhoncus. Sed sagittis metus nec nulla aliquam, at rutrum sapien dictum. Suspendisse non imperdiet turpis, nec placerat enim. Praesent semper condimentum aliquam. Proin ipsum ante, consectetur sed enim sed, vulputate fermentum nisi. Mauris at sapien felis. Ut efficitur neque quis nunc consequat consequat. Nulla facilisi. Nam maximus vulputate magna eu congue. Nulla consequat lectus ipsum, quis ultrices neque vestibulum ut. Phasellus tincidunt vehicula urna quis ornare. Quisque vitae orci eros."
+						"Nominated December 2016",
+						"An award for showing exemplary abilities to grasp the core concepts, going above and beyond the curriculum, and being a great teammate. He could elevate any team he joins."
                     ],
-					"links": [{
-						"url": "https://LINK/TO/BANDSTUFF",
-						"text": "Band Stuff!"
-					}],
+					"links": [],
                     "iconImage": "nomination_icon.png",
-                    "headerImage": "top_developer_header.png",
-                    "additionalImage": "temp3.png"
+                    "headerImage": "top_developer_header.png"
                 }
 			]
 		}

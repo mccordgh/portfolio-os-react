@@ -8,7 +8,9 @@ export default class DesktopStatusBar extends Component {
             <div className="desktop_banner-container">
                 <div className="desktop_banner-left">
                     <span>Portfolio OS v1.0</span>
-                    <span className="banner-left--highlights"><b>About This Portfolio</b></span>
+                    <span className="banner-left--highlights" onClick={this.props.openAboutCallback}>
+                        <b>About This Portfolio</b>
+                    </span>
                 </div>
                 
                 <div className="desktop_banner-right">

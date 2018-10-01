@@ -4,7 +4,7 @@
 } */
 
 div.desktop-app_open {
-    background-color: #3378ad;
+    background-color: #f0f0f0;
     border-top: 0.2rem solid grey;
     border-right: .2rem solid lightgrey;
     border-bottom: 0.2rem solid lightgrey;
@@ -15,12 +15,12 @@ div.desktop-app_open {
     -webkit-box-shadow: -24px 23px 50px -12px #000;
     box-sizing: border-box;
     color: black;
-    height: 47.65rem;
+    height: 48.4rem;
     left: calc(50% - 36.2rem);
     overflow-y: scroll;
     padding-top: 2rem;
     position: fixed;
-    top: calc(50% - 23.825rem);
+    top: calc(50% - 24.2rem);
     width: 72.4rem;
     z-index: 12;
 }
@@ -31,13 +31,13 @@ div.desktop-app_open hr {
 
 div.desktop-app--content_wrapper {
     /* background: linear-gradient(0.45turn, #3378ad, #63B8F9); */
-    padding: 1rem 0;
+    padding: 0;
     /* text-align: center; */
 }
 
-div.desktop-app--content_wrapper p:first-child {
+/* div.desktop-app--content_wrapper p:first-child {
     margin: 0 0 1rem;
-}
+} */
 
 div.desktop-app--content_wrapper h1 {
     font-size: 2rem;
@@ -45,12 +45,13 @@ div.desktop-app--content_wrapper h1 {
 }
 
 div.desktop-app--content_wrapper p {
+    background-color: #3378ad;
     color: whitesmoke;
     font-size: 1rem;
     font-style: italic;
-    margin-top: 0;
+    margin: 0;
     text-align: left;
-    padding: 0 0 0 1rem;
+    padding: 1rem 0 1rem 1rem;
 }
 
 div.desktop-app--content_wrapper p {
@@ -59,10 +60,11 @@ div.desktop-app--content_wrapper p {
 }
 
 div.desktop-app--content_wrapper ul {
+    background-color: #3378ad;
     font-size: 1rem;
     list-style: none;
-    margin: 1rem 0 0;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 1rem;
 }
 
 div.desktop-app--content_wrapper ul li {
@@ -78,7 +80,7 @@ div.desktop-app--content_wrapper ul li a {
 }
 
 div.desktop-app--content_wrapper ul li a:hover {
-    text-decoration: underline;
+    color: lightgrey;
 }
 
 /* div.desktop-app--content_wrapper hr {
@@ -109,11 +111,12 @@ div.app-description_wrapper {
     /* border-radius: 1rem; */
     box-sizing: border-box;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 0 1rem;
     width: 100%;
 }
 
 div.app-description_wrapper p {
+    background-color: #f0f0f0;
     color: black;
     font-style: initial;
     padding-left: 0;
@@ -166,7 +169,7 @@ div.app_open-banner {
     height: 2rem;
     position: fixed;
     text-align: center;
-    top: 5.4rem;
+    top: 5rem;
     width: 72.4rem;
 }
 

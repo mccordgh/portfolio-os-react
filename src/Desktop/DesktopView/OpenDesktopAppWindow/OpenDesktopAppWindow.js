@@ -11,6 +11,19 @@ export default class OpenDesktopAppWindow extends Component {
         const headerImage = `${IMAGE_PATH}/${this.props.directory}${this.props.app.headerImage}`;
         const iconImage = `${IMAGE_PATH}/${this.props.directory}${this.props.app.iconImage}`;
         // const additionalImage = ImageProcessor.formatImageUrl(this.props.app.additionalImage);
+        const links = this.props.app.links.length
+            ? (
+                <ul>
+                    {
+                        this.props.app.links.map((link, key) => {
+                            return (
+                                <li key={key}><a href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a></li>
+                            )
+                        })
+                    }
+                </ul>
+            )
+            : (<div></div>);
 
         return (
             <div>
@@ -51,7 +64,7 @@ export default class OpenDesktopAppWindow extends Component {
                                 this.props.app.description.map((paragraph, key) => {
                                     return (
                                         <p key={key}>
-                                            <img className="app-description--icon" src={iconImage}></img>
+                                            <img className="app-description--icon" src={iconImage} alt="bullet points for description"></img>
                                             { paragraph }
                                         </p>
                                     );
@@ -65,15 +78,7 @@ export default class OpenDesktopAppWindow extends Component {
                             } */}
                         </div>
 
-                        <ul>
-                            {
-                                this.props.app.links.map((link, key) => {
-                                    return (
-                                        <li key={key}><a href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a></li>
-                                    )
-                                })
-                            }
-                        </ul>
+                        { links }
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import DesktopView from './DesktopView/DesktopView';
 // import RequestManager from '../Requests/RequestManager';
 
 import appsList from '../json/apps';
+import portfolioAbout from '../json/portfolio_about.json';
 // import gamesList from '../json/games';
 
 import headIcon from '../res/mccordinator2_head.png';
@@ -45,6 +46,7 @@ export default class Desktop extends Component {
         selectedApp={this.state.selectedApp}
         closeAppCallback={this.closeApp.bind(this)}
         openAppCallback={this.openApp.bind(this)}
+        openAboutCallback={this.openAbout.bind(this)}
       />
     );
 
@@ -100,7 +102,13 @@ export default class Desktop extends Component {
   }
 
   openApp(id, group) {
+    console.log(this.findAppByIdAndGroup(id, group))
     this.setState({selectedApp: this.findAppByIdAndGroup(id, group)});
+  }
+
+  openAbout() {
+    console.log(portfolioAbout);
+    this.setState({selectedApp: portfolioAbout});
   }
 
   findAppByIdAndGroup(id, groupName) {

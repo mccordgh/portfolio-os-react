@@ -37,7 +37,9 @@ export default class DesktopView extends Component {
 
         return (
             <div className="desktop-container">
-                <DesktopStatusBar />
+                <DesktopStatusBar
+                    openAboutCallback={this.props.openAboutCallback}
+                />
                 { appGroups }
 
                 { selectedApp }
