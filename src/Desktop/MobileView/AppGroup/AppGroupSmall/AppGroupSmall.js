@@ -15,6 +15,7 @@ export default class AppGroupSmall extends Component {
                                 name={item.name}
                                 bgColor={item.bgColor}
                                 iconImage={item.iconImage}
+                                directory={this.props.directory}
                                 state={this.props.state}
                             />;
                         })

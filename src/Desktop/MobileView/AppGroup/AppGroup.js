@@ -20,12 +20,14 @@ export default class AppGroup extends Component {
         name={this.props.name}
         clickCallback={this.makeGroupBig}
         state={this.state.state}
+        directory={this.props.directory}
       />
     ) : (
       <AppGroupBig
         list={this.props.list}
         name={this.props.name}
         state={this.state.state}
+        directory={this.props.directory}
         openAppCallback={this.openApp.bind(this)}
         makeGroupSmall={this.makeGroupSmall}
       />

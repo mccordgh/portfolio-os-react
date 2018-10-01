@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import OsAppSmall from './OsAppSmall/OsAppSmall';
 import OsAppBig from './OsAppBig/OsAppBig';
 
-import IMAGE_PATH from '../../../../constants/image_path';
-
 export default class OsApp extends Component {
     render() {
-        const image = `${IMAGE_PATH}/${this.props.iconImage}`;
+        const image = `${this.props.directory}${this.props.iconImage}`;
 
         return this.props.state === 'small' ? (
             <OsAppSmall

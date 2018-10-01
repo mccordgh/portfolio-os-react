@@ -18,8 +18,9 @@ export default class OsAppSmall extends Component {
     }
 
     osAppSmallStyleObject() {
+        console.log('props', this.props.iconImage);
         return {
-            backgroundImage: `url(${this.props.iconImage}), linear-gradient(to bottom right, ${this.props.bgColor} 30%, white 150%)`,
+            backgroundImage: `url(${this.props.iconImage})`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
