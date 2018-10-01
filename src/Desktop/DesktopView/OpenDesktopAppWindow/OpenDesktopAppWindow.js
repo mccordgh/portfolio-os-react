@@ -9,6 +9,7 @@ export default class OpenDesktopAppWindow extends Component {
     render() {
         // const image = ImageProcessor.formatImageUrl(this.props.app.headerImage);
         const headerImage = `${IMAGE_PATH}/${this.props.directory}${this.props.app.headerImage}`;
+        const iconImage = `${IMAGE_PATH}/${this.props.directory}${this.props.app.iconImage}`;
         // const additionalImage = ImageProcessor.formatImageUrl(this.props.app.additionalImage);
 
         return (
@@ -49,7 +50,10 @@ export default class OpenDesktopAppWindow extends Component {
                             {
                                 this.props.app.description.map((paragraph, key) => {
                                     return (
-                                        <p key={key}>{ paragraph }</p>
+                                        <p key={key}>
+                                            <img className="app-description--icon" src={iconImage}></img>
+                                            { paragraph }
+                                        </p>
                                     );
                                 })
                             }

@@ -22,7 +22,8 @@ export default class Mccordinator extends Component {
     render() {
         return (
             <div>
-                <div onClick={this.clickyTheFace} className="mccordinatorHead"></div>
+                <div className="mccordinatorHead"></div>
+                {/* <div onClick={this.clickyTheFace} className="mccordinatorHead"></div> */}
 
                 { this.state.showBubble &&
                     <div className="mccordinatorSpeechBubble">
