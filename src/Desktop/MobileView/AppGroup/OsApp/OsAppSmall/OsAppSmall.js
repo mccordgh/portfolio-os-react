@@ -18,7 +18,6 @@ export default class OsAppSmall extends Component {
     }
 
     osAppSmallStyleObject() {
-        console.log('props', this.props.iconImage);
         return {
             backgroundImage: `url(${this.props.iconImage})`,
             backgroundSize: 'contain',

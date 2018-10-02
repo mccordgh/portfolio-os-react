@@ -27,6 +27,7 @@ export default class AppGroupBig extends Component {
                                 name={item.name}
                                 group={this.props.name}
                                 bgColor={item.bgColor}
+                                activeLink={item.activeLink}
                                 iconImage={item.iconImage}
                                 directory={this.props.directory}
                                 state={this.props.state}

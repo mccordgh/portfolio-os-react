@@ -18,7 +18,6 @@ export default class OsApp extends Component {
                 name={this.props.name}
                 group={this.props.group}
                 iconImage={image}
-                bgColor={this.props.bgColor}
                 openAppCallback={this.props.openAppCallback}
             />
         );

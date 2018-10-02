@@ -18,6 +18,7 @@ export default class AppGroup extends Component {
       <AppGroupSmall
         list={this.props.list}
         name={this.props.name}
+        activeLink={this.props.activeLink}
         clickCallback={this.makeGroupBig}
         state={this.state.state}
         directory={this.props.directory}

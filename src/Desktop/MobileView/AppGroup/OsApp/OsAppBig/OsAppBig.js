@@ -32,6 +32,7 @@ export default class OsAppBig extends Component {
     }
 
     clickHandler() {
+        console.log(this.props);
         if (this.props.activeLink) {
             window.open(this.props.activeLink, '_blank');
 
