@@ -184,7 +184,7 @@
                     "shortText": "A group project at Nashville Software School",
 					"description": [
 						"Written in Python, with unit tests and SQL.",
-						"The CLI tool is a command line interface that allows the creation and storage of customer accounts, payment options, and orders; the storage and adding of products from the database in to the active order`; `the completion of an order after adding products and selecting a payment option; and a display of the current product popularity rankings by revenue generated.",
+						"The CLI tool is a command line interface that allows the creation and storage of customer accounts, payment options, and orders; the storage and adding of products from the database in to the active order; the completion of an order after adding products and selecting a payment option; and a display of the current product popularity rankings by revenue generated.",
 						"This project allowed me to really dig in to SQL and Python. My contributions to this project include the ERD, the payment option class and unit tests, the refactoring of said class and tests, and the SQL database interactions for order and payment option models."
                     ],
 					"links": [{

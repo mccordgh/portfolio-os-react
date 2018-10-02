@@ -3,6 +3,14 @@ import React, { Component } from 'react';
 import './DesktopStatusBar.css';
 
 export default class DesktopStatusBar extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            time: '',
+        };
+    }
+
     render() {
         return (
             <div className="desktop_banner-container">
@@ -14,19 +22,31 @@ export default class DesktopStatusBar extends Component {
                 </div>
                 
                 <div className="desktop_banner-right">
-                    <span>{ this.currentTime() }</span>
+                    <span>{ this.state.time }</span>
                 </div>
             </div>
           );
     }
 
-    currentTime() {
+    componentDidMount() {
+        this.setState({time: this.getCurrentTime()})
+
+        setInterval(() => {
+            this.setState({time: this.getCurrentTime()});
+        }, 1000);
+    }
+
+    getCurrentTime() {
     const days = ['Sun', 'Mon', 'Tues', 'Weds', 'Thurs', 'Fri', 'Sat'];
     const currentTime = new Date(), currentDay = currentTime.getDay();
-    let hours = currentTime.getHours(), minutes = currentTime.getMinutes();
+    let hours = currentTime.getHours(), minutes = currentTime.getMinutes(), seconds = currentTime.getSeconds();
   
     if (minutes < 10) {
        minutes = `0${minutes}`;
+    }
+
+    if (seconds < 10) {
+        seconds = `0${seconds}`;
     }
   
     let suffix = "AM";
@@ -40,6 +60,6 @@ export default class DesktopStatusBar extends Component {
     hours = 12;
     }
   
-    return `${days[currentDay]} ${hours}:${minutes} ${suffix}`;
+    return `${days[currentDay]} ${hours}:${minutes}:${seconds} ${suffix}`;
     }
 }

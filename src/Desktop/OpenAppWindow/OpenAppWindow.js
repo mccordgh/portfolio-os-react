@@ -46,9 +46,9 @@ export default class OpenAppWindow extends Component {
                     {
                         this.props.app.description.map((paragraph, key) => {
                             return (
-                                <div className="app-description--image-wrapper">
+                                <div key={key} className="app-description--image-wrapper">
                                     <img className="app-description--icon" src={iconImage} alt="bullet points for description"></img>
-                                    <p key={key}>{ paragraph }</p>
+                                    <p>{ paragraph }</p>
                                 </div>
                             )
                         })
