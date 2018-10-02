@@ -10,7 +10,9 @@ export default class MobileView extends Component {
         return (
             <div className="mobileContainer">
                 {/* <h1 style={{textAlign:'center', width: '100%', marginTop: '10rem', fontSize: '5rem'}}>Mobile View is coming soon!!</h1> */}
-                <Banner />
+                <Banner 
+                    openAboutCallback={this.props.openAboutCallback}
+                />
 
                 <div className="appgroupContainer">
                 {

@@ -36,6 +36,7 @@ export default class Desktop extends Component {
         selectedApp={this.state.selectedApp}
         openAppCallback={this.openApp.bind(this)}
         closeAppCallback={this.closeApp.bind(this)}
+        openAboutCallback={this.openAbout.bind(this)}
         />
     );
 
