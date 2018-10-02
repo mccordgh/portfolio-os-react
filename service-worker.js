@@ -15,7 +15,7 @@ importScripts("/portfolio-os-react/workbox-v3.6.2/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/portfolio-os-react/workbox-v3.6.2"});
 
 importScripts(
-  "/portfolio-os-react/precache-manifest.96aa90745485bfcbaee748814bac7ae6.js"
+  "/portfolio-os-react/precache-manifest.6da9c0755af0ca6b078b339cbc36aa8b.js"
 );
 
 workbox.clientsClaim();
