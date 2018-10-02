@@ -7,8 +7,8 @@
 					"shortText": "A procedurally generated adventure!",
 					"description": [
 						"Written in JavaScript",
-						"The CORE was written for the yearly code-golfing competition js13kgames, running from August 13 2018 to September 13 2018. The goal of this competition is to submit a full game made within a month, with all assets, libraries, etc coming in at under 13Kb compressed and able to run off-line. The theme of this competition was \"offline\".",
-						"You are one of many workers trapped in a factory and forced to work on THE CORE, a sinister mind control machine. The first version of THE CORE currently has everyone in the factory (workers, guards, managers) under it's control. The second version will enslave the world! Find the four keys, and use the on THE CORE to take it offline for good!",
+						"The CORE was written for the yearly code-golfing competition js13kgames, running from August 13 2018 to September 13 2018. The goal of this competition is to submit a full game made within a month, with all assets, libraries, etc coming in at under 13Kb compressed and able to run offline. The theme of this competition was \"offline.\"",
+						"You are one of many workers trapped in a factory and forced to work on THE CORE, a sinister mind control machine. The first version of THE CORE has everyone in the factory (workers, guards, managers) under it's control. The second version will enslave the world! Find the four keys, and use the on THE CORE to take it offline for good!",
 						"For a fun surprise, make sure to speak to a guard after you have taken the machine offline :)"
 					],
 					"links": [{
@@ -80,8 +80,8 @@
 					"description": [
 						"Written in JavaScript.",
 						"This game was written for the JS13kgames 2017 game jam, where you have a month to write a game from scratch with a complete project size limitation of 13kb.",
-						"The theme for js13kgames 2017 was \"Lost\".",
-						"Every time you start the game, you play as one in a series of hundreds of clones. These clones are dropped in to this maze of death and darkness as a test, with only the survivors having a chance to see the light of day again.",
+						"The theme for js13kgames 2017 was \"Lost.\"",
+						"Every time you start the game, you play as one in a series of hundreds of clones. These clones are dropped in to the maze of death and darkness as a test, with only the survivors having a chance to see the light of day again.",
 						"As you explore this maze, you will encounter other clones who couldn't make it out alive. They are rotten, and have been driven mad by the voice inside their head. Hopefully that same voice doesn't reach out to infect you..."
 					],
 					"links": [{
@@ -128,8 +128,8 @@
                     "shortText": "A communal collection of bad habits.",
 					"description": [
 						"Written in JavaScript with the REACT Framework",
-						"This is the front-end of the ToDont' List app. I wanted to branch out and use a framework, like REACT, that I was a little less familiar with.",
-						"During this project I learned a bit more about REACTs lifecycle hooks, and how to deploy a REACT app to Github Pages as well."
+						"This is the front-end of the ToDon't List app. I wanted to branch out and use a framework, like REACT, that I was a little less familiar with.",
+						"During this project I learned a bit more about REACT's lifecycle hooks, and how to deploy a REACT app to Github Pages as well."
                     ],
 					"links": [{
 							"url": "https://mccordgh.github.io/to_dont_list_client/index.html",
@@ -184,7 +184,7 @@
                     "shortText": "A group project at Nashville Software School",
 					"description": [
 						"Written in Python, with unit tests and SQL.",
-						"The CLI tool is a command line interface that allows the creation and storage of customer accounts, payment options, and orders, the storage and adding of products from the database in to the active order, the completion of an order after adding products and selecting a payment option, and a display of the current product popularity rankings by revenue generated.",
+						"The CLI tool is a command line interface that allows the creation and storage of customer accounts, payment options, and orders; the storage and adding of products from the database in to the active order`; `the completion of an order after adding products and selecting a payment option; and a display of the current product popularity rankings by revenue generated.",
 						"This project allowed me to really dig in to SQL and Python. My contributions to this project include the ERD, the payment option class and unit tests, the refactoring of said class and tests, and the SQL database interactions for order and payment option models."
                     ],
 					"links": [{
