@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './DesktopStatusBar.css';
 
+import { version } from '../../../json/version';
+
 export default class DesktopStatusBar extends Component {
     constructor() {
         super();
@@ -15,7 +17,7 @@ export default class DesktopStatusBar extends Component {
         return (
             <div className="desktop_banner-container">
                 <div className="desktop_banner-left">
-                    <span>Portfolio OS v1.0</span>
+                    <span>Portfolio OS v{ version }</span>
                     <span className="banner-left--highlights" onClick={this.props.openAboutCallback}>
                         <b>About This Portfolio</b>
                     </span>

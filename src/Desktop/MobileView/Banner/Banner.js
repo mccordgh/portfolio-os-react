@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Banner.css';
+import { version } from '../../../json/version'
 
 export default class Banner extends Component {
   render() {
     return (
         <div className="banner-container">
           <div className="banner-left">
-            <span onClick={this.props.openAboutCallback}><b>Portfolio OS v1.0</b></span>
+            <span onClick={this.props.openAboutCallback}><b>Portfolio OS v{ version }</b></span>
           </div>
            
           <div className="banner-right">

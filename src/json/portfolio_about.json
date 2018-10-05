@@ -5,6 +5,7 @@
     "description": [
         "Written in JavaScript with REACT",
         "All graphics, except for my pixel heads, and animations done with CSS.",
+        "All portfolio data is brought in through .json files",
         "Deployed with Github Pages."
     ],
     "links": [{
