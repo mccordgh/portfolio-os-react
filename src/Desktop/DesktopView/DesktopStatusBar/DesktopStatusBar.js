@@ -19,10 +19,15 @@ export default class DesktopStatusBar extends Component {
                 <div className="desktop_banner-left">
                     <span>Portfolio OS v{ version }</span>
                     <span className="banner-left--highlights" onClick={this.props.openAboutCallback}>
-                        <b>About This Portfolio</b>
+                        About This Portfolio
+                    </span>
+                    <span className="banner-left--highlights" >
+                        <a href="https://mccordgh.github.io/matthew_mccord_resume/" target="_blank">
+                            Resume
+                        </a>
                     </span>
                 </div>
-                
+
                 <div className="desktop_banner-right">
                     <span>{ this.state.time }</span>
                 </div>
@@ -42,7 +47,7 @@ export default class DesktopStatusBar extends Component {
     const days = ['Sun', 'Mon', 'Tues', 'Weds', 'Thurs', 'Fri', 'Sat'];
     const currentTime = new Date(), currentDay = currentTime.getDay();
     let hours = currentTime.getHours(), minutes = currentTime.getMinutes(), seconds = currentTime.getSeconds();
-  
+
     if (minutes < 10) {
        minutes = `0${minutes}`;
     }
@@ -50,7 +55,7 @@ export default class DesktopStatusBar extends Component {
     if (seconds < 10) {
         seconds = `0${seconds}`;
     }
-  
+
     let suffix = "AM";
 
     if (hours >= 12) {
@@ -61,7 +66,7 @@ export default class DesktopStatusBar extends Component {
     if (hours === 0) {
     hours = 12;
     }
-  
+
     return `${days[currentDay]} ${hours}:${minutes}:${seconds} ${suffix}`;
     }
 }
