@@ -1,5 +1,4 @@
 div.mobileContainer {
-    /* background: linear-gradient(#2c73ba, #5A7B9B);  */
     height: 100vh;
     padding-top: 1rem;
 }
@@ -10,7 +9,7 @@ div.appgroupContainer {
     flex-wrap: wrap;
     height: 100%;
     justify-content: space-between;
-    padding: 3rem 1rem 1rem;
+    padding: 1.2rem 1rem 1rem;
 }
 
 div.osImage {
