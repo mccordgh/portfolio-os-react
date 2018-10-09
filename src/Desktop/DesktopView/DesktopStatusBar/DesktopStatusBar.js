@@ -22,7 +22,7 @@ export default class DesktopStatusBar extends Component {
                         About This Portfolio
                     </span>
                     <span className="banner-left--highlights" >
-                        <a href="https://mccordgh.github.io/matthew_mccord_resume/" target="_blank">
+                        <a href="https://mccordgh.github.io/matthew_mccord_resume/" target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
                     </span>

@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import './Banner.css';
-import { version } from '../../../json/version'
+import IMAGE_PATH from '../../../constants/image_path';
 
 export default class Banner extends Component {
   render() {
     return (
         <div className="banner-container">
           <div className="banner-left">
-            <span onClick={this.props.openAboutCallback}><b>Portfolio OS v{ version }</b></span>
+            <span onClick={this.props.openAboutCallback}>About</span>
+            <span>
+              <a href={`${IMAGE_PATH}/resume.pdf`} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+            </span>
           </div>
-           
+
           <div className="banner-right">
             <span>{ this.currentTime() }</span>
           </div>

@@ -13,7 +13,6 @@ div.banner-container {
 }
 
 div.banner-container span {
-    cursor: pointer;
     padding: 0.5rem 1rem;
 }
 
@@ -24,6 +23,13 @@ div.banner-container span.banner-left--highlights:hover {
 div.banner-left {
     left: 0;
     position: absolute;
+}
+
+div.banner-left span,
+div.banner-left a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 div.banner-right {
