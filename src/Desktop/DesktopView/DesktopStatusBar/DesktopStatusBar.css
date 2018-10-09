@@ -17,9 +17,16 @@ div.desktop_banner-container span {
      padding: 0.5rem 1rem;
 }
 
+div.desktop_banner-container span.banner-left--highlights,
+div.desktop_banner-container span.banner-left--highlights a {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 div.desktop_banner-container span.banner-left--highlights:hover {
     background-color: #0978B2;
-    cursor: pointer;
 }
 
 div.desktop_banner-left {
