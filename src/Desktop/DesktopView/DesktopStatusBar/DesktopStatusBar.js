@@ -5,6 +5,9 @@ import './DesktopStatusBar.css';
 import { version } from '../../../json/version';
 
 export default class DesktopStatusBar extends Component {
+    mounted = true;
+    timeInterval = null;
+
     constructor() {
         super();
 
@@ -21,11 +24,11 @@ export default class DesktopStatusBar extends Component {
                     <span className="banner-left--highlights" onClick={this.props.openAboutCallback}>
                         About This Portfolio
                     </span>
-                    <span className="banner-left--highlights" >
+                    {/* <span className="banner-left--highlights" >
                         <a href="https://mccordgh.github.io/matthew_mccord_resume/" target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
-                    </span>
+                    </span> */}
                 </div>
 
                 <div className="desktop_banner-right">
@@ -38,9 +41,19 @@ export default class DesktopStatusBar extends Component {
     componentDidMount() {
         this.setState({time: this.getCurrentTime()})
 
-        setInterval(() => {
-            this.setState({time: this.getCurrentTime()});
+        this.timeInterval = setInterval(() => {
+            if (this.mounted) {
+                this.setState({time: this.getCurrentTime()});
+
+                return;
+            }
+
+            clearInterval(this.timeInterval);
         }, 1000);
+    }
+
+    componentWillUnmount() {
+        this.mounted = false;
     }
 
     getCurrentTime() {
