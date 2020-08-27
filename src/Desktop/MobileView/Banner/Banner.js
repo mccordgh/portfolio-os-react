@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Banner.css";
-import IMAGE_PATH from "../../../constants/image_path";
+// import IMAGE_PATH from "../../../constants/image_path";
 
 export default class Banner extends Component {
   render() {
