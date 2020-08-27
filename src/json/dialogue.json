@@ -10,8 +10,13 @@
         "exit": "Cool story..."
     },
     {
-        "text": "In his spare time, he loves to abosorb game programming and game design knowledge, and play board games.",
+        "text": "In his spare time, he loves to absorb game programming and game design knowledge, and play board games.",
         "continue": "Darn tootin!",
         "exit": "Sounds dull..."
+    },
+    {
+        "text": "That's about all I can tell you now. Check out his LinkedIn, and play some of the games! :)",
+        "continue": "I will!",
+        "exit": "I DEFINITELY will!"
     }
 ]

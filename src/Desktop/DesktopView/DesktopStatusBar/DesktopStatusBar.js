@@ -24,11 +24,6 @@ export default class DesktopStatusBar extends Component {
                     <span className="banner-left--highlights" onClick={this.props.openAboutCallback}>
                         About This Portfolio
                     </span>
-                    {/* <span className="banner-left--highlights" >
-                        <a href="https://mccordgh.github.io/matthew_mccord_resume/" target="_blank" rel="noopener noreferrer">
-                            Resume
-                        </a>
-                    </span> */}
                 </div>
 
                 <div className="desktop_banner-right">

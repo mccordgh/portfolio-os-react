@@ -22,8 +22,8 @@ export default class Mccordinator extends Component {
     render() {
         return (
             <div>
-                <div className="mccordinatorHead"></div>
-                {/* <div onClick={this.clickyTheFace} className="mccordinatorHead"></div> */}
+                {/*<div className="mccordinatorHead"></div> */}
+                <div onClick={this.clickyTheFace} className="mccordinatorHead"></div>
 
                 { this.state.showBubble &&
                     <div className="mccordinatorSpeechBubble">
@@ -46,7 +46,7 @@ export default class Mccordinator extends Component {
         const next = (this.state.dialogueNumber >= (dialogue.length - 1))
             ? 0
             : this.state.dialogueNumber + 1;
-        
+
         this.setState({
                 bubbleText: dialogue[this.state.dialogueNumber],
                 dialogueNumber: next,
